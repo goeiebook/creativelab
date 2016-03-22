@@ -64,15 +64,15 @@ A good first step is to try and reduce complexity. [This JSON structure](https:/
 
 ![simple circle, er, I mean a G.][simplified]
 
-[Here it is, live.](https://www.creativelab5.com/s/m3JEdl). Encouraged by this, I began to edit the JSON manually to make all manner of strange shapes. But the cycle of copy-paste-edit-copy-paste was fatiguing, and manually editing a JSON file is much less efficient than using the available drawing tools (such as activatePen()).
+[Here it is, live](https://www.creativelab5.com/s/m3JEdl). Encouraged by this, I began to edit the JSON hapazardly. The results were strange and fun. But the cycle of copy-paste-edit-copy-paste was fatiguing. Manually editing a JSON file is much less efficient than using the available drawing tools (such as activatePen()).
 
 ---
 
-Spring was in the air. I'd been in the coffee shop for an hour, and now it was time to leave. I packed up my computer, and walked a few kilometers to another shop. Along the way I passed through a park. Spring was beginning to arrive. Two kids were trying to throw a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. Somewhat uncharacteristically, I addressed them. "Could I show you how to throw that?" They handed it over. I hadn't thrown a boomerang in a long time. I said it, aloud, just to cover my embarassment should it go badly. I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I hand the boomerang back, "Now you try." The kid copies my technique and it flies out in a beautiful wide arc, curving up and around --- and then gets stuck at the top of tree.
+I'd been in the coffee shop for an hour, and now it was time to leave. I packed up my computer, and walked a few kilometers to another one. Spring was near. I passed through a park. Two kids were trying to throw a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. I addressed them, somewhat uncharacteristically, "Could I show you how to throw that?" They handed it over. I hadn't thrown a boomerang in a long time. I made mention of that, aloud, to cover my embarassment should it go badly. I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I hand the boomerang back, "Now you try." The kid copies my technique and it flies out in a beautiful wide arc, curving up and around --- and then gets stuck at the top of tree.
 
 ---
 
-Experimentation would be a lot easier if the copy-paste-copy-paste routing could be avoided. The chrome dev console was helpful in this regard. This series of commands will erase all the shapes, for example:
+Experimentation would be a lot easier if the copy-paste-copy-paste routine could be avoided. The dev console's command prompt can help in this regard. A series of commands like this, for example, will erase all the shapes, for example:
 ```
 var boardStateString = window.localstorage.getItem('boardStates');
 var boardState = JSON.parse(boardStateString);
@@ -82,10 +82,17 @@ boardStateString = JSON.stringify(boardState);
 window.localstorage.setItem('boardStates', boardStateString);
 
 ```
+But of course, after some more experimentation this method becomes tiring as well. Now, instead of moving JSON around I was copy-pasting javascript code into the console. This became very tiring because the page had to be reloaded every time I edited the localstorage data.
 
-Digging around on Google then revealed the "Snippets" feature of Google Chrome. These are browser-based 
+Digging around on Google then revealed the "Snippets" feature of Google Chrome.
+
+![the snippets panel][snippets]
+
 
 [localstorage]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/localstorge.png "Local storage dev console"
 
 [simplified]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/simplified.jpg
+
+[snippets]:
+images/snippets.jpg
