@@ -1,5 +1,26 @@
 # Circumstances of Discovery
 
+A few days ago I did not know about Google's Creative Lab. Now I do. I heard about them while trying to promote myself. The chain of events went like this: I heard about a twitter account, I tweeted at that twitter account, they liked my tweet, I subscribed to their channel, they retweet something about the Creative Lab 5.
+
+...Hello, what's this? A one year paid program. They're looking for new applicants. The application is an application, "Write it, design it, code it, move it, break it",  and there is a checkbox for wildcards. Viewing the application source reveals a hidden puzzle. Solving the puzzle yields a "Techno Crab" badge on your application. I'm brilliant! I'm going to to be a Fiver! Feeling elite, I complete the application with a short film titled "Idempotent", and send it off.
+
+Idempotent. What genius. A shoo-in for sure.
+
+A day rolls by. Then another. I revisit my animation to assure myself of its excellence. But, [It's broken](creativelab5.com/s/puukkz). This is disappointing. A search of #creativelab5 shows Andrew Herzog, a current fiver and one of the site designers. [I tweet at him](https://twitter.com/Andrew_Herzog/status/708081805103144960), pointing out that it's broken. I don't really understand his response, but then something unanticipated happens.  
+
+Dozens of profile views. My six month old twitter account was getting views
+
+---
+
+Winter was finally coming to a close. The snow began to melt. The landscape under melted snow has a distinctive appearence. Little piles of gravel and salt, snowplow scars, and single wet mittens.
+
+While walking through a park I saw a rubber ball where a snowbank used to be. I picked it up. It's made of solid rubber. It bounces really well. A dog toy. I put it in my pocket and take it with me. I should tweet about this; maybe I'll get some more profile views. I should carry it with me at all times. Because, if you carry a thing like this with you at all times, you're bound to discover something new.
+
+So, everywhere I go I take the white ball. Bouncing and catching it all the way.
+
+---
+
+Now I know more, but not by trying. Trying isn't really something you can do, anyway. You just follow whatever happens. The details of how I first learned about it are not exciting. began aren't exciting.  How did we get here. Somehow I learned about @DigitalEditions, and they had a tweet about the Creativelab5 application. and in the application as a coding puzzle. I solved the puzzel and submitted an application; and then when I looked at my application it didn't work. It was crashing. 
 If you've looked into the Creativelab5.com application site, than you've learned about the Techno Crab feature. When activated, you are able to use the Chrome dev console to enhance your creative ability.
 
 The console remembers everything you type, including mistakes and typos. This helpful gesture ultimately yields a polluted list of suggestions. Annoyed by this, I began searching for a remedy. And, as it turns out, the remedy is non-trivial. But during the process I stumbled onto the [creativelab5.com](https://creativelab5.com)'s [localstorage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage) entry. 
