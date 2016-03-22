@@ -1,0 +1,173 @@
+{
+    "globalEndTime": 10,
+    "lastGlobalTime": 1,
+    "originalSize": [
+        1296,
+        643
+    ],
+    "quill": {
+        "keyFrames": [
+            {
+                "editorX": 382,
+                "editorY": 385.5,
+                "handleX": 642,
+                "handleY": 361.5,
+                "text": "<div><br></div>",
+                "timeMarker": 0,
+                "viewHeight": 643,
+                "viewWidth": 1296
+            }
+        ]
+    },
+    "shapes": [
+        {
+            "break": false,
+            "duped": false,
+            "fillColor": "#4285f4",
+            "hierarchyIndex": null,
+            "isLine": false,
+            "keyframes": [
+                {
+                    "ease": "easeInOutExpo",
+                    "fillColor": "#4285f4",
+                    "handlesMoved": true,
+                    "state": {
+                        "handleIn": [
+                            [
+                                "Point",
+                                16.9011,
+                                6.97627
+                            ],
+                            [
+                                "Point",
+                                6.99475,
+                                16.89803
+                            ],
+                            [
+                                "Point",
+                                -6.99636,
+                                16.89101
+                            ],
+                            [
+                                "Point",
+                                -16.89303,
+                                6.99732
+                            ],
+                            [
+                                "Point",
+                                -16.89092,
+                                -6.99658
+                            ],
+                            [
+                                "Point",
+                                -7.00268,
+                                -16.89475
+                            ],
+                            [
+                                "Point",
+                                7.01791,
+                                -16.88385
+                            ],
+                            [
+                                "Point",
+                                16.81475,
+                                -7.02928
+                            ]
+                        ],
+                        "handleOut": [
+                            [
+                                "Point",
+                                -16.9011,
+                                -6.97627
+                            ],
+                            [
+                                "Point",
+                                -6.99475,
+                                -16.89803
+                            ],
+                            [
+                                "Point",
+                                6.99636,
+                                -16.89101
+                            ],
+                            [
+                                "Point",
+                                16.89303,
+                                -6.99732
+                            ],
+                            [
+                                "Point",
+                                16.89092,
+                                6.99658
+                            ],
+                            [
+                                "Point",
+                                7.00268,
+                                16.89475
+                            ],
+                            [
+                                "Point",
+                                -7.01791,
+                                16.88385
+                            ],
+                            [
+                                "Point",
+                                -16.81475,
+                                7.02928
+                            ]
+                        ],
+                        "point": [
+                            [
+                                "Point",
+                                456.21216,
+                                287.17157
+                            ],
+                            [
+                                "Point",
+                                418.32843,
+                                249.28784
+                            ],
+                            [
+                                "Point",
+                                418.32843,
+                                195.71216
+                            ],
+                            [
+                                "Point",
+                                456.21216,
+                                157.82843
+                            ],
+                            [
+                                "Point",
+                                509.78784,
+                                157.82843
+                            ],
+                            [
+                                "Point",
+                                547.67157,
+                                195.71216
+                            ],
+                            [
+                                "Point",
+                                547.67157,
+                                249.28784
+                            ],
+                            [
+                                "Point",
+                                509.78784,
+                                287.17157
+                            ]
+                        ]
+                    },
+                    "strokeColor": "#4285f4",
+                    "strokeWidth": 1,
+                    "time": 0
+                }
+            ],
+            "numSides": 8,
+            "strokeColor": "#4285f4",
+            "strokeWidth": 1
+        }
+        
+    ]
+}
