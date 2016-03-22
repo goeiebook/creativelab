@@ -2,11 +2,11 @@
 
 A few days ago I did not know about Google's Creative Lab. Now I do. I heard about them while trying to promote myself. The chain of events went like this: I heard about a twitter account, I tweeted at that twitter account, they liked my tweet, I subscribed to their channel, they retweet something about the Creative Lab 5.
 
-...Hello, what's this? A one year paid program. They're looking for new applicants. [The application](https://creativelab5.com) is an application, "Write it, design it, code it, move it, break it." And there is a checkbox for wildcards. Viewing Source reveals a hidden puzzle. Solving the puzzle yields a "Techno Crab" badge on your application. I'm brilliant! I'm going to to be a Fiver! Feeling elite, I complete the application with a short film titled "Idempotent", and send it off.
+...Hello, what's this? A one year paid program. They're looking for new applicants. [The application](https://creativelab5.com) is an application, "Write it, design it, code it, move it, break it." And there is a checkbox for wildcards. Viewing Source reveals a hidden puzzle. Solving the puzzle yields a "Techno Crab" badge. I'm brilliant! I'm going to to be a Fiver! Feeling elite, I complete the application with a short film titled "Idempotent", and send it off.
 
 Idempotent. What genius. A shoo-in for sure.
 
-A day rolls by. Then another. I better revisit my application and assure myself of its brillance. But, [It's broken](https://www.creativelab5.com/s/puukkz). It doesn't play as designed in the app, and the dev console shows an error. A buggy app. This is disappointing. A search of #creativelab5 shows Andrew Herzog, a current fiver and one of the site designers. [I tweet at him](https://twitter.com/Andrew_Herzog/status/708081805103144960), pointing out that it's broken. I don't really understand his response, I feel confused, but then something unanticipated happens.  
+A day rolls by. Then another. I better revisit my application and assure myself of the brillance. But, [It's broken](https://www.creativelab5.com/s/puukkz). It doesn't play as designed in the app, and the dev console shows an error. A buggy app. This is disappointing. A search of #creativelab5 shows Andrew Herzog, a current fiver and one of the site designers. [I tweet at him](https://twitter.com/Andrew_Herzog/status/708081805103144960), pointing out that it's broken. I don't really understand his response, I feel confused, but then something unanticipated happens.  
 
 Dozens of profile views. My six month old twitter account was getting attention. Twitter Analytics claimed profile views were up by 1000%.
 
@@ -14,15 +14,16 @@ Dozens of profile views. My six month old twitter account was getting attention.
 
 Winter was finally coming to a close. The snow began to melt. When snow melts it leaves a distinctive aftermath. Little piles of gravel and salt, like glacial till; with snowplow scars and single wet mittens.
 
-I saw a rubber ball where a snowbank used to be. I picked it up. Solid rubber, white with a grey splotch, and it had a lot of bounce. A dog toy. I put it in my pocket and took it with me. I though about how I should [tweet about it](https://twitter.com/goeiebook/status/709378927219728384). And I should carry the ball with me at all times. Because, if you carry a thing like this with you at all times, you're bound to discover something new.
+I saw a rubber ball where a snowbank used to be. I picked it up. Solid rubber, white, with a grey splotch. A lot of bounce. A dog toy. I put it in my pocket and took it with me. As I walked I thought about how I should [tweet about it](https://twitter.com/goeiebook/status/709378927219728384). And I should carry the ball with me at all times. Because if you carry a thing like this with you at all times, you're bound to discover something new.
 
 ---
 
-That evening I open Twitter and scan through the submissions of other CreativeLab5 applicants. Everything seemed rather bland, but they are all function. And then, seemingly out of nowhere, comes [this masterpiece](https://twitter.com/zachboth/status/709920328093294592). I struggled with the UI to make my buggy animation, and then this guys rolls out his thing with a Techno Crab stamp? Even his Twitter presentation is masterful; three little "how it's made" images.
+That evening I open Twitter and scanned through the #creativelab5 tags. Submissions of other applicants. Most were rather bland. And then up pops [this masterpiece](https://twitter.com/zachboth/status/709920328093294592). Even his Twitter presentation is masterful; addressed directly to the current Fivers, with three little "how it's made" images.
 
 Stay cool, Abrie. You can learn a lot from guys like this.
 
-I immediately open up the dev console and look deeper. 
+Immediately open up the dev console and look deeper. How did he make that thing?
+
 The Chrome Dev console remembers everything you enter, including mistakes and typos. This helpful gesture ultimately pollutes the suggestion list. Annoyed by this, I began searching for a remedy. And, as it turns out, the remedy is non-trivial. But during the process I stumbled onto the [creativelab5.com](https://creativelab5.com)'s [localstorage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage) entry. 
 
 ![local storage editor][localstorage]
@@ -32,7 +33,7 @@ Pretty-printing the contents of the 'boardStates' key reveals interesting inform
 The 'shapes' key is where the most interesting details are. Here are keyframes, stroke and fill parameters, point coordinates, and things called 'handles'. A lot of information, but this is exciting. Perhaps there is a way to create an animation using tools other than those provided by the CreativeLab5 application.
 
 
-```json
+```javascript
 {
     "shapes": [
         {
@@ -106,7 +107,7 @@ I'd been in the coffee shop for an hour, and now it was time to leave. I packed 
 
 Experimentation would be a lot easier if the copy-paste-copy-paste routine could be avoided. The dev console's command prompt can help in this regard. A series of commands like this, for example, will erase all the shapes:
 
-```
+```javascript
 var boardStateString = window.localstorage.getItem('boardStates');
 var boardState = JSON.parse(boardStateString);
 
