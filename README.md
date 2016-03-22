@@ -5,7 +5,7 @@ A few days ago I did not know about Google's Creative Lab. Now I do. I heard abo
 ![the application site][default]
 
 
-...Hello, what's this? A one year paid program. They're looking for new applicants. [The application](https://creativelab5.com) is an application, "Write it, design it, code it, move it, break it." And there is a checkbox for wildcards. Viewing Source reveals a hidden puzzle. Solving the puzzle yields a "Techno Crab" badge. I'm brilliant! I'm going to to be a Fiver! Feeling elite, I complete the application with a short film titled "Idempotent", and send it off.
+...Hello, what's this? A one year paid program. They're looking for new applicants. [The application](https://creativelab5.com) is an application, "*Write it, design it, code it, move it, break it.*" And there is a checkbox for wildcards. View Source reveals a hidden puzzle. Solving the puzzle yields a "Techno Crab" badge. I'm brilliant! I'm going to to be a Fiver! Feeling elite, I complete the application with a short film titled "Idempotent", and send it off.
 
 Idempotent. Genius. A shoo-in for sure.
 
@@ -21,20 +21,19 @@ I saw a rubber ball where a snowbank used to be. I picked it up. Solid rubber, w
 
 ---
 
-That evening I open Twitter and scanned through the #creativelab5 tags. Submissions of other applicants. Most were rather bland. And then up pops [this masterpiece](https://twitter.com/zachboth/status/709920328093294592). Even his Twitter presentation is masterful; addressed directly to the current Fivers, with three little "how it's made" images.
+That evening I open Twitter and scanned through the #creativelab5 tags. Submissions of other applicants. Most were rather bland. And then up pops [this masterpiece](https://twitter.com/zachboth/status/709920328093294592). His Twitter presentation is well done; addressed directly to the current Fivers, with three images showing the design process.
 
 Stay cool, Abrie. You can learn a lot from guys like this.
 
-Immediately open up the dev console and look deeper. How did he make that thing?
+Immediately open up the site and look deeper. How did he make that thing? The Techno Crab mode unlocks additional tools: a pen tool, gradients, stroke control. But they are difficult to use. The anchor tool doesn't seem to work. The UI isn't good. Clicking the tiny verticies is difficult. The play bar disappears at inconvienent times and reappears at inconvienient times. Heavy CPU usage slows everything down. 
 
-The Chrome Dev console remembers everything you enter, including mistakes and typos. This helpful gesture ultimately pollutes the suggestion list. Annoyed by this, I began searching for a remedy. And, as it turns out, the remedy is non-trivial. But during the process I stumbled onto the [creativelab5.com](https://creativelab5.com)'s [localstorage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage) entry. 
+The Chrome Dev console helpfully remembers everything you enter, including mistakes and typos. So after a bit of hacking around, the suggestion list becomes polluted.  Annoyed by this, I begin searching for a remedy. And, as it turns out, the remedy is non-trivial. But during the process I stumble onto the Resources Tab, which has an entry named Local Storage. [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage). The CreativeLab5 site appears to use it. 
 
 ![local storage editor][localstorage]
 
-Pretty-printing the contents of the 'boardStates' key reveals interesting information. It is a JSON data structure, and the names of various elements suggests that it represents the animation. For example, [this](https://github.com/goeiebook/creativelab/blob/master/json/defaultBoardStates.json) is the default page shown at startup. 
+Pretty-printing the contents of the 'boardStates' key reveals interesting information. It is a JSON data structure, and the names of various elements suggests that it represents the animation. For example, [this](https://github.com/goeiebook/creativelab/blob/master/json/defaultBoardStates.json) is the JSON for the default page. 
 
-The 'shapes' key is where the most interesting details are. Here are keyframes, stroke and fill parameters, point coordinates, and things called 'handles'. A lot of information, but this is exciting. Perhaps there is a way to create an animation using tools other than those provided by the CreativeLab5 application.
-
+The 'shapes' key is where the most interesting details are. Here are keyframes, stroke and fill parameters, point coordinates, and things called 'handles'. This is quite exciting. Perhaps there is a way to create an animation using tools other than those provided by the site.
 
 ```javascript
 {
@@ -88,7 +87,7 @@ The 'shapes' key is where the most interesting details are. Here are keyframes, 
 
 ```
 
-A good first step is to try and reduce complexity. [This JSON structure](https://github.com/goeiebook/creativelab/blob/master/json/simple.json), for example, removes all shapes from the default page except for the abstract 'G'. I pasted this string into the localstorage field, reloaded the page, and clicked the 'Continue' button.
+When faced with a lot of data, a good first step is to try and reduce complexity. [This JSON structure](https://github.com/goeiebook/creativelab/blob/master/json/simple.json), for example, removes all shapes from the default page except for the abstract 'G'. I pasted this string into local storage, , reloaded the page, and clicked the 'Continue' button. Voila!
 
 ![simple circle, er, I mean a G.][simplified]
 
