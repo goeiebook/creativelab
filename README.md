@@ -79,7 +79,7 @@ The [jq](https://stedolan.github.io/jq/) tool is excellent, BTW. But this workfl
 
 ---
 
-I'd been in the coffee shop for an hour, and now it was time to leave. I packed up my computer, and walked a few kilometers to another one. Spring was near. I passed through a park. Two kids were trying to throw a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. I addressed them, somewhat uncharacteristically, "Could I show you how to throw that?" They handed it over. I hadn't thrown a boomerang in a long time. I made mention of that, aloud, to cover my embarassment should it go badly. I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I hand the boomerang back, "Now you try." The kid copies my technique and it flies out in a beautiful wide arc, curving up and around --- and then gets stuck at the top of tree.
+I'd been in the coffee shop for an hour, and now it was time to leave. I packed starting walking to a different shop. Along the way, I passed through a park. Spring was in the air. People were out. Two kids were trying to throw a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. I approached them, somewhat uncharacteristically, and said "Could I show you how to throw that?" They handed it over. I hadn't thrown a boomerang in a long time. I made mention of that, aloud, to cover my embarassment it goes badly. I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I hand the boomerang back, "Now you try." The kid copies my technique and it flies out in a beautiful wide arc, curving up and around --- and then gets stuck at the top of tree.
 
 ---
 
@@ -94,12 +94,9 @@ boardStateString = JSON.stringify(boardState);
 window.localstorage.setItem('boardStates', boardStateString);
 
 ```
-That's a pretty simple example. The point is that using the console enables more programmatic editing of the boardStates. The reality is that this also eventually becomes tiring. Really what you want is to edit the javascript in a file and then just run it from the command line. A bit of googling reveals: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en).
-
-Digging around on Google then revealed the "Snippets" feature of Google Chrome.
+That's a pretty simple example. The point is that using the console enables more programmatic editing of the boardStates. The reality is that this also eventually becomes tiring. Ideally you want to edit the javascript in a file and then run it from the console. A bit of googling reveals... [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
 
 ![the snippets panel][snippets]
-
 
 [localstorage]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/localstorge.png "Local storage dev console"
 
