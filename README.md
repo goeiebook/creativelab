@@ -2,6 +2,9 @@
 
 A few days ago I did not know about Google's Creative Lab. Now I do. I heard about them while trying to promote myself. The chain of events went like this: I heard about a twitter account, I tweeted at that twitter account, they liked my tweet, I subscribed to their channel, they retweet something about the Creative Lab 5.
 
+![the application site][default]
+
+
 ...Hello, what's this? A one year paid program. They're looking for new applicants. [The application](https://creativelab5.com) is an application, "Write it, design it, code it, move it, break it." And there is a checkbox for wildcards. Viewing Source reveals a hidden puzzle. Solving the puzzle yields a "Techno Crab" badge. I'm brilliant! I'm going to to be a Fiver! Feeling elite, I complete the application with a short film titled "Idempotent", and send it off.
 
 Idempotent. What genius. A shoo-in for sure.
@@ -131,7 +134,10 @@ The next day I passed the tree that had caught the boomerang. The boomerang was 
 
 ---
 
-[localstorage]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/localstorge.png "Local storage dev console"
+[default]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/default.jpg
+
+[localstorage]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/localstorge.png
 
 [simplified]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/simplified.jpg
