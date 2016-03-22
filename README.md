@@ -1,6 +1,8 @@
 # Circumstances of Discovery
 
-Chrome's Dev Console remembers everything you type, including mistakes and typos. This results in a polluted list of suggestions. This was very annoying to me, and I began to search for a remedy. As it turns out, the remedy is non-trivial. But while clicking through the menus I stumbled onto the [creativelab5.com](https://creativelab5.com)'s [localstorage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage) entry. 
+If you've looked into the Creativelab5.com application site, than you've learned about the Techno Crab feature. When activated, you are able to use the Chrome dev console to enhance your creative ability.
+
+The console remembers everything you type, including mistakes and typos. This helpful gesture ultimately yields a polluted list of suggestions. Annoyed by this, I began searching for a remedy. And, as it turns out, the remedy is non-trivial. But during the process I stumbled onto the [creativelab5.com](https://creativelab5.com)'s [localstorage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage) entry. 
 
 ![local storage editor][localstorage]
 
