@@ -61,7 +61,9 @@ The 'shapes' key is where the most interesting details are. Here are keyframes, 
 
 A good first step is to try and reduce complexity. [This JSON structure](https://github.com/goeiebook/creativelab/blob/master/json/simple.json), for example, removes all shapes from the default page except for the abstract 'G'. I pasted this string into the localstorage field, reloaded the page, and clicked the 'Continue' button.
 
-![simplified json result][simplified]
+![![live on creativelab5.com](https://www.creativelab5.com/s/m3JEdl)][simplified]
+
+That's exciting.
 
 [localstorage]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/localstorge.png "Local storage dev console"
 
