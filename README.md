@@ -7,9 +7,9 @@ A few days ago I did not know about Google's Creative Lab. Now I do. I heard abo
 
 ...Hello, what's this? A one year paid program. They're looking for new applicants. [The application](https://creativelab5.com) is an application, "Write it, design it, code it, move it, break it." And there is a checkbox for wildcards. Viewing Source reveals a hidden puzzle. Solving the puzzle yields a "Techno Crab" badge. I'm brilliant! I'm going to to be a Fiver! Feeling elite, I complete the application with a short film titled "Idempotent", and send it off.
 
-Idempotent. What genius. A shoo-in for sure.
+Idempotent. Genius. A shoo-in for sure.
 
-A day rolls by. Then another. I better revisit my application and assure myself of the brillance. But, [It's broken](https://www.creativelab5.com/s/puukkz). It doesn't play as designed in the app, and the dev console shows an error. A buggy app. This is disappointing. A search of #creativelab5 shows Andrew Herzog, a current fiver and one of the site designers. [I tweet at him](https://twitter.com/Andrew_Herzog/status/708081805103144960), pointing out that it's broken. I don't really understand his response, I feel confused, but then something unanticipated happens.  
+A day rolls by. Then another. I better revisit my application and assure myself of the brillance. But, [It's broken](https://www.creativelab5.com/s/puukkz). It doesn't play as designed, and the dev console shows an error. This is disappointing. A search of #creativelab5 shows Andrew Herzog, a current fiver and one of the site designers. [I tweet to him](https://twitter.com/Andrew_Herzog/status/708081805103144960), pointing out that it's broken. His response is confusing. But then something unanticipated happens.  
 
 Dozens of profile views. My six month old twitter account was getting attention. Twitter Analytics claimed profile views were up by 1000%.
 
