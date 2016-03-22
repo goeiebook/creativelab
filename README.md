@@ -98,6 +98,14 @@ That's a pretty simple example. The point is that using the console enables more
 
 ![the snippets panel][snippets]
 
+---
+
+The next day I passed the tree that had caught the boomerang. The boomerang was gone. But now there was a basketball up there. 
+
+![boomerang replacement][basketball]
+
+---
+
 [localstorage]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/localstorge.png "Local storage dev console"
 
 [simplified]:
@@ -105,3 +113,6 @@ https://raw.githubusercontent.com/goeiebook/creativelab/master/images/simplified
 
 [snippets]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/snippets.jpg
+
+[basketball]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/basketball.jpg
