@@ -1,3 +1,4 @@
+# Circumstances of Discovery
 
 Chrome's Dev Console remembers everything you type, including mistakes and typos. This results in a polluted list of suggestions. This was very annoying to me, and I began to search for a remedy. As it turns out, the remedy is non-trivial. But while clicking through the menus I stumbled onto the [creativelab5.com](https://creativelab5.com)'s [localstorage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage) entry. 
 
@@ -64,7 +65,15 @@ A good first step is to try and reduce complexity. [This JSON structure](https:/
 
 ![simple circle, er, I mean a G.][simplified]
 
-[Here it is, live](https://www.creativelab5.com/s/m3JEdl). Encouraged by this, I began to edit the JSON hapazardly. The results were strange and fun. But the cycle of copy-paste-edit-copy-paste was fatiguing. Manually editing a JSON file is much less efficient than using the available drawing tools (such as activatePen()).
+[Here it is, live](https://www.creativelab5.com/s/m3JEdl). Encouraged by this, I began to edit the JSON hapazardly. I developed a workflow that went like this:
+
+1. Select boardStates field, cmd-C, shift-tab to terminal
+2. ```pbpaste | python -m json.tool > pretty.json```
+3. Edit ```pretty.json```
+4. ```jq -c . simple.json | pbcopy```
+5. Select boardStates field, cmd-V, reload page.
+
+The [jq](https://stedolan.github.io/jq/) tool is excellent, BTW. But this workflow was not very efficient. Still more fun than using activatePen(), however.
 
 ---
 
@@ -72,7 +81,8 @@ I'd been in the coffee shop for an hour, and now it was time to leave. I packed 
 
 ---
 
-Experimentation would be a lot easier if the copy-paste-copy-paste routine could be avoided. The dev console's command prompt can help in this regard. A series of commands like this, for example, will erase all the shapes, for example:
+Experimentation would be a lot easier if the copy-paste-copy-paste routine could be avoided. The dev console's command prompt can help in this regard. A series of commands like this, for example, will erase all the shapes:
+
 ```
 var boardStateString = window.localstorage.getItem('boardStates');
 var boardState = JSON.parse(boardStateString);
@@ -82,7 +92,7 @@ boardStateString = JSON.stringify(boardState);
 window.localstorage.setItem('boardStates', boardStateString);
 
 ```
-But of course, after some more experimentation this method becomes tiring as well. Now, instead of moving JSON around I was copy-pasting javascript code into the console. This became very tiring because the page had to be reloaded every time I edited the localstorage data.
+That's a pretty simple example. The point is that using the console enables more programmatic editing of the boardStates. The reality is that this also eventually becomes tiring. Really what you want is to edit the javascript in a file and then just run it from the command line. A bit of googling reveals: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en).
 
 Digging around on Google then revealed the "Snippets" feature of Google Chrome.
 
@@ -95,4 +105,4 @@ Digging around on Google then revealed the "Snippets" feature of Google Chrome.
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/simplified.jpg
 
 [snippets]:
-images/snippets.jpg
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/snippets.jpg
