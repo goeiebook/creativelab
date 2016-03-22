@@ -65,4 +65,4 @@ As a first experiment we reduce the complexity of the structure. [This JSON stru
 [localstorage]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/localstorge.png "Local storage dev console"
 
 [g-only]:
-https://raw.githubusercontent.com/goeiebook/creativelab/master/images/simplified.png
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/simplified.jpeg
