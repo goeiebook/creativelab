@@ -130,14 +130,17 @@ That's a pretty simple example. But the point is that code can be saved into a f
 
 ![the snippets panel][snippets]
 
-At this point we have a lot of power. We can write a script and execute it with a simple Right-click->Run. Much more efficient. And, with efficency came excess.
+At this point we have a lot of power. We can write a script and execute it with a simple Right-click->Run. Much more efficient. Now the experiments led to huge blocks of code, generating arrays of shapes and colors. It was excessive and messy, but I was quite proud of the result. The pattern is regular, but in fact I did not really know how I had made it.
 
 ![what a mess][mess]
+
 ---
 
-The next day I passed the tree that had caught the boomerang. The boomerang was gone. But now there was a basketball up there. 
+The next day I passed the tree that caught the boomerang. The boomerang was gone. But now there was a basketball up there. 
 
 ![boomerang replacement][basketball]
+
+What a great little story, with humor and all. This aspect of experience is amazing to me, because of how automatically stories unfold. Thinking about this, I bounced my white rubber ball along the sidewalk. The basketball was unexpected, and now I began to wonder what would happen to it tomorrow. With a bit of luck the story will become even better. And so I continued to another coffee shop, boucing my white rubber ball along the way.
 
 ---
 
