@@ -13,7 +13,7 @@ A day elapses. Then another. My ego wanes. I revisit my application, to assure m
 
 ![the response][tweet]
 
-His response is confusing. Is that sarcasm? I'm not a very social creature. But then something unanticipated happens: my profile begins to receive views. Dozens of views. My six month old twitter account was getting attention. Twitter Analytics claimed profile views were up by 1000%.
+Is that sarcasm? This is confusing. I'm not a very social creature. But then something unanticipated happens: my profile begins to receive views. Dozens of views. My six month old twitter account was getting attention. Twitter analytics claimed profile views were up by 1000%.
 
 ---
 
