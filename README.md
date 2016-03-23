@@ -113,7 +113,7 @@ Now I'd been in the coffee shop for an hour, and according to decorum it was tim
 
 ---
 
-A whole set of possibilities were in mind. Animations could be made without having to use the clumsy Google Creative Lab 5 UI. But, this manual copy-pasting was very tiring and slow. Experimentation was difficult and error prone. It would be easier if the workflow was more automatic. The dev console's command prompt can help in this regard. A series of commands like this, for example, will erase all the shapes:
+A whole set of possibilities were in mind. Animations could be made without having to use the clumsy Google Creative Lab 5 UI. But, this manual copy-pasting was tiring and slow. It was error prone and tiring. A more programmatic workflow would be better. The dev console's command prompt could help. A series of commands like this, for example, will erase all the shapes:
 
 ```javascript
 function clearShapes() {
@@ -126,17 +126,23 @@ function clearShapes() {
 }
 
 ```
-That's a pretty simple example. But the point is that code can be saved into a function, and then the stage can be cleared without manual edits. The problem is that the page has to be reloaded in order to load the data from local storage. Which means you loose the javascript context, and then have to re-enter the code. Faced with this problem, a bit of searching reveals: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
+That's a pretty simple example. But it shows that code can be saved into a function, and then use to clear the stage with a single command: clearShapes();
+
+The problem is that the page has to be reloaded in order to load the data from local storage. Which means you loose the javascript context, and then have to re-enter the code. Faced with this problem, a bit of searching reveals: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
 
 ![the snippets panel][snippets]
 
-At this point we have a lot of power. We can write a script and execute it with a simple Right-click->Run. Now that's fun. And now we go overboard, copy-pasting huge blocks of code to generate arrays of shapes and colors. What did those handleIn/handleOut parameters do? Whatever it was, it was interesting. The results became excessive and messy, but I was proud of the result. Even if it wasn't totally clear how the code worked.
+Now we're talking. Right-click->Run. Now that's fun. And now we go overboard, copy-pasting huge blocks of code to generate arrays of shapes and colors. What did those handleIn/handleOut parameters do? Whatever it was, it was interesting. The results became excessive and messy, but I was proud of the result. Even if it wasn't totally clear how the code worked.
 
 ![what a mess][mess]
 
+And now, to submit my masterpiece of generated art. Clicking the 'submit' button takes quite a while... and then fails. 500 Server Error. So it works locally, but I'm unable to share the results. I immediately interpret this to mean that I've discovered another "Break It" feature. I tweet about it to the #creativelab5 people; proud of what I'd found.
+
+![what a mess][500error]
+
 ---
 
-The next day I passed the tree that caught the boomerang. The boomerang was gone. But now there was a basketball up there. 
+The following morning I walk through the park and pass the tree that caught the boomerang. The boomerang was gone. But now there was a basketball up there. 
 
 ![boomerang replacement][basketball]
 
@@ -144,7 +150,7 @@ What a great little story, with humor and all. It's like the Peanuts' [kite-eati
 
 ---
 
-And now, to submit my masterpiece of generated art. Clicking the 'submit' button takes quite a while... and then fails. 500 Server Error.
+
 
 
 [default]:
@@ -166,6 +172,9 @@ https://raw.githubusercontent.com/goeiebook/creativelab/master/images/simplified
 
 [snippets]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/snippets.jpg
+
+[500error]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/500error.jpg
 
 [basketball]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/basketball.jpg
