@@ -23,7 +23,7 @@ I saw a rubber ball where a snowbank used to be. I picked it up. Solid rubber, w
 
 ---
 
-Checking analytics is addictive. Moreso when there's more signal than noise. [Here's a Bansky for that][bansky]. I was king of the #creativelab5 hashtag. The submissions of other applicants were bland, like mine. But none were broken, like mine. And then up pops [this masterpiece](https://twitter.com/zachboth/status/709920328093294592).
+Checking analytics is addictive. Moreso when there's more signal than noise. [Here's a Bansky for that][bansky]. I was king of the #creativelab5 hashtag. The submissions of other applicants were bland, like mine. But none were broken, like mine. And then up pops [this masterpiece](https://www.creativelab5.com/s/pnMGi5).
 
 ![the both submission][both]
 
