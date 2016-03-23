@@ -140,7 +140,7 @@ The next day I passed the tree that caught the boomerang. The boomerang was gone
 
 ![boomerang replacement][basketball]
 
-What a great little story, with humor and all. This aspect of experience is amazing to me, because of how automatically stories unfold. Thinking about this, I bounced my white rubber ball along the sidewalk. The basketball was unexpected, and now I began to wonder what would happen to it tomorrow. With a bit of luck the story will become even better. And so I continued to another coffee shop, boucing my white rubber ball along the way.
+What a great little story, with humor and all. It's like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). This aspect of experience is amazing to me, because of how automatically stories unfold. And then there is the fractal-like similarity to other stories. These thoughts are in my mind while I bounce my white rubber ball along the sidewalk. The basketball was unexpected, and now I wonder what will happen tomorrow. With a bit of luck the story will become even better.
 
 ---
 
