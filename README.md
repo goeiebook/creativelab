@@ -1,27 +1,29 @@
-# Circumstances of Discovery
+## Discovery Requires Circumstances
 
-A few days ago I did not know about Google's Creative Lab. Now I do. I heard about them while trying to promote myself. The chain of events went like this: I heard about a twitter account, I tweeted at that twitter account, they liked my tweet, I subscribed to their channel, they retweet something about the Creative Lab 5.
+Any story must begin with a set of circumstances. I heard about Google Creative Lab while trying to promote myself. The chain of events went like this: I learn about a new divison of the Play Store, I tweet at the twitter account, they liked my tweet, and I subscribe to their channel. Then a few days later they retweet something about a new Creative Lab 5 site.
 
 ![the application site][default]
 
 
-...Hello, what's this? A one year paid program. They're looking for new applicants. [The application](https://creativelab5.com) is an application, "*Write it, design it, code it, move it, break it.*" And there is a checkbox for wildcards. View Source reveals a hidden puzzle. Solving the puzzle yields a "Techno Crab" badge. I'm brilliant! I'm going to to be a Fiver! Feeling elite, I complete the application with a short film titled "Idempotent", and send it off.
+A one year paid program. I'm not a designer, but I might be an artist. They're looking for new applicants. [The application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" And the form contains a checkbox for wildcards. View Source reveals a hidden puzzle. Solving the puzzle yields a "Techno Crab" badge. I'm brilliant! I'm going to to be a Fiver! Feeling elite, I complete the application with a short film titled "Idempotent", and send it off.
 
-Idempotent. Genius. A shoo-in for sure.
+It's titled Idempotent. Genius. A shoo-in for sure.
 
-A day rolls by. Then another. I better revisit my application and assure myself of the brillance. But, [It's broken](https://www.creativelab5.com/s/puukkz). It doesn't play as designed, and the dev console shows an error. This is disappointing. A search of #creativelab5 shows Andrew Herzog, a current fiver and one of the site designers. [I tweet to him](https://twitter.com/Andrew_Herzog/status/708081805103144960), pointing out that it's broken. His response is confusing. But then something unanticipated happens.  
+A day elapses. Then another. My ego wanes. I revisit my application, to assure myself of it's brillance. But, [It's broken](https://www.creativelab5.com/s/puukkz). It doesn't play as designed, and the dev console shows an error. This is disappointing. Searching twitter for the #creativelab5 hashtag turns up the account of one of the designers. [I tweet to him](https://twitter.com/Andrew_Herzog/status/708081805103144960), and point out my application is broken. 
 
-Dozens of profile views. My six month old twitter account was getting attention. Twitter Analytics claimed profile views were up by 1000%.
+His response is confusing. Is that sarcasm? I'm not a very social creature. But then something unanticipated happens: my profile begins to receive views. Dozens of them views. My six month old twitter account was getting attention. Twitter Analytics claimed profile views were up by 1000%.
 
 ---
 
-Winter was finally coming to a close. The snow began to melt. When snow melts it leaves a distinctive aftermath. Little piles of gravel and salt, like glacial till; with snowplow scars and single wet mittens.
+Winter was finally coming to a close. The snow began to melt. When snow melts it leaves a distinctive aftermath. Little piles of gravel, salt, and soggy cigarette butts. Like glacial till; with snowplow scars and single wet mittens.
 
 I saw a rubber ball where a snowbank used to be. I picked it up. Solid rubber, white, with a grey splotch. A lot of bounce. A dog toy. I put it in my pocket and took it with me. As I walked I thought about how I should [tweet about it](https://twitter.com/goeiebook/status/709378927219728384). And I should carry the ball with me at all times. Because if you carry a thing like this with you at all times, you're bound to discover something new.
 
 ---
 
-That evening I open Twitter and scanned through the #creativelab5 tags. Submissions of other applicants. Most were rather bland. And then up pops [this masterpiece](https://twitter.com/zachboth/status/709920328093294592). His Twitter presentation is well done; addressed directly to the current Fivers, with three images showing the design process.
+Checking the Twitter analytics was addictive. So that's why people love this stuff. [Here's a Bansky for that][bansky]. that captures the idea. I was king of the #creativelab5 hashtag. The submissions of other applicants were not broken, but they were bland. Mine was bland too; but popular because it was broken.
+
+And then up pops [this masterpiece](https://twitter.com/zachboth/status/709920328093294592). His Twitter presentation is well done; addressed directly to the current Fivers, with three images showing the design process.
 
 Stay cool, Abrie. You can learn a lot from guys like this.
 
@@ -135,6 +137,9 @@ The next day I passed the tree that had caught the boomerang. The boomerang was 
 
 [default]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/default.jpg
+
+[bansky]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/bansky.jpg
 
 [localstorage]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/localstorge.png
 
