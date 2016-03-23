@@ -31,15 +31,15 @@ Such excellent presentation, addressed directly to the current Fivers, with thre
 
 Stay cool, Abrie. You can learn a lot from guys like this.
 
-Immediately open up the site and look deeper. How did he make that thing? The Techno Crab mode unlocks additional tools: a pen tool, gradients, stroke control. But they are difficult to use. The anchor tool doesn't seem to work. The UI isn't good. Clicking the tiny verticies is difficult. The play bar disappears at inconvienent times and reappears at inconvienient times. Heavy CPU usage slows everything down. 
+Immediately open up the site and look deeper. How did Both make this thing? The Techno Crab mode unlocks additional tools: a pen tool, gradients, stroke control. But they are difficult to use. The anchor tool doesn't seem to work. Clicking the tiny verticies is difficult. The play bar disappears at inconvienent times, then reappears at an even more inconvienient time. Heavy CPU usage causes my Macbook's fan to go into overdrive. This UI has some serious issues. But apparently it not hold Both back. 
 
-The Chrome Dev console helpfully remembers everything you enter, including mistakes and typos. So after a bit of hacking around, the suggestion list becomes polluted.  Annoyed by this, I begin searching for a remedy. And, as it turns out, the remedy is non-trivial. But during the process I stumble onto the Resources Tab, which has an entry named Local Storage. [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage). The CreativeLab5 site appears to use it. 
+The Chrome Dev console helpfully remembers everything you enter, including mistakes and typos. So after a bit of hacking around, the suggestion list will become polluted.  Annoyed by this, I begin searching for a remedy. And, as it turns out, the remedy is non-trivial. But during the process I stumble onto the Resources Tab, which has an entry named Local Storage. [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage). And the CreativeLab5 site appears to use it: 
 
 ![local storage editor][localstorage]
 
-Pretty-printing the contents of the 'boardStates' key reveals interesting information. It is a JSON data structure, and the names of various elements suggests that it represents the animation. For example, [this](https://github.com/goeiebook/creativelab/blob/master/json/defaultBoardStates.json) is the JSON for the default page. 
+Pretty-printing the contents of the 'boardStates' key reveals interesting information. It is a JSON data structure, and the vocabulary suggests a represention of animation. For example, [this](https://github.com/goeiebook/creativelab/blob/master/json/defaultBoardStates.json) is the JSON for the default page. 
 
-The 'shapes' key is where the most interesting details are. Here are keyframes, stroke and fill parameters, point coordinates, and things called 'handles'. This is quite exciting. Perhaps there is a way to create an animation using tools other than those provided by the site.
+The 'shapes' key is where the most interesting details are. Keyframes, stroke and fill parameters, point coordinates, and things called 'handles'. This is quite exciting. Perhaps there is a way to create an animation using tools other than those provided by the site.
 
 ```javascript
 {
@@ -97,7 +97,7 @@ When faced with a lot of data, a good first step is to try and reduce complexity
 
 ![simple circle, er, I mean a G.][simplified]
 
-[Here it is, live](https://www.creativelab5.com/s/m3JEdl). Encouraged by this, I began to edit the JSON hapazardly. I developed a workflow that went like this:
+[Here it is, live](https://www.creativelab5.com/s/m3JEdl). Encouraged by this, I began to edit the JSON hapazardly. The workflow went like this:
 
 1. Select boardStates field, CMD-c, shift-tab to terminal
 2. ```pbpaste | python -m json.tool > pretty.json```
@@ -109,7 +109,7 @@ The [jq](https://stedolan.github.io/jq/) tool is excellent, BTW. But this workfl
 
 ---
 
-I'd been in the coffee shop for an hour, and now it was time to leave. I packed starting walking to a different shop. Along the way, I passed through a park. Spring was in the air. People were out. Two kids were trying to throw a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. I approached them, somewhat uncharacteristically, and said "Could I show you how to throw that?" They handed it over. I hadn't thrown a boomerang in a long time. I made mention of that, aloud, to cover my embarassment it goes badly. I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I hand the boomerang back, "Now you try." The kid copies my technique and it flies out in a beautiful wide arc, curving up and around --- and then gets stuck at the top of tree.
+I'd been in the coffee shop for an hour, and now it was time to leave. I packed up and starting walking to a different shop. The route passes through a park. Spring was in the air. People were out. Two kids were trying to throw a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. I approached them, somewhat uncharacteristically, and said "Could I show you how to throw that?" They handed it over. I hadn't thrown a boomerang in a long time. I said so, aloud, in case of embarassment. I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I hand the boomerang back, "Now you try." The kid copies my technique and it flies out in a beautiful wide arc, curving up and around --- and then gets stuck high in tree.
 
 ---
 
