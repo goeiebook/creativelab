@@ -126,11 +126,11 @@ function clearShapes() {
 }
 
 ```
-That's a pretty simple example. But the point is that code can be saved into a function, and then the stage can be cleared without manual edits. The problem is that the page has to be reloaded in order to load the data from local storage. Which means you loose the javascript context, and then have to re-enter the code. Face with this problem, a bit of searching reveals: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
+That's a pretty simple example. But the point is that code can be saved into a function, and then the stage can be cleared without manual edits. The problem is that the page has to be reloaded in order to load the data from local storage. Which means you loose the javascript context, and then have to re-enter the code. Faced with this problem, a bit of searching reveals: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
 
 ![the snippets panel][snippets]
 
-At this point we have a lot of power. We can write a script and execute it with a simple Right-click->Run. Much more efficient. Now the experiments led to huge blocks of code, generating arrays of shapes and colors. It was excessive and messy, but I was quite proud of the result. The pattern is regular, but in fact I did not really know how I had made it.
+At this point we have a lot of power. We can write a script and execute it with a simple Right-click->Run. Now that's fun. And now we go overboard, copy-pasting huge blocks of code to generate arrays of shapes and colors. What did those handleIn/handleOut parameters do? Whatever it was, it was interesting. The results became excessive and messy, but I was proud of the result. Even if it wasn't totally clear how the code worked.
 
 ![what a mess][mess]
 
@@ -143,6 +143,9 @@ The next day I passed the tree that caught the boomerang. The boomerang was gone
 What a great little story, with humor and all. It's like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). This aspect of experience is amazing to me, because of how automatically stories unfold. And then there is the fractal-like similarity to other stories. These thoughts are in my mind while I bounce my white rubber ball along the sidewalk. The basketball was unexpected, and now I wonder what will happen tomorrow. With a bit of luck the story will become even better.
 
 ---
+
+And now, to submit my masterpiece of generated art. Clicking the 'submit' button takes quite a while... and then fails. 500 Server Error.
+
 
 [default]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/default.jpg
