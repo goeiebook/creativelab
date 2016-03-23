@@ -1,6 +1,6 @@
 ## Discovery Requires Circumstances
 
-Any story must begin with a set of circumstances. I heard about Google Creative Lab while trying to promote myself. The chain of events went like this: I learn about a new divison of the Play Store, I tweet at the twitter account, they liked my tweet, and I subscribe to their channel. Then a few days later they retweet something about a new Creative Lab 5 site.
+Stories begin with a set of circumstances. I heard about Google Creative Lab while trying to promote myself. The chain of events went like this: I learn about a new divison of the Play Store, I tweet at the twitter account, they liked my tweet, and I subscribe to their channel. Then a few days later they retweet something about the new Creative Lab 5 site.
 
 ![the application site][default]
 
@@ -31,13 +31,13 @@ Such excellent presentation, addressed directly to the current Fivers, with thre
 
 Stay cool, Abrie. You can learn a lot from guys like this.
 
-Immediately open up the site and look deeper. How did Both make this thing? The Techno Crab mode unlocks additional tools: a pen tool, gradients, stroke control. But they are difficult to use. The anchor tool doesn't seem to work. Clicking the tiny verticies is difficult. The play bar disappears at inconvienent times, then reappears at an even more inconvienient time. Heavy CPU usage causes my Macbook's fan to go into overdrive. This UI has some serious issues. But apparently it not hold Both back. 
+Immediately open up the site and look deeper. How did Both make this thing? The Techno Crab mode unlocks additional tools: a pen tool, gradients, stroke control. But they are difficult to use. The anchor tool doesn't seem to work. The vertex manipulators are tiny and aggravating. The play bar disappears at inconvienent times, then reappears at an even more inconvienient time. Heavy CPU usage causes my Macbook's fan to spin at top speed. This UI has some serious issues. But apparently it did not hold Both back. 
 
-The Chrome Dev console helpfully remembers everything you enter, including mistakes and typos. So after a bit of hacking around, the suggestion list will become polluted.  Annoyed by this, I begin searching for a remedy. And, as it turns out, the remedy is non-trivial. But during the process I stumble onto the Resources Tab, which has an entry named Local Storage. [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage). And the CreativeLab5 site appears to use it: 
+The Chrome Dev console helpfully remembers everything you enter, including mistakes and typos. So after a bit of hacking around, the suggestion list becomes polluted.  Annoyed by this, I begin searching for a remedy. And, as it turns out, the remedy is non-trivial. But during the process I stumble onto the Resources Tab, which has an entry named Local Storage. [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage). And the CreativeLab5 site appears to use it: 
 
 ![local storage editor][localstorage]
 
-Pretty-printing the contents of the 'boardStates' key reveals interesting information. It is a JSON data structure, and the vocabulary suggests a represention of animation. For example, [this](https://github.com/goeiebook/creativelab/blob/master/json/defaultBoardStates.json) is the JSON for the default page. 
+Pretty-printing the contents of 'boardStates' reveals interesting information. It is a JSON data structure, and the vocabulary suggests a represention of animation. For example, [this](https://github.com/goeiebook/creativelab/blob/master/json/defaultBoardStates.json) is the JSON for the default page. 
 
 The 'shapes' key is where the most interesting details are. Keyframes, stroke and fill parameters, point coordinates, and things called 'handles'. This is quite exciting. Perhaps there is a way to create an animation using tools other than those provided by the site.
 
@@ -93,7 +93,7 @@ The 'shapes' key is where the most interesting details are. Keyframes, stroke an
 
 ```
 
-When faced with a lot of data, a good first step is to try and reduce complexity. [This JSON structure](https://github.com/goeiebook/creativelab/blob/master/json/simple.json), for example, removes all shapes from the default page except for the abstract 'G'. I pasted this string into local storage, , reloaded the page, and clicked the 'Continue' button. Voila!
+When faced with a lot of data, a good first step is to try and reduce complexity. [This JSON structure](https://github.com/goeiebook/creativelab/blob/master/json/simple.json), for example, removes all shapes from the default page except for the abstract 'G'. Paste this string into local storage, reload the page, click the 'Continue' button --- Voila!
 
 ![simple circle, er, I mean a G.][simplified]
 
@@ -109,11 +109,11 @@ The [jq](https://stedolan.github.io/jq/) tool is excellent, BTW. But this workfl
 
 ---
 
-I'd been in the coffee shop for an hour, and now it was time to leave. I packed up and starting walking to a different shop. The route passes through a park. Spring was in the air. People were out. Two kids were trying to throw a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. I approached them, somewhat uncharacteristically, and said "Could I show you how to throw that?" They handed it over. I hadn't thrown a boomerang in a long time. I said so, aloud, in case of embarassment. I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I hand the boomerang back, "Now you try." The kid copies my technique and it flies out in a beautiful wide arc, curving up and around --- and then gets stuck high in tree.
+Now I'd been in the coffee shop for an hour, and according to decorum it was time to leave. I packed up and walked to a different shop. The route cuts through a park. Spring was in the air. People were out. Two kids were trying to throw a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. I approached them, somewhat uncharacteristically, and said "Could I show you how to throw that?" They handed it over. I said aloud I hadn't thrown a boomerang in a long time. Then I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I hand the boomerang back, "Now you try." The kid copies my technique and it flies out in a beautiful wide arc, curving up and around --- and then gets stuck high in tree.
 
 ---
 
-Experimentation would be a lot easier if the copy-paste-copy-paste routine could be avoided. The dev console's command prompt can help in this regard. A series of commands like this, for example, will erase all the shapes:
+A whole set of new possibilities circled in mind. Animations could be made without having to use the clumsy Google Creative Lab 5 UI. But, this manual copy-pasting was very tiring and slow. Experimentation would be easier if the workflow was more automatic. The dev console's command prompt can help in this regard. A series of commands like this, for example, will erase all the shapes:
 
 ```javascript
 var boardStateString = window.localstorage.getItem('boardStates');
@@ -124,11 +124,11 @@ boardStateString = JSON.stringify(boardState);
 window.localstorage.setItem('boardStates', boardStateString);
 
 ```
-That's a pretty simple example. The point is that using the console enables more programmatic editing of the boardStates. The reality is that this also eventually becomes tiring. Ideally you want to edit the javascript in a file and then run it from the console. A bit of googling reveals... [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
+That's a pretty simple example. But the point is that now that code can be saved into a function, and then the stage can be cleared without manual edits. The problem is that the page has to be reloaded in order to load the data from local storage. Which means you loose the javascript context, and then have to re-enter the code. Face with this problem, a bit of searching reveals: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
 
 ![the snippets panel][snippets]
 
-Now with javascript involved, all sorts of stuff can be generated. Here, for example was something that made me very proud:
+At this point we have a lot of power. We can write a script and execute it with a simple Right-click->Run. Much more efficient. And, with efficency came excess.
 
 ![what a mess][mess]
 ---
