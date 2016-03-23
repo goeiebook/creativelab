@@ -19,15 +19,15 @@ Is that sarcasm? This is confusing. I'm not a very social creature. But then som
 
 Winter was finally coming to a close. The snow began to melt. When snow melts it leaves a distinctive aftermath. Little piles of gravel, salt, and soggy cigarette butts. Like glacial till; with snowplow scars and single wet mittens.
 
-I saw a rubber ball where a snowbank used to be. I picked it up. Solid rubber, white, with a grey splotch. A lot of bounce. A dog toy. I put it in my pocket and took it with me. As I walked I thought about how I should [tweet about it](https://twitter.com/goeiebook/status/709378927219728384). And I should carry the ball with me at all times. Because if you carry a thing like this with you at all times, you're bound to discover something new.
+I saw a rubber ball where a snowbank used to be. I picked it up. Solid rubber, white, with a grey splotch. A lot of bounce. A dog toy. I put it in my pocket and took it with me. While walking, I thought of [tweet about the ball](https://twitter.com/goeiebook/status/709378927219728384). And realized I should carry the ball with me at all times. Because if you carry a thing like this with you at all times, you're bound to discover something new.
 
 ---
 
-Checking the analytics was addictive. So that's why people love this stuff. [Here's a Bansky for that][bansky]. I was king of the #creativelab5 hashtag. The submissions of other applicants were bland, like mine. But none were broken, like mine. And then up pops [this masterpiece](https://twitter.com/zachboth/status/709920328093294592).
+Checking analytics is addictive. Moreso when the numbers are more than noise. [Here's a Bansky for that][bansky]. I was king of the #creativelab5 hashtag. The submissions of other applicants were bland, like mine. But none were broken, like mine. And then up pops [this masterpiece](https://twitter.com/zachboth/status/709920328093294592).
 
 ![the both submission][both]
 
-Such excellent presentation, addressed directly to the current Fivers, with three images showing the design process. It shames the work of everyone.
+Such excellent presentation, three images showing the design process, and the animation overshadows the effort of everyone else.
 
 Stay cool, Abrie. You can learn a lot from guys like this.
 
@@ -101,7 +101,7 @@ When faced with a lot of data, a good first step is to try and reduce complexity
 
 1. Select boardStates field, CMD-c, shift-tab to terminal
 2. ```pbpaste | python -m json.tool > pretty.json```
-3. Edit ```pretty.json```
+3. ```pico pretty.json```
 4. ```jq -c . simple.json | pbcopy```
 5. Select boardStates field, CMD-v, reload page.
 
@@ -113,18 +113,20 @@ Now I'd been in the coffee shop for an hour, and according to decorum it was tim
 
 ---
 
-A whole set of new possibilities circled in mind. Animations could be made without having to use the clumsy Google Creative Lab 5 UI. But, this manual copy-pasting was very tiring and slow. Experimentation would be easier if the workflow was more automatic. The dev console's command prompt can help in this regard. A series of commands like this, for example, will erase all the shapes:
+A whole set of possibilities were in mind. Animations could be made without having to use the clumsy Google Creative Lab 5 UI. But, this manual copy-pasting was very tiring and slow. Experimentation was difficult and error prone. It would be easier if the workflow was more automatic. The dev console's command prompt can help in this regard. A series of commands like this, for example, will erase all the shapes:
 
 ```javascript
-var boardStateString = window.localstorage.getItem('boardStates');
-var boardState = JSON.parse(boardStateString);
-
-boardState.shapes = [];
-boardStateString = JSON.stringify(boardState);
-window.localstorage.setItem('boardStates', boardStateString);
+function clearShapes() {
+    var boardStateString = window.localstorage.getItem('boardStates');
+    var boardState = JSON.parse(boardStateString);
+    
+    boardState.shapes = [];
+    boardStateString = JSON.stringify(boardState);
+    window.localstorage.setItem('boardStates', boardStateString);
+}
 
 ```
-That's a pretty simple example. But the point is that now that code can be saved into a function, and then the stage can be cleared without manual edits. The problem is that the page has to be reloaded in order to load the data from local storage. Which means you loose the javascript context, and then have to re-enter the code. Face with this problem, a bit of searching reveals: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
+That's a pretty simple example. But the point is that code can be saved into a function, and then the stage can be cleared without manual edits. The problem is that the page has to be reloaded in order to load the data from local storage. Which means you loose the javascript context, and then have to re-enter the code. Face with this problem, a bit of searching reveals: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
 
 ![the snippets panel][snippets]
 
