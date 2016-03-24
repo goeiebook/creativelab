@@ -82,11 +82,11 @@ That example doesn't do much. But [this one](https://github.com/goeiebook/creati
 4. ```jq -c . simple.json | pbcopy```
 5. Select boardStates field, CMD-v, reload page.
     
-The [jq](https://stedolan.github.io/jq/) tool is excellent, BTW. This workflow is not very efficient, but it's better than using the Techno Crab's activatePen().
+The [jq](https://stedolan.github.io/jq/) tool is excellent, BTW. This workflow is inefficient, but already better than using the Techno Crab's penTool.
     
 ---
     
-    Now I'd been in the coffee shop for an hour, and according to decorum it was time to leave. I packed up and walked to a different shop. The route goes through a park. Spring was in the air. Two kids were trying to throw a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. I approached them, somewhat uncharacteristically, and said "Could I show you how to throw that?" They handed it over. I said aloud I hadn't thrown a boomerang in a long time. Then I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I hand the boomerang back, "Now you try." The kid copies my technique and it flies out in a beautiful wide arc, curving up and around --- and then gets stuck in a tree.
+Now I'd been in the coffee shop for an hour, and according to decorum it was time to leave. I packed up and walked to a different shop. The route goes through a park. Spring was in the air. Two kids were trying to throw a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. I approached them, somewhat uncharacteristically, and said "Could I show you how to throw that?" They handed it over. I said aloud I hadn't thrown a boomerang in a long time. Then I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I hand the boomerang back, "Now you try." The kid copies my technique and it flies out in a beautiful wide arc, curving up and around --- and then gets stuck in a tree.
     
 ---
     
@@ -132,19 +132,22 @@ I laugh aloud. It is amazing how plots and storylines unfold automatically. And 
     
 ---
     
-The last twitter post did not generate buzz. There is no response and practically no views. That's probably a sign that nothing unexpected had been discovered. The server rejected my submission because it was unacceptable. So I edit the snippet and reduce the complexity bit by bit. Until, boom, 200 Status code. The problem was invalid timeline values and too many shapes. There is a limit to how complex animations may be. That's not surprising, in retrospect. I was a fool.
+The post about the 500 Error did not generate buzz. There is no resply and practically no views. Maybe I hadn't discovered anything unexpected. The server rejected my submission because it was unacceptable.
+
+So I edit the snippet and reduce the complexity bit by bit, then resubmit, and eventually make a sucessful submission. The problem was invalid timeline values and too many shapes. There is a limit to how complex animations may be. That's not surprising, in retrospect. I was a fool.
     
-Reduce the shape count, stick to the available timeline, and change values randomly. Dividing (x,y) coordinates by a constant value results in an interesting effect. Changing the constant value between keyframes results in a beating effect. This is amazing, even if I do not know exactly how it works. [I submit it](https://www.creativelab5.com/s/31KE8L). 200 Status code, all good.
+I generate a bunch to 2 coordinate points, add random handles, and divide (x,y) coordinates by a constant value. The result look like fireworks. This is amazing, even if I do not know exactly how it works. 
     
 ![burst][burst]
-[code](https://github.com/goeiebook/creativelab/blob/master/snippets/31KE8L.js)
+
+[live](https://www.creativelab5.com/s/31KE8L) [code](https://github.com/goeiebook/creativelab/blob/master/snippets/31KE8L.js)
     
 ---
     
-Over the last few days I've spent quite a bit of time bouncing the white ball. Aside from becoming better at manipulating it, I'm also beginning to notice details of its character. Such as the sound through different environments. For example, [this is what it sounds like](https://youtu.be/8KXGaB3PApY) when walking through a viaduct tunnel.
+Over the last few days I've spent quite a bit of time bouncing the white ball. Aside from becoming better at manipulating it, I'm also beginning to notice character details. Such as the sound of it bouncing through different environments. My favorites are the sounds it makes when bounced in a pubble (splat), and the long reverberations in a viaduct tunnel.
     
 ![spectrogram of a tunnel bounce][tunnelbounce]
-    
+[listen](https://youtu.be/8KXGaB3PApY)
 ---
     
 Dividing two dimensional coordinates by a third number is essentially perspective projection. I remember reading that once in a tutorial on 3D graphics. It's not something one really needs to know, because toolkits like ThreeJS take care of it for you. But with some disciplined application, perhaps 3D things could be coaxed from the Creative Lab 5 application. Maybe a few more profile views could be generated. Ah hell, I'm getting addicted.
