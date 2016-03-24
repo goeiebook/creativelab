@@ -117,12 +117,16 @@ A whole set of possibilities were in mind. Animations could be made without havi
 
 ```javascript
 function clearShapes() {
-    var boardStateString = window.localstorage.getItem('boardStates');
-    var boardState = JSON.parse(boardStateString);
+    var boardStateString =
+        window.localstorage.getItem('boardStates');
+    
+    var boardState = 
+        JSON.parse(boardStateString);
     
     boardState.shapes = [];
-    boardStateString = JSON.stringify(boardState);
-    window.localstorage.setItem('boardStates', boardStateString);
+    
+    window.localstorage.setItem('boardStates',
+        JSON.stringify(boardState));
 }
 
 ```
