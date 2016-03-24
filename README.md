@@ -43,52 +43,29 @@ The 'shapes' key is where the most interesting details are. Keyframes, stroke an
 
 ```javascript
 {
-    "shapes": [
-        {
-            "break": false,
-            "duped": false,
-            "fillColor": "#4285f4",
-            "hierarchyIndex": null,
-            "isLine": false,
-            "keyframes": [
-                {
-                    "ease": "easeInOutExpo",
-                    "fillColor": "#4285f4",
-                    "handlesMoved": true,
-                    "state": {
-                        "handleIn": [
-                            [
-                                "Point",
-                                16.9011,
-                                6.97627
-                            ],
-                        ],
-                        "handleOut": [
-                            [
-                                "Point",
-                                -16.9011,
-                                -6.97627
-                            ],
-                        ],
-                        "point": [
-                            [
-                                "Point",
-                                456.21216,
-                                287.17157
-                            ],
-                        ]
-                    },
-                    "strokeColor": "#4285f4",
-                    "strokeWidth": 1,
-                    "time": 0
-                }
-            ],
-            "numSides": 8,
-            "strokeColor": "#4285f4",
-            "strokeWidth": 1
-        }
-        
-    ]
+  "shapes": [{
+    "break": false,
+    "duped": false,
+    "fillColor": "#4285f4",
+    "hierarchyIndex": null,
+    "isLine": false,
+    "keyframes": [{
+        "ease": "easeInOutExpo",
+        "fillColor": "#4285f4",
+        "handlesMoved": true,
+        "state": {
+            "handleIn": [["Point", 16.9011, 6.97627]],
+            "handleOut": [["Point",-16.9011, -6.97627]],
+            "point": [["Point",456.21216, 287.17157]]
+        },
+        "strokeColor": "#4285f4",
+        "strokeWidth": 1,
+        "time": 0
+    }],
+    "numSides": 8,
+    "strokeColor": "#4285f4",
+    "strokeWidth": 1
+  }]
 }
 
 ```
