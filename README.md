@@ -1,6 +1,6 @@
 ## Discovery Requires Circumstance
     
-Stories begin with a set of circumstances. I heard about Google Creative Lab while trying to promote myself. [A retweet](https://twitter.com/PRHDigital/status/707503572733313024) via @editionsatplay mentions a new Creative Lab 5 site. What is that?
+Stories begin with a set of circumstances. I heard about Google Creative Lab while trying to promote myself. Then [A retweet](https://twitter.com/PRHDigital/status/707503572733313024) via @editionsatplay mentions a new Creative Lab 5 site. What is that?
     
 ![the application site][default]
     
@@ -180,7 +180,7 @@ Equipped with javascript snippets, experimentation becomes much more productive.
 
 ---
 
-I found the basketball, hidden in undergrowth. I smiled and reached out to pick it up. But something was wrong. It had been stabbed. Disgusted, I dropped it and walked away. A few hours later I thought I should take a picture of it. Because it seems I'm beginning to write a story now, about code and circumstance. And the basketball was part of that now. So I walked back to the park and photographed the ball. Then I picked it up and dropped it into a garbage can. The garbage can stank like bagged dog shit.
+I found the basketball, hidden in undergrowth. I smiled and reached out to pick it up. But something was wrong. It had been stabbed. Disgusted, I dropped it and walked away. A few hours later I thought I should take a picture of it. Because it seems I'm beginning to write a story now, about code and circumstance. And the basketball played a key role. So I walked back to the park and photographed the ball. Then I picked it up and dropped it into a garbage can. The garbage can stank like dog shit.
 
 ![stabbed basketball][brokenball]
 
