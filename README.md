@@ -158,7 +158,7 @@ Reduce the shape count, stick to the available timeline, and change values rando
 
 ---
 
-Over the last few days I've spent quite a bit of time bouncing the white ball. Certain aspects of it are becoming beautiful. The sound, for instance, depends on the surroundings. When I pass through a viaduct tunnel, the echoes are mesmerizing.
+Over the last few days I've spent quite a bit of time bouncing the white ball. Aside from becoming better at manipulating it, I'm also beginning to notice details of its character. Such as its sound in different environments. For example, [this is what it sounds like](https://youtu.be/8KXGaB3PApY) when walking through a viaduct tunnel.
 
 ![spectrogram of a tunnel bounce][tunnelbounce]
 
