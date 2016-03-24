@@ -86,7 +86,7 @@ The [jq](https://stedolan.github.io/jq/) tool is excellent, BTW. This workflow i
     
 ---
     
-Now I'd been in the coffee shop for an hour, and according to decorum it was time to leave. I packed up and walked to a different shop. The route goes through a park. Spring was in the air. Two kids were trying to throw a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. I approached them, somewhat uncharacteristically, and said "Could I show you how to throw that?" They handed it over. I said aloud I hadn't thrown a boomerang in a long time. Then I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I hand the boomerang back, "Now you try." The kid copies my technique and it flies out in a beautiful wide arc, curving up and around --- and then gets stuck in a tree.
+Now I'd been in the coffee shop for an hour, and according to decorum it was time to leave. I packed up and walked to a different shop. The route goes through a park. Spring was in the air. Two kids were throwing a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. I approached them, somewhat uncharacteristically, and said "Could I show you how to throw that?" They handed it over. I said aloud something about not having thrown a boomerang in a long time. Then I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I hand the boomerang back, "Now you try." The kid copies my technique and it flies out in a wide arc, curving up, around --- and then gets stuck in a tree.
     
 ---
     
