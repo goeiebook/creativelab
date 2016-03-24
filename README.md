@@ -120,7 +120,7 @@ Now we're talking. Right-click->Run. That's fun. And now we go wild, bull in a c
     
 ![what a mess][mess]
     
-I'm eager to publish this. I click the submit button, sign my "Cover Letter", and wait. The request fails. Try again. Fails. [500 Server Error](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_Server_Error). The animation works locally, but is trapped here. Unshareable. This must means I've discovered another "Break It" feature! I tweet about it to the #creativelab5 people; expecting another 1000% increase in profile views.
+I'm eager to publish this. I click the submit button, sign my "Cover Letter", and wait. The request fails. Try again. Fails. [500 Server Error](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_Server_Error). The animation works locally, but remains trapped there. Unshareable. This must mean I've discovered another "Break It" feature! I tweet about it to the #creativelab5 people; expecting another 1000% increase in profile views.
     
 ![what a mess][500error]
     
@@ -130,15 +130,15 @@ The following morning I walked past the tree that caught the boomerang. The boom
     
 ![boomerang replacement][basketball]
     
-I laughed aloud. It is amazing how plots and storylines unfold automatically. And there is fractal similarity. I mean, this is like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). No writer is necessary. These are my thoughts while I bounce my rubber ball along the sidewalk. I wonder what will happen tomorrow. I know the story will evolve. I hope it will take another humerous turn.
+I laughed aloud. It is amusing how plots and storylines unfold automatically. And there is fractal similarity. I mean, this is like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). No writer is necessary. These are my thoughts while I bounce my rubber ball along the sidewalk. I wonder what will happen tomorrow. I know the story will evolve. I hope it will take another humerous turn.
     
 ---
     
-The post about the 500 Error did not generate buzz. No replies, and no views gathered. Maybe it's because I hadn't discovered anything unexpected. The server rejected my submission because it was unacceptable, and that's expected.
+The post about the 500 Error did not generate buzz. No replies, and no views gathered. Maybe it's because it wasn't anything unexpected. The server rejected the submission because it was unacceptable, and that's expected.
 
-To narrow down the problem I edit the snippet; reducing the complexity bit by bit, then resubmit, until eventually the submission goes through. The problem was invalid timeline values and too many shapes. There is a limit to how complex animations may be. That's not surprising, in retrospect. I was a fool.
+To narrow down the problem I edit the snippet; reducing the complexity bit by bit, resubmit, and repeat, until eventually the submission goes through. The problem was invalid timeline values and too many shapes. There is a limit to how complex animations may be. That's not surprising, in retrospect. I was a fool.
     
-Now I start with a clean snippet and generate a bunch to 2 coordinate points. Add some random handles, add some random trigometric functions. Divide coordinates by a constant value. And the result looks like fireworks. This is amazing. I do not know exactly how it works, but to an outsider it would not seem that way. 
+Now I start with a clean snippet and generate a set of 2d coordinate points. Add some random handles, add some random trigometric functions. Divide coordinates by a constant value. And the result looks like fireworks. This is amazing. I do not know exactly how it works, but to an outsider it would seem designed. 
     
 ![burst][burst]
 
@@ -167,11 +167,11 @@ The basketball vanished. It was nowhere to be seen. Sometimes stories just end, 
 
 Some unexpected side-effects emerged while playing with the white ball. Strangers on the street would smile and greet. "Hello", "Nice day", and so on. I won't pretend to understand why that was happening, so far as the neurochemical explanation might be. But I can imagine its usefulness. It could be used as a confidence trick.
 
-Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Hello, how are you, etc. About ten minutes later he had $200 of my dollars in his pocket. He had conned me with a story about his baby daughter needing money for medication. He said I could stay in his house in Israel, should I ever be around. He gave me a number I immediately recognized as fake, but I continued to play into his hands. I felt very stupid, but ever since I've been more aware of the signals confidence generate. 
+Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Shalom, shalom. About ten minutes later he had $200 of my dollars in his pocket. Something about his baby daughter needing money for medication. He said I could stay in his house in Tel Aviv, should I ever be around. He gave me a number I immediately recognized as fake, but I continued to play into his hands. I felt very stupid, but ever since I've been more aware of the signals confidence generates. 
 
 ---
 
-Equipped with javascript snippets, experimentation becomes much more productive. I produce several animations and spam the #creativelab5 hashtag. In addition, I'm using a third party library named [TinyColor](https://bgrins.github.io/TinyColor/), which resides in  it's own snippet. Profile views continue to climb, a 2335% increase since last month. Heady days. This rush of serotonin is normal. It's what feeds the world.
+Equipped with javascript snippets, experimentation becomes much more productive. I'm able to rapidly produce several animations, which are then and spammed to #creativelab5 hashtag. In addition, I'm using a third party library named [TinyColor](https://bgrins.github.io/TinyColor/), which resides in  it's own snippet. Profile views continue to climb, a 2335% increase since last month. Heady days. This serotonin rush is normal. It's what feeds the world.
 
 ![cWcMsq][cWcMsq] ![alZcsx][alZcsx] ![shv7V4][shv7V4]
 
@@ -183,11 +183,11 @@ I found the basketball, hidden in the undergrowth. It had been stabbed.
 
 ---
 
-Suddenly the workflow stops working. A modified localstorage structure no longer persists when the page is reloaded. Is there a parallel to the fate of the basketball? Have the Creative Lab staff closed a hole? In an attempt to understand what's happening, I open the source code and read. It's an enormous file. It is not obfuscated, but contains a lot of noise. Chrome Dev Console slows to a crawl converting the code to a readable format. Text search for 'boardStates', and find:
+Suddenly the workflow stops working. A modified localstorage structure no longer persists when the page is reloaded. Is there a parallel to the fate of the basketball? Have the Creative Lab staff closed a hole? In an attempt to understand what's happening, I open the source code and read. It's a large file. Not obfuscated, but noisey. Chrome Dev Console slows to a crawl converting the code to a readable format. Text search for 'boardStates', and find:
 
 ![this is useful][setstage]
 
-`setStageFromLocal()` ... Was that always there? Invoking the function immediately populates the localstorage structure and displays it. And, more importantly, it persits across reloads. Why did I not think of looking this function before? To what else am I blind?
+`setStageFromLocal()` ... Was that always there? Invoke the function and the stage populates with what's in local storage. And, more importantly, it persits across reloads. Why did I not think of looking for this before? What else am I blind to?
 
 [default]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/default.jpg
