@@ -70,7 +70,7 @@ The 'shapes' key is where the important details are. Keyframes, stroke and fill 
     
 ```
     
-That example doesn't do much. But [this one](https://github.com/goeiebook/creativelab/blob/master/json/simple.json), has all the shapes removed except the first one in the list. Paste this string into local storage, reload the page, click the 'Continue' button --- Voila!
+That example is just to show the structure. [This example](https://github.com/goeiebook/creativelab/blob/master/json/simple.json), has all the shapes but one of the shapes removed. Paste the string into local storage, reload the page, click the 'Continue' button --- Voila!
     
 ![simple circle, er, I mean a G.][simplified]
     
@@ -140,14 +140,15 @@ I generate a bunch to 2 coordinate points, add random handles, and divide (x,y) 
     
 ![burst][burst]
 
-[live](https://www.creativelab5.com/s/31KE8L) [code](https://github.com/goeiebook/creativelab/blob/master/snippets/31KE8L.js)
+[live](https://www.creativelab5.com/s/31KE8L). [code](https://github.com/goeiebook/creativelab/blob/master/snippets/31KE8L.js).
     
 ---
     
 Over the last few days I've spent quite a bit of time bouncing the white ball. Aside from becoming better at manipulating it, I'm also beginning to notice character details. Such as the sound of it bouncing through different environments. My favorites are the sounds it makes when bounced in a pubble (splat), and the long reverberations in a viaduct tunnel.
     
 ![spectrogram of a tunnel bounce][tunnelbounce]
-[listen](https://youtu.be/8KXGaB3PApY)
+[listen](https://youtu.be/8KXGaB3PApY).
+
 ---
     
 Dividing two dimensional coordinates by a third number is essentially perspective projection. I remember reading that once in a tutorial on 3D graphics. It's not something one really needs to know, because toolkits like ThreeJS take care of it for you. But with some disciplined application, perhaps 3D things could be coaxed from the Creative Lab 5 application. Maybe a few more profile views could be generated. Ah hell, I'm getting addicted.
@@ -155,10 +156,16 @@ Dividing two dimensional coordinates by a third number is essentially perspectiv
 So it goes, into the small hours of the morning. Setting handle values to 0's results in right angles. Reading on Wikipedia about projective projection and the importance of a focal length parameter. Be aware that if your z coorindate is zero, you'll be dividing by zero. If your z-coordinate is less than zero things are going to turn upside down (this fact bends my non-mathematical mind). And then, suddenly, [everything works](https://www.creativelab5.com/s/uNwej3). 
     
 ![boxillusion][uNwej3]
-    
+
+[live](https://www.creativelab5.com/s/uNwej3). [code](https://github.com/goeiebook/creativelab/blob/master/snippets/uNwej3.js).
+
 ---
 
-The basketball is not in the tree. It's not on the ground around the tree. Sometimes stories just end. If I could write fiction then an inventive elaboration could be made. Maybe a bird adopted the basketball.
+The basketball is not in the tree. It's not on the ground around the tree. Sometimes stories just end. Maybe it could be continued as fiction. A bird took the basketball.
+
+There has been an unexpected side-effect to playing with the white ball in public. Strangers now smile and we will frequenly exhange a greeting. "Hello", "Nice day", and so on.  I won't pretend to understand why this is happening, but I can imagine its usefulness. It could be used as a confidence trick.
+
+Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Hello, how are you, etc. About ten minutes later he had $200 of my dollars in his pocket. He had conned me with a story about his daughter needing money for medication. He gave me a number I immediately recognized as fake, but I continued to play into his hands. I felt very stupid, but ever since then confidence signals have have been amplified. 
 
 ---
 
