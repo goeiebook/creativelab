@@ -118,7 +118,7 @@ Now we're talking. Right-click->Run. That's fun. And now we go overboard, copy-p
     
 ![what a mess][mess]
     
-I'm eager to publish this. I click the submit button, sign my "Cover Letter", and wait. The request fails. Try again. Fails again. 500 Server Error. So it works locally, but I'm unable to share the results. This must means I've discovered another "Break It" feature! I tweet about it to the #creativelab5 people; expecting another 1000% increase in profile views.
+I'm eager to publish this. I click the submit button, sign my "Cover Letter", and wait. The request fails. Try again. Fails. [500 Server Error](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_Server_Error). So it works locally, but I'm unable to share the results. This must means I've discovered another "Break It" feature! I tweet about it to the #creativelab5 people; expecting another 1000% increase in profile views.
     
 ![what a mess][500error]
     
@@ -132,7 +132,7 @@ I laugh aloud. It is amazing how plots and storylines unfold automatically. And 
     
 ---
     
-The post about the 500 Error did not generate buzz. There is no resply and practically no views. Maybe I hadn't discovered anything unexpected. The server rejected my submission because it was unacceptable.
+The post about the 500 Error did not generate buzz. No replies, and no views garnered. Maybe I hadn't discovered anything unexpected. The server rejected my submission because it was unacceptable, and that's expected.
 
 So I edit the snippet and reduce the complexity bit by bit, then resubmit, and eventually make a sucessful submission. The problem was invalid timeline values and too many shapes. There is a limit to how complex animations may be. That's not surprising, in retrospect. I was a fool.
     
