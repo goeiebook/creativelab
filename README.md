@@ -70,7 +70,7 @@ The 'shapes' key is where the most interesting details are. Keyframes, stroke an
 
 ```
 
-With a chunk of data like this, the first step is to try and reduce complexity. [This JSON structure](https://github.com/goeiebook/creativelab/blob/master/json/simple.json), for example, has all the shapes removed except the first one in the list. Paste this string into local storage, reload the page, click the 'Continue' button --- Voila!
+That's example doesn't do much. But [this one](https://github.com/goeiebook/creativelab/blob/master/json/simple.json), has all the shapes removed except the first one in the list. Paste this string into local storage, reload the page, click the 'Continue' button --- Voila!
 
 ![simple circle, er, I mean a G.][simplified]
 
