@@ -84,7 +84,7 @@ Encouraged, I editing the JSON hapazardly. Like combinatorial chemistry, stochas
 4. ```jq -c . simple.json | pbcopy```
 5. Select boardStates field, CMD-v, reload page.
     
-The workflow is inefficient, but already better than using the Techno Crab's penTool.
+The workflow is inefficient, but already better than using the Techno Crab's `activatePen(104743);` or `penToolActivated=true;`
     
 ---
     
@@ -110,7 +110,7 @@ function clearShapes() {
 
 ```
 
-That's a pretty simple example. And it duplicates functionality already present in the application (all.deleteAll()) But demonstrates how code can be stored in a function, then used to automate functionality.
+That's a pretty simple example. And it duplicates functionality already present in the application (`all.deleteAll()`) But demonstrates how code can be stored in a function, then used to automate functionality.
     
 The problem is that the page must be reloaded in order to load the data from local storage. Which means you loose the javascript context, which means you must re-enter the code. Faced with this problem, a bit of searching reveals: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
     
@@ -183,11 +183,11 @@ I found the basketball, hidden in the undergrowth. It had been stabbed.
 
 ---
 
-Suddenly the workflow stops working. A modified localstorage structure no longer persists when the page is reloaded. Is there a parallel to the fate of the basketball? Have the Creative Lab staff closed a hole? In an attempt to understand what's happening, I open the source code and read. It's an enormous file. It is not obfuscated, but contains a lot of noise. Chrome Dev Console slows to a crawl while converting to the code to a readable format. Text search for 'boardStates', and find:
+Suddenly the workflow stops working. A modified localstorage structure no longer persists when the page is reloaded. Is there a parallel to the fate of the basketball? Have the Creative Lab staff closed a hole? In an attempt to understand what's happening, I open the source code and read. It's an enormous file. It is not obfuscated, but contains a lot of noise. Chrome Dev Console slows to a crawl converting the code to a readable format. Text search for 'boardStates', and find:
 
 ![this is useful][setstage]
 
-Was that always there? Invoking the function immediately populates the localstorage structure and displays it. And, more importantly, it persits across reloads. Why did I not think of looking this function before? To what else am I blind?
+`setStageFromLocal()` ... Was that always there? Invoking the function immediately populates the localstorage structure and displays it. And, more importantly, it persits across reloads. Why did I not think of looking this function before? To what else am I blind?
 
 [default]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/default.jpg
