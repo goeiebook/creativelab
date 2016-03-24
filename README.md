@@ -180,7 +180,7 @@ Equipped with javascript snippets, experimentation becomes much more productive.
 
 ---
 
-I found the basketball, hidden in undergrowth. I smiled and reached out to pick it up. But something was wrong. It had been stabbed. Disgusted, I dropped it and walked away. A few hours later I thought I should take a picture of it. Because it seems I'm beginning to write a story now, about code and circumstance. And the basketball played a key role. So I walked back to the park and photographed the ball. Then I picked it up and dropped it into a garbage can. The garbage can stank like dog shit.
+I found the basketball, hidden in undergrowth. I smiled and reached out to pick it up. But something was wrong. It had been stabbed. Disgusted, I dropped it and walked away. A few hours later I thought I should take a picture of it. Because it seems a story is beginning to form, about code and circumstance. And the basketball played a key role. So I walked back to the park and photographed the ball. Then I picked it up and dropped it into a garbage can. The garbage can stank like dog shit.
 
 ![stabbed basketball][brokenball]
 
