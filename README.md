@@ -1,39 +1,39 @@
 ## Discovery Requires Circumstances
     
-Stories begin with a set of circumstances. I heard about Google Creative Lab while trying to promote myself. The chain of events went like this: There's a new divison of the Play Store for unprintable books. I tweet at the tweet at the account. They like my tweet. I subscribe to their channel. A few days later they retweet something about the new Creative Lab 5 site. What is it?
+Stories begin with a set of circumstances. I heard about Google Creative Lab while trying to promote myself. A retweet from @digitaleditions mentions a new Creative Lab 5 site. What is that?
     
 ![the application site][default]
     
     
-A one year paid program, looking for new applicants. [The application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" And the form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a hidden puzzle. Solving the puzzle yields a "Techno Crab" badge. I feel brilliant. I'm going to be admitted to a club of geniuses. I complete the application with a short film titled "Idempotent", and send it off.
+A one year paid program, looking for new applicants. [The application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" And the form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a secret puzzle. [Solving the puzzle](https://github.com/mhipley/creativelab5/wiki/The-Google-Creative-Lab-5-Cheat-Sheet) yields a "Techno Crab" badge. I feel brilliant. I'm going to be admitted to a club of geniuses. I complete the application with a short film titled "Idempotent", and send it off.
     
 Idempotent. So clever. A shoo-in for sure.
     
-A day elapses. Then another. My ego wanes. I revisit my application, to assure myself of it's brillance. But, [It's broken](https://www.creativelab5.com/s/puukkz). It doesn't play as designed, and the dev console shows an error. This is disappointing. Searching twitter for the #creativelab5 hashtag turns up the account of one of the designers. [I tweet to him](https://twitter.com/Andrew_Herzog/status/708081805103144960), and point out my application is broken. 
+A day elapses. Then another. My ego wanes. I revisit my application, to assure myself, but [it's broken](https://www.creativelab5.com/s/puukkz). The animation doesn't play as designed, and the dev console shows an error. This is disappointing. Searching twitter for the #creativelab5 hashtag turns up the account of one of the designers. [I tweet to him](https://twitter.com/Andrew_Herzog/status/708081805103144960), and point it out. 
     
 ![the response][tweet]
     
-Is that sarcasm? This is confusing. I'm not a very social creature. But then something unanticipated happens: profile views. Dozens. My six month old twitter account was getting attention. Twitter analytics claimed profile views were up by 1000%.
+Is that sarcasm? This is confusing. But then something unanticipated happens: profile views. Dozens of them. Twitter analytics stated my profile views were up by 1000%.
     
 ---
     
-Winter was finally coming to a close. The snow began to melt. When snow melts it leaves a distinctive aftermath. Little piles of gravel, salt, and soggy cigarette butts. Like glacial till; with snowplow scars and single wet mittens.
+Winter was finally coming to a close. The snow began to melt. When snow melts it leaves a distinctive aftermath. Piles of gravel, salt, and soggy cigarette butts. Like glacial till; with snowplow scars and single wet mittens.
     
-I saw a rubber ball where a snowbank used to be. I picked it up. Solid rubber, white, with a grey splotch. A lot of bounce. A dog toy. I put it in my pocket and took it with me. While walking, I thought of [tweet about the ball](https://twitter.com/goeiebook/status/709378927219728384). And realized I should carry the ball with me at all times. Because if you carry a thing like this with you at all times, you're bound to discover something new.
+In a pile of detritus I found a rubber ball. I picked it up. Solid rubber, white, with a grey splotch. A lot of bounce. A dog toy. I put it in my pocket. While walking, I thought to [tweet about the ball](https://twitter.com/goeiebook/status/709378927219728384). And I formed a plan to carry the ball with me at all times. Because if you carry a thing like this with you at all times, you're bound to discover something new.
     
 ---
     
-Checking analytics is addictive. More so when more signal than noise. [Here's a Bansky for that][bansky]. I was king of the #creativelab5 hashtag. The submissions of other applicants were bland, like mine. But none were broken, like mine. And then up pops [this masterpiece](https://www.creativelab5.com/s/pnMGi5).
+Checking analytics is addictive. Especially when there is more signal than noise. [The alternative is less fun.][bansky]. For now I was king of the #creativelab5 hashtag. I watched the live feed relish, comparing the the submissions of other applicants to mine. They were bland, like mine; but none were broken, like mine. And none had the Techno Crab stamp. Then up pops [this masterpiece](https://www.creativelab5.com/s/pnMGi5).
     
 ![the both submission][both]
     
-Such excellent presentation, casual phrasing, and three images showing the design process. All the other submissions look pale.
+I darkened. Such excellent presentation, casual phrasing, and three images showing the design process. All the other submissions look pale.
     
 Stay cool, Abrie. You can learn a lot from guys like this.
     
-Immediately open up the site and look deeper. How did Both make this thing? The Techno Crab mode unlocks additional tools: a pen tool, gradients, stroke control. But they are difficult to use. The anchor tool doesn't seem to work. The vertex manipulators are tiny and aggravating. The play bar disappears at inconvienent times, then reappears at an even more inconvienient time. Heavy CPU usage causes my Macbook's fan to spin at top speed. This UI has some serious issues. But apparently it did not hold Both back. 
+Immediately open up the site and look deeper. How did Both make this thing? The Techno Crab mode unlocks additional tools: a pen tool, gradients, stroke control. But they are difficult to use. The anchor tool doesn't seem to work. The vertex manipulators are tiny and aggravating. The play bar disappears at inconvienent times, then reappears at an even more inconvienient time. The pen is tool is terrible, and heavy CPU usage causes my Macbook's fan to whine. But apparently none of these issues held Both back. 
     
-The Chrome Dev console helpfully remembers everything you enter, including mistakes and typos. The suggestion list becomes polluted after a bit of poking around. Annoyed by this, I begin to searching the menus for a remedy. And, as it turns out, the remedy is non-trivial. But during the process I stumble onto the Resources Tab, which has an entry named Local Storage. [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage). And the CreativeLab5 site appears to use it: 
+The Chrome Dev console remembers everything you enter, including mistakes and typos. At first this is helpful, but soon it becomes pollution. Annoyed by this, I begin to searching Chrome's menus for a remedy. And, as it turns out, the remedy is non-trivial. But in the process I stumble onto the [Resources Panel](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/), which has an entry named Local Storage. [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage). And the CreativeLab5 site appears to use it: 
     
 ![local storage editor][localstorage]
     
@@ -70,11 +70,13 @@ The 'shapes' key is where the important details are. Keyframes, stroke and fill 
     
 ```
     
-That example is just to show the structure. [This example](https://github.com/goeiebook/creativelab/blob/master/json/simple.json), has all the shapes but one of the shapes removed. Paste the string into local storage, reload the page, click the 'Continue' button --- Voila!
+Erasing all of the shape data except for one entry yeilds [this JSON](https://github.com/goeiebook/creativelab/blob/master/json/simple.json). When pasted into the local storage field, nothing happens. But when the page is reloaded, the storage is structure is deserialized and --- Voila!
     
 ![simple circle, er, I mean a G.][simplified]
     
-[Here it is, live](https://www.creativelab5.com/s/m3JEdl). Encouraged, I began to edit the JSON hapazardly. The workflow went like this:
+[code](https://www.creativelab5.com/s/m3JEdl).
+
+Encouraged, I editing the JSON hapazardly. Like combinatorial chemistry, stochastic search, or percussive repair. The workflow went like this:
     
 1. Select boardStates field, CMD-c, shift-tab to terminal
 2. ```pbpaste | python -m json.tool > pretty.json```
@@ -82,15 +84,15 @@ That example is just to show the structure. [This example](https://github.com/go
 4. ```jq -c . simple.json | pbcopy```
 5. Select boardStates field, CMD-v, reload page.
     
-The [jq](https://stedolan.github.io/jq/) tool is excellent, BTW. This workflow is inefficient, but already better than using the Techno Crab's penTool.
+The workflow is inefficient, but already better than using the Techno Crab's penTool.
     
 ---
     
-Now I'd been in the coffee shop for an hour, and according to decorum it was time to leave. I packed up and walked to a different shop. The route goes through a park. Spring was in the air. Two kids were throwing a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. I approached them, somewhat uncharacteristically, and said "Could I show you how to throw that?" They handed it over. I said aloud something about not having thrown a boomerang in a long time. Then I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I hand the boomerang back, "Now you try." The kid copies my technique and it flies out in a wide arc, curving up, around --- and then gets stuck in a tree.
+Now I'd been in the coffee shop for an hour, and decorum suggested that it was time to leave. I packed up and walked to a different shop. The route goes through a park. Spring was near. Two kids were throwing a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. I approached them, somewhat uncharacteristically, and said "Could I show you how to throw that?" They handed it over. I said something about not having thrown a boomerang in a long time. Then I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I handed the boomerang back, "Now you try." The kid copied my technique and it flew out in a wide arc, curved up, around --- and then got stuck in a tree.
     
 ---
     
-A whole set of possibilities were in mind. Animations could be made without having to use the clumsy Google Creative Lab 5 UI. But, this manual copy-pasting was tiring and error prone. A more programmatic workflow would be better. The dev console's command prompt could help. A series of commands like this, for example, will erase all the shapes:
+With the data structure exposed, a whole set of possibilities were in mind. Animations could be made without having to use the clumsy Google Creative Lab 5 UI. But, the manual copy-pasting was tiring and error prone. A more programmatic workflow would be better. The dev console's command prompt could help. A series of commands like this, for example, would provide a mechanisim for erasing all the shapes:
     
 ```javascript
 function clearShapes() {
@@ -108,35 +110,35 @@ function clearShapes() {
 
 ```
 
-That's a pretty simple example. But it shows that code can be saved into a function, and then use to clear the stage with a single command: clearShapes();
+That's a pretty simple example. And it duplicates functionality already present in the application (all.deleteAll()) But demonstrates how code can be stored in a function, then used to automate functionality.
     
-But the page must be reloaded in order to load the data from local storage. Which means you loose the javascript context, and then have to re-enter the code. Faced with this problem, a bit of searching reveals: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
+The problem is that the page must be reloaded in order to load the data from local storage. Which means you loose the javascript context, which means you must re-enter the code. Faced with this problem, a bit of searching reveals: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
     
 ![the snippets panel][snippets]
     
-Now we're talking. Right-click->Run. That's fun. And now we go overboard, copy-pasting blocks of code to generate arrays of shapes and colors. What did those handleIn/handleOut parameters do? Whatever it was, it was interesting. The results became excessive and messy, but I was proud of the result. Even if it wasn't totally clear how the code worked.
+Now we're talking. Right-click->Run. That's fun. And now we go wild, bull in a china shop, copy-pasting blocks of code to generate arrays of shapes and colors. What did those handleIn/handleOut parameters do? Whatever it was, it was interesting. The results became excessive and messy. But I was proud of the result. Even if it wasn't totally clear how the code worked.
     
 ![what a mess][mess]
     
-I'm eager to publish this. I click the submit button, sign my "Cover Letter", and wait. The request fails. Try again. Fails. [500 Server Error](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_Server_Error). So it works locally, but I'm unable to share the results. This must means I've discovered another "Break It" feature! I tweet about it to the #creativelab5 people; expecting another 1000% increase in profile views.
+I'm eager to publish this. I click the submit button, sign my "Cover Letter", and wait. The request fails. Try again. Fails. [500 Server Error](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_Server_Error). The animation works locally, but is trapped here. Unshareable. This must means I've discovered another "Break It" feature! I tweet about it to the #creativelab5 people; expecting another 1000% increase in profile views.
     
 ![what a mess][500error]
     
 ---
     
-The following morning I walk through the park and pass the tree that caught the boomerang. The boomerang was gone. But now there was a basketball up there. 
+The following morning I walked past the tree that caught the boomerang. The boomerang wasn't there anymore. It had been replaced by a basketball. 
     
 ![boomerang replacement][basketball]
     
-I laugh aloud. It is amazing how plots and storylines unfold automatically. And then there is the fractal similarity. I mean, this is like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). No writer is necessary. These are my thoughts while I bounce my rubber ball along the sidewalk. I wonder what will happen tomorrow. With a bit of luck the story will become even better.
+I laughed aloud. It is amazing how plots and storylines unfold automatically. And there is fractal similarity. I mean, this is like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). No writer is necessary. These are my thoughts while I bounce my rubber ball along the sidewalk. I wonder what will happen tomorrow. I know the story will evolve. I hope it will take another humerous turn.
     
 ---
     
-The post about the 500 Error did not generate buzz. No replies, and no views garnered. Maybe I hadn't discovered anything unexpected. The server rejected my submission because it was unacceptable, and that's expected.
+The post about the 500 Error did not generate buzz. No replies, and no views gathered. Maybe it's because I hadn't discovered anything unexpected. The server rejected my submission because it was unacceptable, and that's expected.
 
-So I edit the snippet and reduce the complexity bit by bit, then resubmit, and eventually make a sucessful submission. The problem was invalid timeline values and too many shapes. There is a limit to how complex animations may be. That's not surprising, in retrospect. I was a fool.
+To narrow down the problem I edit the snippet; reducing the complexity bit by bit, then resubmit, until eventually the submission goes through. The problem was invalid timeline values and too many shapes. There is a limit to how complex animations may be. That's not surprising, in retrospect. I was a fool.
     
-I generate a bunch to 2 coordinate points, add random handles, and divide (x,y) coordinates by a constant value. The result look like fireworks. This is amazing, even if I do not know exactly how it works. 
+Now I start with a clean snippet and generate a bunch to 2 coordinate points. Add some random handles, add some random trigometric functions. Divide coordinates by a constant value. And the result looks like fireworks. This is amazing. I do not know exactly how it works, but to an outsider it would not seem that way. 
     
 ![burst][burst]
 
@@ -144,14 +146,14 @@ I generate a bunch to 2 coordinate points, add random handles, and divide (x,y) 
     
 ---
     
-Over the last few days I've spent quite a bit of time bouncing the white ball. Aside from becoming better at manipulating it, I'm also beginning to notice character details. Such as the sound of it bouncing through different environments. My favorites are the sounds it makes when bounced in a pubble (splat), and the long reverberations in a viaduct tunnel.
+Three days with the white ball and discoveries begin to emerge. Aside from becoming better at manipulating it, I'm also begin to notice character details. Such as the sound of it bouncing through different environments. My favorites include the sound of it spashing in a buddle (which also substantially reduces the bounce), and the echoes it makes when bounced through a culvert.
     
 ![spectrogram of a tunnel bounce][tunnelbounce]
 [listen](https://youtu.be/8KXGaB3PApY).
 
 ---
     
-Dividing two-dimensional coordinates by a third number is foreshortening. It can be used for [perspective projection](https://en.wikipedia.org/wiki/3D_projection#Weak_perspective_projection), according to a tutorial I once read about 3D graphics. It's not something one really needs to know. Toolkits like [ThreeJS](http://threejs.org/) take care of it for you. But with some disciplined application, perhaps 3D things could be coaxed from the Creative Lab 5 application. Maybe a few more profile views could be generated. Ah hell, I'm getting addicted.
+Dividing two-dimensional coordinates by a third number is called foreshortening. It can be used for [perspective projection](https://en.wikipedia.org/wiki/3D_projection#Weak_perspective_projection). I learned about that while reading about 3D graphics. It's not something one really needs to know. Toolkits like [ThreeJS](http://threejs.org/) take care of it for you. But with some disciplined application, perhaps 3D things could be coaxed from the Creative Lab 5 application. Maybe a few more profile views could be generated. Ah hell, I'm getting addicted.
     
 So it goes, into the small hours of the morning. Setting handle values to 0's results in right angles. Reading on Wikipedia about projective projection and the importance of a focal length parameter. Be aware that if your z coorindate is zero, you'll be dividing by zero. If your z-coordinate is less than zero things are going to turn upside down (this fact bends my non-mathematical mind). And then, suddenly, [everything works](https://www.creativelab5.com/s/uNwej3). 
     
@@ -161,15 +163,17 @@ So it goes, into the small hours of the morning. Setting handle values to 0's re
 
 ---
 
-The basketball is not in the tree. It's not on the ground around the tree. Sometimes stories just end. Maybe it could be continued as fiction. A bird took the basketball.
+The basketball vanished. It was nowhere to be seen. Sometimes stories just end, I suppose. Maybe the story could be continued as fiction. A bird took the basketball.
 
-There has been an unexpected side-effect to playing with the white ball in public. Strangers now smile and we will frequenly exhange a greeting. "Hello", "Nice day", and so on.  I won't pretend to understand why this is happening, but I can imagine its usefulness. It could be used as a confidence trick.
+Some unexpected side-effects emerged while playing with the white ball. Strangers on the street would smile and greet. "Hello", "Nice day", and so on. I won't pretend to understand why that was happening, so far as the neurochemical explanation might be. But I can imagine its usefulness. It could be used as a confidence trick.
 
-Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Hello, how are you, etc. About ten minutes later he had $200 of my dollars in his pocket. He had conned me with a story about his daughter needing money for medication. He gave me a number I immediately recognized as fake, but I continued to play into his hands. I felt very stupid, but ever since then confidence signals have have been amplified. 
+Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Hello, how are you, etc. About ten minutes later he had $200 of my dollars in his pocket. He had conned me with a story about his baby daughter needing money for medication. He said I could stay in his house in Israel, should I ever be around. He gave me a number I immediately recognized as fake, but I continued to play into his hands. I felt very stupid, but ever since I've been more aware of the signals confidence generate. 
 
 ---
 
-I produce several animations and spam the #creativelab5 hashtag. Profile views continue to climb, a 2335% increase since last month. This rush of serotonin is normal. It's what feeds the world.
+Equipped with javascript snippets, I produce several animations and spam the #creativelab5 hashtag. I begin to use a third party library named [TinyColor](https://bgrins.github.io/TinyColor/). Profile views continue to climb, a 2335% increase since last month. Heady days, indeed. This rush of serotonin is normal. It's what feeds the world.
+
+![cWcMsq][cWcMsq] ![alZcsx][alZcsx] ![shv7V4][shv7V4]
 
 [default]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/default.jpg
@@ -208,3 +212,12 @@ https://raw.githubusercontent.com/goeiebook/creativelab/master/images/tunnelboun
     
 [uNwej3]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/uNwej3.gif
+
+[cWcMsq]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/cWcMsq.gif
+
+[alZcsx]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/alZcsx.gif
+
+[shv7V4]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/shv7V4.gif
