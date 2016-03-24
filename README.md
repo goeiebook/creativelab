@@ -33,7 +33,7 @@ Stay cool, Abrie. You can learn a lot from guys like this.
     
 Immediately open up the site and look deeper. How did Both make this thing? The Techno Crab mode unlocks additional tools: a pen tool, gradients, stroke control. But they are difficult to use. The anchor tool doesn't seem to work. The vertex manipulators are tiny and aggravating. The play bar disappears at inconvienent times, then reappears at an even more inconvienient time. The pen is tool is terrible, and heavy CPU usage causes my Macbook's fan to whine. But apparently none of these issues held Both back. 
     
-The Chrome Dev console remembers everything you enter, including mistakes and typos. At first this is helpful, but soon it becomes pollution. Annoyed by this, I begin to searching Chrome's menus for a remedy. And, as it turns out, the remedy is non-trivial. But in the process I stumble onto the [Resources Panel](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/), which has an entry named Local Storage. [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage). And the CreativeLab5 site appears to use it: 
+The Chrome Dev console remembers everything you enter, including mistakes and typos. At first this is helpful, but soon it becomes pollution. Annoyed by this, I begin to searching Chrome's menus for a remedy. And, as it turns out, the remedy is non-trivial. But in the process I stumble onto the [Resources Panel](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/), which has an entry named [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage). 
     
 ![local storage editor][localstorage]
     
