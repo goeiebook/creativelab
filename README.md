@@ -180,13 +180,13 @@ Equipped with javascript snippets, experimentation becomes much more productive.
 
 ---
 
-I found the basketball, hidden in the undergrowth. It had been stabbed.
+I found the basketball, hidden in undergrowth. I smiled and reached out to pick it up. But something was wrong. It had been stabbed. Disgusted, I dropped it and walked away. A few hours later I thought I should take a picture of it. Because it seems I'm beginning to write a story now, about code and circumstance. And the basketball was part of that now. So I walked back to the park and photographed the ball. Then I picked it up and dropped it into a garbage can. The garbage can stank like bagged dog shit.
 
 ![stabbed basketball][brokenball]
 
 ---
 
-Suddenly the workflow stops working. A modified localstorage structure no longer persists when the page is reloaded. Is there a parallel to the fate of the basketball? Have the Creative Lab staff closed a hole? In an attempt to understand what's happening, I open the source code and read. It's a large file. Not obfuscated, but noisey. Chrome Dev Console slows to a crawl converting the code to a readable format. Text search for 'boardStates', and find:
+Suddenly the workflow stops working. A modified localstorage structure no longer persists when the page is reloaded. Is there a parallel to the fate of the basketball? Have the Creative Lab staff closed a hole? In an attempt to understand what's happening, I open the source code and read. It's a large file. Not obfuscated, but noisy. Chrome Dev Console slows to a crawl converting the code to a readable format. Text search for 'boardStates', and find:
 
 ![this is useful][setstage]
 
