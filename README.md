@@ -173,7 +173,10 @@ Once, while waiting in a subway station, I was approached by a man. It started o
 
 Equipped with javascript snippets, experimentation becomes much more productive. I'm able to rapidly produce several animations, which are then and spammed to #creativelab5 hashtag. In addition, I'm using a third party library named [TinyColor](https://bgrins.github.io/TinyColor/), which resides in  it's own snippet. Profile views continue to climb, a 2335% increase since last month. Heady days. This serotonin rush is normal. It's what feeds the world.
 
-![cWcMsq][cWcMsq] ![aIZcsx][aIZcsx] ![shv7V4][shv7V4]
+[live](https://www.creativelab5.com/s/cWcMsq).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/cWcMsq.js).|[live](https://www.creativelab5.com/s/aIZcsx).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/aIZcsx.js).|[live](https://www.creativelab5.com/s/shv7V4).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/shv7V4.js).
+:-----------------:|:-----------------:|:-----------------:
+![cWcMsq][cWcMsq]  |![aIZcsx][aIZcsx]  |![shv7V4][shv7V4]
+
 
 ---
 
