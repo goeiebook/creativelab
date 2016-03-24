@@ -132,7 +132,7 @@ I laugh aloud. It is amazing how plots and storylines unfold automatically. And 
     
 ---
     
-The last twitter post did not generate buzz. There is no response and practically no views. That's probably a sign that I didn't break anything. Something about my submission was not acceptable to the server, and it was rejected. So I edit the snippet and reduce the complexity step by step. Until, boom, 200 Status code. The problem was invalid timeline values and too many shapes. There is a limit to how complex animations may be. That's not surprising, in retrospect. I feel foolish.
+The last twitter post did not generate buzz. There is no response and practically no views. That's probably a sign that nothing unexpected had been discovered. The server rejected my submission because it was unacceptable. So I edit the snippet and reduce the complexity bit by bit. Until, boom, 200 Status code. The problem was invalid timeline values and too many shapes. There is a limit to how complex animations may be. That's not surprising, in retrospect. I was a fool.
     
 Reduce the shape count, stick to the available timeline, and change values randomly. Dividing (x,y) coordinates by a constant value results in an interesting effect. Changing the constant value between keyframes results in a beating effect. This is amazing, even if I do not know exactly how it works. [I submit it](https://www.creativelab5.com/s/31KE8L). 200 Status code, all good.
     
