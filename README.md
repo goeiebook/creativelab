@@ -1,11 +1,11 @@
 ## Discovery Requires Circumstances
     
-Stories begin with a set of circumstances. I heard about Google Creative Lab while trying to promote myself. The chain of events went like this: There's a new divison of the Play Store for unprintable books. I tweet at the tweet at the account. They like my tweet. I swoon and subscribe to their channel. Then a few days later they retweet something about the new Creative Lab 5 site. What is it?
+Stories begin with a set of circumstances. I heard about Google Creative Lab while trying to promote myself. The chain of events went like this: There's a new divison of the Play Store for unprintable books. I tweet at the tweet at the account. They like my tweet. I subscribe to their channel. A few days later they retweet something about the new Creative Lab 5 site. What is it?
     
 ![the application site][default]
     
     
-A one year paid program. They're looking for new applicants. [The application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" And the form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a hidden puzzle. Solving the puzzle yields a "Techno Crab" badge. I'm brilliant! I'm going to to be a Fiver! Feeling elite, I complete the application with a short film titled "Idempotent", and send it off.
+A one year paid program, looking for new applicants. [The application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" And the form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a hidden puzzle. Solving the puzzle yields a "Techno Crab" badge. I'm brilliant! I'm going to to be a Fiver! Feeling elite, I complete the application with a short film titled "Idempotent", and send it off.
     
 Idempotent. Much genius. A shoo-in for sure.
     
