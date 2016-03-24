@@ -165,7 +165,7 @@ The basketball is not in the tree. It's not on the ground around the tree. Somet
 
 There has been an unexpected side-effect to playing with the white ball in public. Strangers now smile and we will frequenly exhange a greeting. "Hello", "Nice day", and so on.  I won't pretend to understand why this is happening, but I can imagine its usefulness. It could be used as a confidence trick.
 
-Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Hello, how are you, etc. About ten minutes later he had $200 of my dollars in his pocket. He had conned me with a story about his daughter needing money for medication. He gave me a number I immediately recognized as fake, but I continued to play into his hands. I felt very stupid, but ever since then the signals of confidence have been interesting to me. 
+Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Hello, how are you, etc. About ten minutes later he had $200 of my dollars in his pocket. He had conned me with a story about his daughter needing money for medication. He gave me a number I immediately recognized as fake, but I continued to play into his hands. I felt very stupid, but ever since then confidence signals have have been amplified. 
 
 ---
 
