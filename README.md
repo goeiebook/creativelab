@@ -175,6 +175,12 @@ Equipped with javascript snippets, I produce several animations and spam the #cr
 
 ![cWcMsq][cWcMsq] ![alZcsx][alZcsx] ![shv7V4][shv7V4]
 
+---
+
+I found the basketball, hidden in the undergrowth. It had been stabbed.
+
+![stabbed basketball][brokenball]
+
 [default]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/default.jpg
     
@@ -221,3 +227,6 @@ https://raw.githubusercontent.com/goeiebook/creativelab/master/images/alZcsx.gif
 
 [shv7V4]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/shv7V4.gif
+
+[brokenball]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/brokenball.jpg
