@@ -9,7 +9,7 @@ A one year paid program, looking for new applicants. [The application](https://c
     
 Idempotent. So clever. A shoo-in for sure.
     
-A day elapses. Then another. My ego wanes. I revisit my application, to assure myself, but [it's broken](https://www.creativelab5.com/s/puukkz). The animation doesn't play as designed, and the dev console shows an error. This is disappointing. Searching twitter for the #creativelab5 hashtag turns up the account of one of the designers. [I tweet to him](https://twitter.com/Andrew_Herzog/status/708081805103144960), and point it out. 
+A day elapses. Then another. My ego wanes. I revisit my application, to assure myself, but [it's broken](https://www.creativelab5.com/s/puukkz). The animation doesn't play as designed, and the dev console shows an error. This is disappointing. Searching twitter for the #creativelab5 hashtag turns up the account of one of the designers. [I tweet to him](https://twitter.com/Andrew_Herzog/status/708081805103144960). He responds. 
     
 ![the response][tweet]
     
@@ -183,11 +183,11 @@ I found the basketball, hidden in the undergrowth. It had been stabbed.
 
 ---
 
-Suddenly the workflow stops working. A modified localstorage structure no longer persists when the page is reloaded. Is there a parallel to the fate of the basketball? In an attempt to understand what's happening, I open the source code and read. It's an enormous file. It is not obfuscated, but contains a lot of noise. Chrome Dev Console slows to a crawl while converting to the code to a readable format. Text search for 'boardStates', and find:
+Suddenly the workflow stops working. A modified localstorage structure no longer persists when the page is reloaded. Is there a parallel to the fate of the basketball? Have the Creative Lab staff closed a hole? In an attempt to understand what's happening, I open the source code and read. It's an enormous file. It is not obfuscated, but contains a lot of noise. Chrome Dev Console slows to a crawl while converting to the code to a readable format. Text search for 'boardStates', and find:
 
 ![this is useful][setstage]
 
-Was that always there? Invoking the function immediately populates the localstorage structure into view. And, more importantly, it persits across reloads. Why did I not think of looking this function? To what else am I blind?
+Was that always there? Invoking the function immediately populates the localstorage structure and displays it. And, more importantly, it persits across reloads. Why did I not think of looking this function before? To what else am I blind?
 
 [default]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/default.jpg
