@@ -23,7 +23,7 @@ I saw a rubber ball where a snowbank used to be. I picked it up. Solid rubber, w
     
 ---
     
-Checking analytics is addictive. Moreso when there's more signal than noise. [Here's a Bansky for that][bansky]. I was king of the #creativelab5 hashtag. The submissions of other applicants were bland, like mine. But none were broken, like mine. And then up pops [this masterpiece](https://www.creativelab5.com/s/pnMGi5).
+Checking analytics is addictive. More so when more signal than noise. [Here's a Bansky for that][bansky]. I was king of the #creativelab5 hashtag. The submissions of other applicants were bland, like mine. But none were broken, like mine. And then up pops [this masterpiece](https://www.creativelab5.com/s/pnMGi5).
     
 ![the both submission][both]
     
@@ -37,9 +37,9 @@ The Chrome Dev console helpfully remembers everything you enter, including mista
     
 ![local storage editor][localstorage]
     
-Pretty-printing the contents of 'boardStates' reveals interesting information. It is a JSON data structure, and the nomenclature suggests animation. For example, [this](https://github.com/goeiebook/creativelab/blob/master/json/defaultBoardStates.json) is the JSON for the default page. 
+Pretty-printing the contents of 'boardStates' reveals interesting information. A JSON data structure, and the nomenclature suggests animation. For example, [this](https://github.com/goeiebook/creativelab/blob/master/json/defaultBoardStates.json) is the default page. 
     
-The 'shapes' key is where the most interesting details are. Keyframes, stroke and fill parameters, point coordinates, and things called 'handles'. This is quite exciting. Perhaps there is a way to create an animation using tools other than those provided by the site.
+The 'shapes' key is where the important details are. Keyframes, stroke and fill parameters, point coordinates, and things called 'handles'. This is quite exciting. Perhaps there is a way to create an animation using tools other than those provided by the site.
     
 ```javascript
 {
@@ -82,7 +82,7 @@ That example doesn't do much. But [this one](https://github.com/goeiebook/creati
 4. ```jq -c . simple.json | pbcopy```
 5. Select boardStates field, CMD-v, reload page.
     
-The [jq](https://stedolan.github.io/jq/) tool is excellent, BTW. But this workflow was not very efficient. Still more fun than using activatePen(), however.
+The [jq](https://stedolan.github.io/jq/) tool is excellent, BTW. This workflow is not very efficient, but it's better than using the Techno Crab's activatePen().
     
 ---
     
