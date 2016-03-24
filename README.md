@@ -168,9 +168,9 @@ Over the last few days I've spent quite a bit of time bouncing the white ball. A
 
 ---
 
-Dividing two dimensional coordinates by a third number is essentially perspective projection. I remember reading that once in a tutorial on 3D graphics. It's not something one really needs to know, because toolkits like ThreeJS take care of it for you. But it seemed like with some tricks, the Creative Labs application could handle 3D effects. Perhaps then a few more profile views would be generated.
+Dividing two dimensional coordinates by a third number is essentially perspective projection. I remember reading that once in a tutorial on 3D graphics. It's not something one really needs to know, because toolkits like ThreeJS take care of it for you. But with some discipline implementation, perhaps the Creative Lab 5 application could display 3D things. Nobody else would be doing that. Maybe a few more profile views could be generated. Ah hell, I'm getting addicted.
 
-And with that, a bit more work went into code for generating coherent shapes. Setting the handle values to 0's resulted in right angles. Reading on Wikipedia about projective projection pointed out the importance of a focal length parameter. Be aware that if your z coorindate is zero, you'll be dividing by zero. And then, suddenly, [everything works](https://www.creativelab5.com/s/uNwej3). 
+So it goes, into the small hours of the morning. Setting handle values to 0's results in right angles. Reading on Wikipedia about projective projection and the importance of a focal length parameter. Be aware that if your z coorindate is zero, you'll be dividing by zero. If your z-coordinate is less than zero things are going to turn upside down (this fact bends my non-mathematical mind). And then, suddenly, [everything works](https://www.creativelab5.com/s/uNwej3). 
 
 ![boxillusion][uNwej3]
 
