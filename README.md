@@ -152,9 +152,16 @@ I laugh aloud. It is amazing how plots and storylines unfold automatically. And 
 
 The last twitter post did not generate buzz. There is no response and practically no views. That's probably a sign that I didn't break anything. Something about my submission was not acceptable to the server, and it was rejected. So I edit the snippet and reduce the complexity step by step. Until, boom, 200 Status code. The problem was invalid timeline values and too many shapes. There is a limit to how complex animations may be. That's not surprising, in retrospect. I feel foolish.
 
-Reduce the shape count, stick to the available timeline, and change values randomly. Dividing (x,y) coordinates by a constant value results in an interesting effect. Changing the constant value between keyframes results in a beating effect. This is amazing, even if I do not know exactly how it works. [I submit it](https://www.creativelab5.com/s/31KE8L). 200 Status code, all good. Tweet it, and wait.
+Reduce the shape count, stick to the available timeline, and change values randomly. Dividing (x,y) coordinates by a constant value results in an interesting effect. Changing the constant value between keyframes results in a beating effect. This is amazing, even if I do not know exactly how it works. [I submit it](https://www.creativelab5.com/s/31KE8L). 200 Status code, all good.
 
 ![burst][burst]
+
+---
+
+Over the last few days I've spent quite a bit of time bouncing the white ball. Certain aspects of it are becoming beautiful. The sound, for instance, depends on the surroundings. When I pass through a viaduct tunnel, the echoes are mesmerizing.
+
+![spectrogram of a tunnel bounce][tunnelbounce]
+
 
 [default]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/default.jpg
@@ -187,5 +194,8 @@ https://raw.githubusercontent.com/goeiebook/creativelab/master/images/mess.jpg
 
 [burst]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/burst.gif
+
+[tunnelbounce]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/tunnelbounce.jpg
 
 
