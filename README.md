@@ -5,9 +5,9 @@ Stories begin with a set of circumstances. I heard about Google Creative Lab whi
 ![the application site][default]
     
     
-A one year paid program, looking for new applicants. [The application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" And the form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a hidden puzzle. Solving the puzzle yields a "Techno Crab" badge. I'm brilliant! I'm going to to be a Fiver! Feeling elite, I complete the application with a short film titled "Idempotent", and send it off.
+A one year paid program, looking for new applicants. [The application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" And the form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a hidden puzzle. Solving the puzzle yields a "Techno Crab" badge. I feel brilliant. I'm going to be admitted to a club of geniuses. I complete the application with a short film titled "Idempotent", and send it off.
     
-Idempotent. Much genius. A shoo-in for sure.
+Idempotent. So clever. A shoo-in for sure.
     
 A day elapses. Then another. My ego wanes. I revisit my application, to assure myself of it's brillance. But, [It's broken](https://www.creativelab5.com/s/puukkz). It doesn't play as designed, and the dev console shows an error. This is disappointing. Searching twitter for the #creativelab5 hashtag turns up the account of one of the designers. [I tweet to him](https://twitter.com/Andrew_Herzog/status/708081805103144960), and point out my application is broken. 
     
