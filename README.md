@@ -1,4 +1,4 @@
-## Discovery Requires Circumstances
+## Discovery Requires Circumstance
     
 Stories begin with a set of circumstances. I heard about Google Creative Lab while trying to promote myself. A retweet from @digitaleditions mentions a new Creative Lab 5 site. What is that?
     
