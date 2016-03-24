@@ -158,10 +158,17 @@ Reduce the shape count, stick to the available timeline, and change values rando
 
 ---
 
-Over the last few days I've spent quite a bit of time bouncing the white ball. Aside from becoming better at manipulating it, I'm also beginning to notice details of its character. Such as its sound in different environments. For example, [this is what it sounds like](https://youtu.be/8KXGaB3PApY) when walking through a viaduct tunnel.
+Over the last few days I've spent quite a bit of time bouncing the white ball. Aside from becoming better at manipulating it, I'm also beginning to notice details of its character. Such as the sound through different environments. For example, [this is what it sounds like](https://youtu.be/8KXGaB3PApY) when walking through a viaduct tunnel.
 
 ![spectrogram of a tunnel bounce][tunnelbounce]
 
+---
+
+Dividing two dimensional coordinates by a third number is essentially perspective projection. I remember reading that once in a tutorial on 3D graphics. It's not something one really needs to know, because toolkits like ThreeJS take care of it for you. But it seemed like with some tricks, the Creative Labs application could handle 3D effects. Perhaps then a few more profile views would be generated.
+
+And with that, a bit more work went into code for generating coherent shapes. Setting the handle values to 0's resulted in right angles. Reading on Wikipedia about projective projection pointed out the importance of a focal length parameter. Be aware that if your z coorindate is zero, you'll be dividing by zero. There is a great thrill when suddenly something [comes to life](https://www.creativelab5.com/s/uNwej3).
+
+![box illusion][uNwej3]
 
 [default]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/default.jpg
@@ -198,4 +205,6 @@ https://raw.githubusercontent.com/goeiebook/creativelab/master/images/burst.gif
 [tunnelbounce]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/tunnelbounce.jpg
 
+[uNwej3]
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/uNwej3.gif
 
