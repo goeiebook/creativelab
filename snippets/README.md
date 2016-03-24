@@ -161,7 +161,7 @@ So it goes, into the small hours of the morning. Setting handle values to 0's re
 
 ---
 
-The basketball is not in the tree. It's not on the ground around the tree. Sometimes stories just end. If I could write fiction then an inventive elaboration could be made. Maybe a bird adopted the basketball.
+The basketball is not in the tree. It's not on the ground around the tree. Sometimes stories just end. Maybe it could be continued as fiction. A bird took the basketball.
 
 ---
 
