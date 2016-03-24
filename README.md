@@ -1,6 +1,6 @@
 ## Discovery Requires Circumstance
     
-Stories begin with a set of circumstances. I heard about Google Creative Lab while trying to promote myself. A retweet from @digitaleditions mentions a new Creative Lab 5 site. What is that?
+Stories begin with a set of circumstances. I heard about Google Creative Lab while trying to promote myself. [A retweet](https://twitter.com/PRHDigital/status/707503572733313024) via @editionsatplay mentions a new Creative Lab 5 site. What is that?
     
 ![the application site][default]
     
