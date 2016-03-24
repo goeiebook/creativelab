@@ -9,11 +9,11 @@ A one year paid program, looking for new applicants. [The application](https://c
     
 Idempotent. So clever. A shoo-in for sure.
     
-A day elapses. Then another. My ego wanes. I revisit my application, to assure myself, but [it's broken](https://www.creativelab5.com/s/puukkz). The animation doesn't play as designed, and the dev console shows an error. This is disappointing. Searching twitter for the #creativelab5 hashtag turns up the account of one of the designers. [I tweet to him](https://twitter.com/Andrew_Herzog/status/708081805103144960). He responds. 
+A day elapses. Then another. My ego wanes. I revisit my application, and discover that [it's broken](https://www.creativelab5.com/s/puukkz). The animation doesn't play as planned. The dev console shows an error. This is disappointing. I feel embarassed. I search twitter and find the account of one of the designers. [I tweet to him](https://twitter.com/Andrew_Herzog/status/708081805103144960). He responds. 
     
 ![the response][tweet]
     
-Is that sarcasm? This is confusing. But then something unanticipated happens: profile views. Dozens of them. Twitter analytics stated my profile views were up by 1000%.
+Is that sarcasm? This is confusing. I'm not socially adept. But then something unanticipated happens: profile views. Dozens of them. Twitter analytics stated my profile views were up by 1000%.
     
 ---
     
@@ -244,4 +244,3 @@ https://raw.githubusercontent.com/goeiebook/creativelab/master/images/brokenball
 
 [setstage]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/setstage.jpg
-
