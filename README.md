@@ -128,7 +128,7 @@ The following morning I walk through the park and pass the tree that caught the 
     
 ![boomerang replacement][basketball]
     
-    I laugh aloud. It is amazing how plots and storylines unfold automatically. And then there is the fractal similarity. I mean, this is like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). No writer is necessary. These are my thoughts while I bounce my rubber ball along the sidewalk. I wonder what will happen tomorrow. With a bit of luck the story will become even better.
+I laugh aloud. It is amazing how plots and storylines unfold automatically. And then there is the fractal similarity. I mean, this is like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). No writer is necessary. These are my thoughts while I bounce my rubber ball along the sidewalk. I wonder what will happen tomorrow. With a bit of luck the story will become even better.
     
 ---
     
@@ -137,6 +137,7 @@ The last twitter post did not generate buzz. There is no response and practicall
 Reduce the shape count, stick to the available timeline, and change values randomly. Dividing (x,y) coordinates by a constant value results in an interesting effect. Changing the constant value between keyframes results in a beating effect. This is amazing, even if I do not know exactly how it works. [I submit it](https://www.creativelab5.com/s/31KE8L). 200 Status code, all good.
     
 ![burst][burst]
+[code](https://github.com/goeiebook/creativelab/blob/master/snippets/31KE8L.js)
     
 ---
     
