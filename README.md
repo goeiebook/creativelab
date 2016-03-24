@@ -171,7 +171,7 @@ Once, while waiting in a subway station, I was approached by a man. It started o
 
 ---
 
-Equipped with javascript snippets, I produce several animations and spam the #creativelab5 hashtag. I begin to use a third party library named [TinyColor](https://bgrins.github.io/TinyColor/). Profile views continue to climb, a 2335% increase since last month. Heady days, indeed. This rush of serotonin is normal. It's what feeds the world.
+Equipped with javascript snippets, experimentation becomes much more productive. I produce several animations and spam the #creativelab5 hashtag. In addition, I'm using a third party library named [TinyColor](https://bgrins.github.io/TinyColor/), which resides in  it's own snippet. Profile views continue to climb, a 2335% increase since last month. Heady days. This rush of serotonin is normal. It's what feeds the world.
 
 ![cWcMsq][cWcMsq] ![alZcsx][alZcsx] ![shv7V4][shv7V4]
 
@@ -180,6 +180,14 @@ Equipped with javascript snippets, I produce several animations and spam the #cr
 I found the basketball, hidden in the undergrowth. It had been stabbed.
 
 ![stabbed basketball][brokenball]
+
+---
+
+Suddenly the workflow stops working. A modified localstorage structure no longer persists when the page is reloaded. Is there a parallel to the fate of the basketball? In an attempt to understand what's happening, I open the source code and read. It's an enormous file. It is not obfuscated, but contains a lot of noise. Chrome Dev Console slows to a crawl while converting to the code to a readable format. Text search for 'boardStates', and find:
+
+![this is useful][setstage]
+
+Was that always there? Invoking the function immediately populates the localstorage structure into view. And, more importantly, it persits across reloads. Why did I not think of looking this function? To what else am I blind?
 
 [default]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/default.jpg
@@ -230,3 +238,7 @@ https://raw.githubusercontent.com/goeiebook/creativelab/master/images/shv7V4.gif
 
 [brokenball]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/brokenball.jpg
+
+[setstage]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/setstage.jpg
+
