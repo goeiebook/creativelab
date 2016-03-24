@@ -70,7 +70,7 @@ The 'shapes' key is where the important details are. Keyframes, stroke and fill 
     
 ```
     
-That example doesn't do much. But [this one](https://github.com/goeiebook/creativelab/blob/master/json/simple.json), has all the shapes removed except the first one in the list. Paste this string into local storage, reload the page, click the 'Continue' button --- Voila!
+That example is just to show the structure. [This example](https://github.com/goeiebook/creativelab/blob/master/json/simple.json), has all the shapes but one of the shapes removed. Paste the string into local storage, reload the page, click the 'Continue' button --- Voila!
     
 ![simple circle, er, I mean a G.][simplified]
     
@@ -162,6 +162,10 @@ So it goes, into the small hours of the morning. Setting handle values to 0's re
 ---
 
 The basketball is not in the tree. It's not on the ground around the tree. Sometimes stories just end. Maybe it could be continued as fiction. A bird took the basketball.
+
+There has been an unexpected side-effect to playing with the white ball in public. Strangers now smile and we will frequenly exhange a greeting. "Hello", "Nice day", and so on.  I won't pretend to understand why this is happening, but I can imagine its usefulness. It could be used as a confidence trick.
+
+Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Hello, how are you, etc. About ten minutes later he had $200 of my dollars in his pocket. He had conned me with a story about his daughter needing money for medication. He gave me a number I immediately recognized as fake, but I continued to play into his hands. I felt very stupid, but ever since then the signals of confidence have been interesting to me. 
 
 ---
 
