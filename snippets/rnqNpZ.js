@@ -18,15 +18,7 @@ var worldTranslation = {
 
 function run() {
     var shapes = [];
-
-    var pds = new PoissonDiskSampler();
-    pds.w = 250;
-    pds.h = 900;
-    pds.maxPoints = 44;
-    pds.radiusMin = 50;
-    pds.radiusMax = 50;
-    pds.createPoints();
-
+    
     var points = [];
     for (var z = -50; z < 200; z+=50) {
         for (var x = -100; x < 100; x+=25) {
@@ -54,12 +46,14 @@ function run() {
         var endTime = startTime+1;
         var scale = [0,Math.ceil(Math.random()*5)*10];
         var handleScale = [scale[0],scale[1]+10];
+        
         if (point.selected) {
             point.bloomColor = tinycolor(getScaledColor(point.selected));
         }
         else {
             point.bloomColor = tinycolor(getRandomColor()).desaturate(100);
         }
+        
         var flowerParams = {
             petalCount: Math.ceil(Math.random()*10)+2,
             scale: scale,
