@@ -186,7 +186,7 @@ I found the basketball, hidden in undergrowth. I smiled and reached out to pick 
 
 ---
 
-Suddenly the workflow stops working. Changes to the localstorage structure no longer persist across page reloads. Is there a parallel to the fate of the basketball? Have the Creative Lab staff closed a hole? In an attempt to understand what's happening, I open the source code and read. It's a large file. Not obfuscated, but noisy. Chrome dev console slows to a crawl converting the code to a readable format. Text search for 'boardStates', and find:
+Suddenly the workflow stops working. Changes to the localstorage structure no longer persist across page reloads. Is there a parallel to the fate of the basketball? Have the Creative Lab staff closed a hole? In an attempt to understand what's happening, I turn to the source code. It's not obfuscated, but it is big and noisy. Chrome dev console slows to a crawl. Text search for 'boardStates', and find:
 
 ![this is useful][setstage]
 
