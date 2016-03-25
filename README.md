@@ -5,11 +5,11 @@ Stories must begin somewhere. I heard about Google Creative Lab while trying to 
 ![the application site][default]
     
     
-A one year paid program, looking for new applicants. [The application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" And the form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a secret puzzle. [Solving the puzzle](https://github.com/mhipley/creativelab5/wiki/The-Google-Creative-Lab-5-Cheat-Sheet) yields a "Techno Crab" badge. I feel brilliant. I'm going to be admitted to a club of geniuses. I complete the application with a short film titled "Idempotent", and send it off.
+A one year paid program, looking for new applicants. [The application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" And the form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a secret puzzle. [Solving the puzzle](https://github.com/mhipley/creativelab5/wiki/The-Google-Creative-Lab-5-Cheat-Sheet) yields a "Techno Crab" badge. I feel brilliant. I'm going to be admitted to a club of geniuses. Complete the application with an animation titled "Idempotent", and send it off.
     
 Idempotent. So clever. A shoo-in for sure.
     
-A day elapses. Then another. My ego wanes. I revisit my application, and discover that [it's broken](https://www.creativelab5.com/s/puukkz). The animation doesn't play as planned. The dev console shows an error. This is embarassing. I use twitter [to message](https://twitter.com/Andrew_Herzog/status/708081805103144960) one of the designers. A response arrives. 
+A day elapses. Then another. I revisit my application, and discover that [it's broken](https://www.creativelab5.com/s/puukkz). The animation doesn't play as planned and the console shows an error. Embarassed, I use twitter [to message](https://twitter.com/Andrew_Herzog/status/708081805103144960) one of the designers. A response arrives. 
     
 ![the response][tweet]
     
@@ -17,27 +17,27 @@ Is that sarcasm? I'm not socially adept. This is confusing. But then something u
     
 ---
     
-Winter was finally coming to a close. The snow began to melt. When snow melts it leaves a distinctive aftermath. Piles of gravel, salt, and soggy cigarette butts. Like glacial till; with snowplow scars and single wet mittens.
+Winter was finally coming to a close. The snow began to melt. When snow melts it leaves a distinctive aftermath. Piles of gravel, salt, and soggy cigarette butts. Like glacial till. Snowplow scars and single wet mittens.
     
-In a pile of detritus I found a rubber ball. I picked it up. Solid rubber, white, with a grey splotch. A lot of bounce. A dog toy. I put it in my pocket. While walking, I thought to [tweet about the ball](https://twitter.com/goeiebook/status/709378927219728384). And I formed a plan to carry the ball with me at all times. Because if you carry a thing like this with you at all times, you're bound to discover something new.
+In a pile of detritus I found a rubber ball. I picked it up. Solid rubber, white, with a grey splotch. A lot of bounce. A dog toy. I put it in my pocket. While walking, I thought to [tweet about the ball](https://twitter.com/goeiebook/status/709378927219728384). And formed a plan to carry the ball with me at all times. Because by carrying something like this at all times you're bound to discover something new.
     
 ---
     
-Checking analytics is addictive. Especially when there is more signal than noise. [The alternative is less fun.][bansky]. For now I was king of the #creativelab5 hashtag. I watched the live feed relish, comparing the the submissions of other applicants to mine. They were bland, like mine; but none were broken, like mine. And none had the Techno Crab stamp. Then up pops [this masterpiece](https://www.creativelab5.com/s/pnMGi5).
+Checking analytics is addictive. Especially when more signal than noise. [The alternative is less fun.][bansky]. For now I was king of the #creativelab5 hashtag. I watched the live feed with relish, comparing the the submissions of other applicants to mine. They were bland, like mine; but none were broken, like mine. And none had the Techno Crab stamp. Then up pops [this masterpiece](https://www.creativelab5.com/s/pnMGi5).
     
 ![the both submission][both]
     
-I darkened. Such excellent presentation, casual phrasing, and three images showing the design process. All the other submissions look pale.
+I darkened. Such excellent presentation, casual phrasing, and three images demonstrating aspects of design. All the other submissions look pale.
     
 Stay cool, Abrie. You can learn a lot from guys like this.
     
-Immediately open up the site and look deeper. How did Both make this thing? The Techno Crab mode unlocks additional tools: a pen tool, gradients, stroke control. But they are difficult to use. The anchor tool doesn't seem to work. The vertex manipulators are tiny and aggravating. The play bar disappears at inconvienent times, then reappears at an even more inconvienient time. The pen is tool is terrible, and heavy CPU usage causes my Macbook's fan to whine. But apparently none of these issues held Both back. 
+Immediately open up the site and look deeper. How did Both make this thing? The Techno Crab mode unlocks additional tools: a pen tool, gradients, stroke control. But they are difficult to use. The anchor tool doesn't seem to work. The tiny vertex manipulators are aggravating. The play bar disappears at inconvienent times, then reappears at an even more inconvienient time. The pen tool is terrible. Heavy CPU usage causes my Macbook's fan to whine. But apparently none of these issues held Both back. 
     
-The Chrome Dev console remembers everything you enter, including mistakes and typos. At first this is helpful, but soon it becomes pollution. Annoyed by this, I begin to searching Chrome's menus for a remedy. And, as it turns out, the remedy is non-trivial. But in the process I stumble onto the [Resources Panel](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/), which has an entry named [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage). 
+The [Chrome Dev Console](https://developer.chrome.com/devtools/docs/console) remembers everything you enter, including mistakes and typos. At first this is helpful, but soon becomes pollution. Annoyed, I search Chrome's menus for a remedy. And, as it turns out, the remedy is non-trivial. But in the process I stumble onto the [Resources Panel](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/), which has an entry named [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage, and within that is an interesting string.
     
 ![local storage editor][localstorage]
     
-Pretty-printing the contents of 'boardStates' reveals interesting information. A JSON data structure, and the nomenclature suggests animation. For example, [this](https://github.com/goeiebook/creativelab/blob/master/json/defaultBoardStates.json) is the default page. 
+Pretty-printing the contents of 'boardStates' reveals a JSON data structure, with nomenclature suggesting animation. For example, [this](https://github.com/goeiebook/creativelab/blob/master/json/defaultBoardStates.json) is the default page. 
     
 The 'shapes' key is where the important details are. Keyframes, stroke and fill parameters, point coordinates, and things called 'handles'. This is quite exciting. Perhaps there is a way to create an animation using tools other than those provided by the site.
     
