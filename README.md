@@ -39,7 +39,7 @@ The [Chrome Dev Console](https://developer.chrome.com/devtools/docs/console) rem
     
 Pretty-printing the contents of 'boardStates' reveals a JSON data structure, with nomenclature suggesting animation. For example, [this](https://github.com/goeiebook/creativelab/blob/master/json/defaultBoardStates.json) is the default page. 
     
-The 'shapes' key is where the important details are. Keyframes, stroke and fill parameters, point coordinates, and things called 'handles'. This is quite exciting. Perhaps there is a way to create an animation using tools other than those provided by the site.
+The 'shapes' key is where the important details are. Keyframes, stroke and fill parameters, point coordinates, and things called 'handles'. This is exciting. Perhaps there is a way to create an animation using tools other than those provided by the site.
     
 ```javascript
 {
@@ -70,13 +70,13 @@ The 'shapes' key is where the important details are. Keyframes, stroke and fill 
     
 ```
     
-Erasing all of the shape data except for one entry yeilds [this JSON](https://github.com/goeiebook/creativelab/blob/master/json/simple.json). When pasted into the local storage field, nothing happens. But when the page is reloaded, the storage is structure is deserialized and --- Voila!
+Removing all but one of the elements in the shape array yeilds [this JSON](https://github.com/goeiebook/creativelab/blob/master/json/simple.json). When pasted into the local storage field, nothing happens. But when the page is reloaded, the storage is structure is deserialized and --- Voila!
     
 ![simple circle, er, I mean a G.][simplified]
     
 [code](https://www.creativelab5.com/s/m3JEdl).
 
-Encouraged, I editing the JSON hapazardly. Like combinatorial chemistry, stochastic search, or percussive repair. The workflow went like this:
+Encouraged, I change the JSON hapazardly. Like combinatorial chemistry, stochastic search, or percussive repair. The workflow went like this:
     
 1. Select boardStates field, CMD-c, shift-tab to terminal
 2. ```pbpaste | python -m json.tool > pretty.json```
