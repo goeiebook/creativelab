@@ -1,6 +1,6 @@
 ## Discovery Requires Circumstance
     
-Stories begin with a set of circumstances. I heard about Google Creative Lab while trying to promote myself. Then [A retweet](https://twitter.com/PRHDigital/status/707503572733313024) via @editionsatplay mentions a new Creative Lab 5 site. What is that?
+Stories must begin somewhere. I heard about Google Creative Lab while trying to promote myself. [A retweet](https://twitter.com/PRHDigital/status/707503572733313024) via @editionsatplay mentioned a new Creative Lab 5 site. What is that?
     
 ![the application site][default]
     
@@ -9,11 +9,11 @@ A one year paid program, looking for new applicants. [The application](https://c
     
 Idempotent. So clever. A shoo-in for sure.
     
-A day elapses. Then another. My ego wanes. I revisit my application, and discover that [it's broken](https://www.creativelab5.com/s/puukkz). The animation doesn't play as planned. The dev console shows an error. This is disappointing. I feel embarassed. I search twitter and find the account of one of the designers. [I tweet to him](https://twitter.com/Andrew_Herzog/status/708081805103144960). He responds. 
+A day elapses. Then another. My ego wanes. I revisit my application, and discover that [it's broken](https://www.creativelab5.com/s/puukkz). The animation doesn't play as planned. The dev console shows an error. This is embarassing. I use twitter [to message](https://twitter.com/Andrew_Herzog/status/708081805103144960) one of the designers. A response arrives. 
     
 ![the response][tweet]
     
-Is that sarcasm? This is confusing. I'm not socially adept. But then something unanticipated happens: profile views. Dozens of them. Twitter analytics stated my profile views were up by 1000%.
+Is that sarcasm? I'm not socially adept. This is confusing. But then something unanticipated happens: profile views. Dozens of them. Twitter analytics measures an increase of 1000%.
     
 ---
     
