@@ -9,11 +9,11 @@ A one year paid program, looking for new applicants. [The application](https://c
     
 Idempotent. So clever. A shoo-in for sure.
     
-A day elapses. Then another. I revisit my application, and discover that [it's broken](https://www.creativelab5.com/s/puukkz). The animation doesn't play as planned and the console shows an error. Embarassed, I use twitter [to message](https://twitter.com/Andrew_Herzog/status/708081805103144960) one of the designers. A response arrives. 
+A day elapses. Then another. I revisit my application, and discover [it's broken](https://www.creativelab5.com/s/puukkz). The animation doesn't play as planned and the console shows an error. I spent a lot of time struggling with the UI to make that silly thing. Embarassed, I use twitter [to message](https://twitter.com/Andrew_Herzog/status/708081805103144960) one of the designers. A response arrives. 
     
 ![the response][tweet]
     
-Is that sarcasm? I'm not socially adept. This is confusing. But then something unanticipated happens: profile views. Dozens of them. Twitter analytics measures an increase of 1000%.
+Is that sarcasm? I'm not socially adept. Maybe I wasn't clear. This is confusing. But then something unanticipated happens: profile views and tweet impressions. Twitter analytics measures an increase of 1000%.
     
 ---
     
@@ -130,15 +130,15 @@ The following morning I walked past the tree that caught the boomerang. The boom
     
 ![boomerang replacement][basketball]
     
-I laughed aloud. Amused by storylines unfolding automatically. And this one had fractal similarity. I mean, this is like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). No writer is necessary. These are my thoughts while I bounce my rubber ball along the sidewalk. I wonder what will happen tomorrow. I know the story will evolve. I hope it will take another humerous turn.
+I laughed aloud. Amused by storylines unfolding automatically. And this one had fractal similarity. I mean, this is like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). No writer is necessary. These are my thoughts while I bounce my rubber ball along the sidewalk. I wonder what will happen tomorrow. The story will evolve. I could take another humorous turn.
     
 ---
     
-The post about the 500 Error did not generate buzz. No replies, and no views gathered. Maybe it's because it wasn't anything unexpected. The server rejected the submission because it was unacceptable, and that's expected.
+The post about the 500 Error did not generate buzz. No replies, no tweet impressions, no link clicks. Maybe it's because it wasn't anything unexpected. The server rejected the submission because it was unacceptable, and that's expected.
 
-To narrow down the problem I edit the snippet; reducing the complexity bit by bit, resubmit, and repeat, until eventually the submission goes through. The problem was invalid timeline values and too many shapes. There is a limit to how complex animations may be. That's not surprising, in retrospect. Embarassing.
+To narrow down the problem I edit the snippet; reducing the complexity bit by bit, resubmit, and repeat until the submission goes through. The problem was invalid timeline values and too many shapes. There is a limit to how complex animations may be. That's not surprising, in retrospect. Embarassing.
     
-Now I start with a clean snippet and generate a set of 2d coordinate points. Add some random handles, add some random trigometric functions. Divide coordinates by a constant value. And the result looks like fireworks. This is amazing. Again I do not know exactly how it works, but to an outsider it might seem designed. 
+Now I start with a clean snippet and generate a set of 2d coordinate points. Add some random handles, multiply by some random trigometric functions. Divide coordinates by a constant value. And the result looks like fireworks. This is amazing. Again I do not know exactly how it works, but to an outsider it might seem designed. 
     
 ![burst][burst]
 
@@ -146,16 +146,16 @@ Now I start with a clean snippet and generate a set of 2d coordinate points. Add
     
 ---
     
-Three days with the white ball and discoveries begin to emerge. Aside from becoming better at manipulating it, I'm also begin to notice character details. Such as the sound of it bouncing through different environments. A distinctive splat when it splashes in a puddle (which also substantially reduces the bounce), and the echoes it makes when bounced through a culvert.
+After three days of bouncing the ball around, discoveries begin to emerge. Aside from becoming better at manipulating it, I'm also beginning to note character details. Such as the sound of it bouncing through different environments. A distinctive splat when it splashes in a puddle (which also substantially reduces the bounce), and long reverberating echoes when bounced through a culvert.
     
 ![spectrogram of a tunnel bounce][tunnelbounce]
 [listen](https://youtu.be/8KXGaB3PApY).
 
 ---
     
-Dividing two-dimensional coordinates by a third number is called foreshortening. I learn this while reading about [perspective projection](https://en.wikipedia.org/wiki/3D_projection#Weak_perspective_projection). It's not something one really needs to know. Toolkits like [ThreeJS](http://threejs.org/) take care of it for you. But maybe with some disciplined application 3D things could be coaxed from the Creative Lab 5 application. Maybe a few more profile views will be generated. Ah hell, I'm getting addicted.
+Dividing two-dimensional coordinates by a third number is called foreshortening. I learn this reading about [perspective projection](https://en.wikipedia.org/wiki/3D_projection#Weak_perspective_projection). It's not something one really needs to know. Toolkits like [ThreeJS](http://threejs.org/) take care of it for you. But maybe with some disciplined application 3D things could be coaxed from the Creative Lab 5 application. Maybe a few more profile views will be generated. Ah hell, I'm getting addicted.
     
-So it goes, into the small hours of the morning. Setting handle values to 0's results in right angles. Reading on Wikipedia about projective projection and the importance of a focal length parameter. Be aware that if the z coorindate is zero, you'll be dividing by zero. If your z-coordinate is less than zero things are going to turn upside down (this fact bends my non-mathematical mind). And then, suddenly, [everything works](https://www.creativelab5.com/s/uNwej3). 
+So it goes, into the small hours of the morning. Setting handle values to 0's results in right angles. Reading on Wikipedia about the role of a focal length multiplier. Be aware that if the z coorindate is zero, you'll be dividing by zero. If your z-coordinate is less than zero things are going to turn upside down. And then, suddenly, [everything works](https://www.creativelab5.com/s/uNwej3). 
     
 ![boxillusion][uNwej3]
 
@@ -163,9 +163,9 @@ So it goes, into the small hours of the morning. Setting handle values to 0's re
 
 ---
 
-The basketball vanished. It was nowhere to be seen. Sometimes stories just end, I suppose. Maybe the story could be continued as fiction. A bird took the basketball.
+The basketball was no longer in the tree. It was nowhere to be seen. Sometimes stories just end, I suppose. Maybe the story could be continued as fiction. A bird took the basketball.
 
-Some unexpected side-effects emerged while playing with the white ball. Strangers on the street would smile and greet. "Hello", "Nice day", and so on. I won't pretend to understand why that was happening. Neurochemical psychological sociology. But I can imagine its usefulness. It could be used as a confidence trick.
+More observations are gathered from playing with the ball. Strangers on the street would smile and greet. "Hello", "Nice day", and so on. I won't pretend to understand why that was happening. Maybe it's disarming to see someone play. Neurochemical psychological sociology. I imagine there is utility in this discovery. It could be used as a confidence trick.
 
 Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Shalom, shalom. About ten minutes later he had $200 of my dollars in his pocket. Something about his baby daughter needing money for medication. He said I could stay in his house in Tel Aviv, should I ever be around. He gave me a number I immediately recognized as fake, but I continued to play into his hands. I felt very stupid, but ever since I've been more aware of the signals confidence generates. 
 
@@ -180,7 +180,7 @@ Equipped with javascript snippets, and [TinyColor](https://bgrins.github.io/Tiny
 
 ---
 
-I found the basketball, hidden in undergrowth. I smiled and reached out to pick it up. But something was wrong. It had been stabbed. Disgusted, I dropped it and walked away. A few hours later I thought  to take a picture of it. Because a story was forming, about code and circumstance. And the basketball played a key role. So I walked back to the park and photographed the ball. Then I picked it up and dropped it into a garbage can. The garbage can stank like dog shit.
+I found the basketball, hidden in undergrowth. I smiled and reached out to pick it up. But something was wrong. It had been stabbed. Disgusted, I dropped it and walked away. A few hours later I thought to take a picture of it. Because a story was forming, about code and circumstance. And the basketball played a key role. So I walked back to the park and photographed the ball where it lay. Then I picked it up and dropped it into a garbage can. The ball displaced air from the garbage can. The air stank like dog shit.
 
 ![stabbed basketball][brokenball]
 
@@ -190,7 +190,14 @@ Suddenly the workflow stops working. Changes to the localstorage structure no lo
 
 ![this is useful][setstage]
 
-`setStageFromLocal()` ... Was that always there? Invoke the function and the stage populates with what's in local storage. And, more importantly, it persits across reloads. Why did I not think of looking for this before? What else am I blind to?
+`setStageFromLocal()` ... Was that always there? Invoke the function and the stage populates with what's in local storage. And, more importantly, it persits across reloads. Why didn't I think of looking for this before? What else am I blind to?
+
+This function greatly increases productivity. The stage can be reset even while an animation is running, and there is no need to wait for a page reload. I wonder what the handle parameters do. The source code contains a reference to paperjs, so a Google search for "paperjs handlein" gives documentation about the paramter. They are the points of a tangent curve. This description is not immediately useful. An experiment is in order. Write code to arrange tangent points in a circle. It draws things like flowers and leaves. This leads to another run of experimentation. 
+
+[live](https://www.creativelab5.com/s/yjJZBH).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/yjJZBH.js).|[live](https://www.creativelab5.com/s/Diu8WJ).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/Diu8WJ.js).|[live](https://www.creativelab5.com/s/rnqNpZ).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/rnqNpZ.js).
+:-----------------:|:-----------------:|:-----------------:
+![yjJZBH][yjJZBH]  |![Diu8WJ][Diu8WJ]  |![rnqNpZ][rnqNpZ]
+
 
 [default]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/default.jpg
@@ -244,3 +251,12 @@ https://raw.githubusercontent.com/goeiebook/creativelab/master/images/brokenball
 
 [setstage]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/setstage.jpg
+
+[yjJZBH]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/yjJZBH.gif
+
+[Diu8WJ]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/Diu8WJ.gif
+
+[rnqNpZ]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/rnqNpZ.gif
