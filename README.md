@@ -19,11 +19,11 @@ Is that sarcasm? I'm not socially adept. This is confusing. But then something u
     
 Winter was finally coming to a close. The snow began to melt. When snow melts it leaves a distinctive aftermath. Piles of gravel, salt, and soggy cigarette butts. Like glacial till. Snowplow scars and single wet mittens.
     
-In a pile of detritus I found a rubber ball. I picked it up. Solid rubber, white, with a grey splotch. A lot of bounce. A dog toy. I put it in my pocket. While walking, I thought to [tweet about the ball](https://twitter.com/goeiebook/status/709378927219728384). And formed a plan to carry the ball with me at all times. Because by carrying something like this at all times you're bound to discover something new.
+In a pile of detritus I found a rubber ball. I picked it up. Solid rubber, white, with a grey splotch. A lot of bounce. A dog toy. I put it in my pocket. While walking, I thought to [tweet about the ball](https://twitter.com/goeiebook/status/709378927219728384). And formed a plan to carry the ball with me at all times. Because by carrying something at all times you're bound to discover something new.
     
 ---
     
-Checking analytics is addictive. Especially when more signal than noise. [The alternative is less fun.][bansky]. For now I was king of the #creativelab5 hashtag. I watched the live feed with relish, comparing the the submissions of other applicants to mine. They were bland, like mine; but none were broken, like mine. And none had the Techno Crab stamp. Then up pops [this masterpiece](https://www.creativelab5.com/s/pnMGi5).
+Checking analytics is addictive. Especially when more signal than noise. [The alternative is less fun.][bansky]. For now I was king of the #creativelab5 hashtag. I watched the live feed with relish, comparing new submissions to my own. They were bland, like mine; but none were broken, like mine. And none had the Techno Crab stamp. Then up pops [this masterpiece](https://www.creativelab5.com/s/pnMGi5).
     
 ![the both submission][both]
     
