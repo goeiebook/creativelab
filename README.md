@@ -88,11 +88,11 @@ The workflow is inefficient, but already better than using the Techno Crab's `ac
     
 ---
     
-Now I'd been in the coffee shop for an hour, and decorum suggested that it was time to leave. I packed up and walked to a different shop. The route goes through a park. Spring was near. Two kids were throwing a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. I approached them, somewhat uncharacteristically, and said "Could I show you how to throw that?" They handed it over. I said something about not having thrown a boomerang in a long time. Then I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I handed the boomerang back, "Now you try." The kid copied my technique and it flew out in a wide arc, curved up, around --- and then got stuck in a tree.
+I'd been in the coffee shop for an hour, and decorum suggested it was time to leave. I packed up and walked to a different shop. The route goes through a park. Spring was near. Two kids were throwing a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. I approached them, an uncharacteristic behavior, and said "Could I show you how to throw that?" They handed it over. I said something about not having thrown a boomerang in a long time. Then I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I handed the boomerang back, "Now you try." The kid copied my technique and it flew out in a wide arc, curved up, around --- and then got stuck in a tree.
     
 ---
     
-With the data structure exposed, a whole set of possibilities were in mind. Animations could be made without having to use the clumsy Google Creative Lab 5 UI. But, the manual copy-pasting was tiring and error prone. A more programmatic workflow would be better. The dev console's command prompt could help. A series of commands like this, for example, would provide a mechanisim for erasing all the shapes:
+With the animation data structure exposed, a whole set of possibilities were in mind. Animations could be made without having to use the clumsy Google Creative Lab 5 UI. But, the manual copy-pasting was tiring and error prone. A more programmatic workflow would be better. The dev console's command prompt could help. A series of commands like this, for example, provides a mechanisim for erasing all the shapes:
     
 ```javascript
 function clearShapes() {
@@ -112,33 +112,33 @@ function clearShapes() {
 
 That's a pretty simple example. And it duplicates functionality already present in the application (`all.deleteAll()`) But demonstrates how code can be stored in a function. A step toward proceedural generation.
     
-The problem is that the page must be reloaded in order to load the data from local storage. Which means you loose the javascript context, which means you must re-enter the code. Faced with this problem, a bit of searching reveals: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
+The problem is that the page must be reloaded in order to load the data from local storage. Which means you loose the javascript context, which then necessitates re-entering the code. Back to the copy-paste problem. Faced with this, a bit of searching reveals: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
     
 ![the snippets panel][snippets]
     
-Now we're talking. Right-click->Run. That's fun. And now we go wild, bull in a china shop, copy-pasting blocks of code to generate arrays of shapes and colors. What did those handleIn/handleOut parameters do? Whatever it was, it was interesting. The results became excessive and messy. But I was proud of the result. Even if it wasn't totally clear how the code worked.
+Now we're talking. Right-click->Run. That's fun. So we go wild, like a bull in a china shop, copy-pasting blocks of code into a snippet to generate arrays of shapes and colors. What did those handleIn/handleOut parameters do? Whatever it was, it was interesting. Excessive and messy. But I was proud of the result. Even if it wasn't totally clear how the code worked.
     
 ![what a mess][mess]
     
-I'm eager to publish this. I click the submit button, sign my "Cover Letter", and wait. The request fails. Try again. Fails. [500 Server Error](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_Server_Error). The animation works locally, but remains trapped there. Unshareable. This must mean I've discovered another "Break It" feature! I tweet about it to the #creativelab5 people; expecting another 1000% increase in profile views.
+I'm eager to publish this. I click the submit button, sign my "Cover Letter", and wait. The request fails. Try again. Fails. [500 Server Error](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_Server_Error). So the animation works locally, but remains trapped there. Unshareable. This must mean I've discovered another "Break It" feature! I tweet about it to the #creativelab5 people; expecting another 1000% increase in profile views.
     
 ![what a mess][500error]
     
 ---
     
-The following morning I walked past the tree that caught the boomerang. The boomerang wasn't there anymore. It had been replaced by a basketball. 
+The following morning I walked past the tree that caught the boomerang. The boomerang wasn't there anymore. But there was a basketball up there. 
     
 ![boomerang replacement][basketball]
     
-I laughed aloud. It is amusing how plots and storylines unfold automatically. And there is fractal similarity. I mean, this is like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). No writer is necessary. These are my thoughts while I bounce my rubber ball along the sidewalk. I wonder what will happen tomorrow. I know the story will evolve. I hope it will take another humerous turn.
+I laughed aloud. Amused by storylines unfolding automatically. And this one had fractal similarity. I mean, this is like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). No writer is necessary. These are my thoughts while I bounce my rubber ball along the sidewalk. I wonder what will happen tomorrow. I know the story will evolve. I hope it will take another humerous turn.
     
 ---
     
 The post about the 500 Error did not generate buzz. No replies, and no views gathered. Maybe it's because it wasn't anything unexpected. The server rejected the submission because it was unacceptable, and that's expected.
 
-To narrow down the problem I edit the snippet; reducing the complexity bit by bit, resubmit, and repeat, until eventually the submission goes through. The problem was invalid timeline values and too many shapes. There is a limit to how complex animations may be. That's not surprising, in retrospect. I was a fool.
+To narrow down the problem I edit the snippet; reducing the complexity bit by bit, resubmit, and repeat, until eventually the submission goes through. The problem was invalid timeline values and too many shapes. There is a limit to how complex animations may be. That's not surprising, in retrospect. Embarassing.
     
-Now I start with a clean snippet and generate a set of 2d coordinate points. Add some random handles, add some random trigometric functions. Divide coordinates by a constant value. And the result looks like fireworks. This is amazing. I do not know exactly how it works, but to an outsider it would seem designed. 
+Now I start with a clean snippet and generate a set of 2d coordinate points. Add some random handles, add some random trigometric functions. Divide coordinates by a constant value. And the result looks like fireworks. This is amazing. Again I do not know exactly how it works, but to an outsider it might seem designed. 
     
 ![burst][burst]
 
@@ -146,14 +146,14 @@ Now I start with a clean snippet and generate a set of 2d coordinate points. Add
     
 ---
     
-Three days with the white ball and discoveries begin to emerge. Aside from becoming better at manipulating it, I'm also begin to notice character details. Such as the sound of it bouncing through different environments. My favorites include the sound of it spashing in a buddle (which also substantially reduces the bounce), and the echoes it makes when bounced through a culvert.
+Three days with the white ball and discoveries begin to emerge. Aside from becoming better at manipulating it, I'm also begin to notice character details. Such as the sound of it bouncing through different environments. A distinctive splat when it splashes in a puddle (which also substantially reduces the bounce), and the echoes it makes when bounced through a culvert.
     
 ![spectrogram of a tunnel bounce][tunnelbounce]
 [listen](https://youtu.be/8KXGaB3PApY).
 
 ---
     
-Dividing two-dimensional coordinates by a third number is called foreshortening. It can be used for [perspective projection](https://en.wikipedia.org/wiki/3D_projection#Weak_perspective_projection). I learned about that while reading about 3D graphics. It's not something one really needs to know. Toolkits like [ThreeJS](http://threejs.org/) take care of it for you. But with some disciplined application, perhaps 3D things could be coaxed from the Creative Lab 5 application. Maybe a few more profile views could be generated. Ah hell, I'm getting addicted.
+Dividing two-dimensional coordinates by a third number is called foreshortening. I learn this while reading about [perspective projection](https://en.wikipedia.org/wiki/3D_projection#Weak_perspective_projection). It's not something one really needs to know. Toolkits like [ThreeJS](http://threejs.org/) take care of it for you. But maybe with some disciplined application 3D things could be coaxed from the Creative Lab 5 application. Maybe a few more profile views will be generated. Ah hell, I'm getting addicted.
     
 So it goes, into the small hours of the morning. Setting handle values to 0's results in right angles. Reading on Wikipedia about projective projection and the importance of a focal length parameter. Be aware that if your z coorindate is zero, you'll be dividing by zero. If your z-coordinate is less than zero things are going to turn upside down (this fact bends my non-mathematical mind). And then, suddenly, [everything works](https://www.creativelab5.com/s/uNwej3). 
     
@@ -171,7 +171,7 @@ Once, while waiting in a subway station, I was approached by a man. It started o
 
 ---
 
-Equipped with javascript snippets, experimentation becomes much more productive. I'm able to rapidly produce several animations, which are then and spammed to #creativelab5 hashtag. In addition, I'm using a third party library named [TinyColor](https://bgrins.github.io/TinyColor/), which resides in  it's own snippet. Profile views continue to climb, a 2335% increase since last month. Heady days. This serotonin rush is normal. It's what feeds the world.
+Equipped with javascript snippets, the rate of experimentation accelerates. I produce several animations, which are then and spammed to #creativelab5 hashtag. In addition, I'm using a third party library named [TinyColor](https://bgrins.github.io/TinyColor/), which resides in  it's own snippet. Profile views continue to climb, a 2335% increase since last month. Heady days. This serotonin rush is normal. It's what feeds the world.
 
 [live](https://www.creativelab5.com/s/cWcMsq).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/cWcMsq.js).|[live](https://www.creativelab5.com/s/aIZcsx).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/aIZcsx.js).|[live](https://www.creativelab5.com/s/shv7V4).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/shv7V4.js).
 :-----------------:|:-----------------:|:-----------------:
@@ -186,7 +186,7 @@ I found the basketball, hidden in undergrowth. I smiled and reached out to pick 
 
 ---
 
-Suddenly the workflow stops working. A modified localstorage structure no longer persists when the page is reloaded. Is there a parallel to the fate of the basketball? Have the Creative Lab staff closed a hole? In an attempt to understand what's happening, I open the source code and read. It's a large file. Not obfuscated, but noisy. Chrome Dev Console slows to a crawl converting the code to a readable format. Text search for 'boardStates', and find:
+Suddenly the workflow stops working. Changes to the localstorage structure no longer persist across page reloads. Is there a parallel to the fate of the basketball? Have the Creative Lab staff closed a hole? In an attempt to understand what's happening, I open the source code and read. It's a large file. Not obfuscated, but noisy. Chrome dev console slows to a crawl converting the code to a readable format. Text search for 'boardStates', and find:
 
 ![this is useful][setstage]
 
