@@ -92,7 +92,7 @@ function run() {
 function genStem(params) {
     var geometry = genStemGeometry(params);
 
-    var shape = gen2DShape({
+    var shape = genShape({
         model: {
             scale: Smooth(params.scale, {scaleTo:1}),
             translation: {
@@ -155,8 +155,6 @@ function genFlowerCenter(params) {
         minor_handle_axis: 0.10,  
     };
 
-    var base_color = tinycolor(getRandomColor());
-
     var bloom_color = {
         fill: params.bloomColor,
         edge: tinycolor("black").lighten().setAlpha(0.50)  
@@ -164,7 +162,7 @@ function genFlowerCenter(params) {
 
     var geometry = genFlowerGeometry(bloom_params);
 
-    var shapes = gen2DShape({
+    var shapes = genShape({
             model: {
                 scale: Smooth(params.scale, {scaleTo:1}),
                 translation: {
@@ -294,25 +292,7 @@ function genFlowerGeometry(params) {
     }; 
 }
 
-function divideFlowerGeometry(geometry) {
-    var result = [];
-   
-    for (var i=0; i < geometry.numSides; i++) {
-        var j = (i+1) % geometry.numSides;
-        
-        result.push({
-            numSides: 2,
-            coordinates: [geometry.coordinates[i], geometry.coordinates[j]],
-            inHandles: [geometry.inHandles[i], geometry.inHandles[j]],
-            outHandles: [geometry.outHandles[i], geometry.outHandles[j]]
-        });
-    }
-
-    return result;
-}
-
-
-function gen2DShape(params, geometry) {
+function genShape(params, geometry) {
     var keyframes = [];
     var startTime = params.startTime;
     var endTime = params.endTime;
@@ -322,7 +302,7 @@ function gen2DShape(params, geometry) {
         var t = time < startTime ? 0 : Math.min(1, (time - startTime)/timeSpan);
 
         keyframes.push(
-            gen2DKeyframe(
+            genKeyframe(
                 geometry, params, time, t));
     }
     
@@ -338,17 +318,17 @@ function gen2DShape(params, geometry) {
      }
 }
 
-function gen2DKeyframe(coords, params, time, t) {
-    var state = gen2DState(coords, params, t);
+function genKeyframe(coords, params, time, t) {
+    var state = genState(coords, params, t);
 
     var result = {
         "ease": "easeInOutExp",
         "fillColor": params.fillColor,
         "handlesMoved": true,
         "state": {
-            "handleIn": state.handleIn.map(jitter),
-            "handleOut": state.handleOut.map(jitter),
-            "point": state.points.map(jitter)
+            "handleIn": state.handleIn.map(addJitter),
+            "handleOut": state.handleOut.map(addJitter),
+            "point": state.points.map(addJitter)
         },
 
         "strokeColor": params.strokeColor,
@@ -359,7 +339,7 @@ function gen2DKeyframe(coords, params, time, t) {
     return result;
 }
 
-function gen2DState(geometry, params, t) {
+function genState(geometry, params, t) {
 
     function translate(point, translation, t) {
         return {
@@ -489,7 +469,7 @@ function gen2DState(geometry, params, t) {
     }
 }
 
-function jitter(v) {
+function addJitter(v) {
     return [
         v[0],
         v[1]+Math.random()*2-1,
@@ -532,7 +512,6 @@ function rotate(coords, rotation, t) {
 
 function getRandomColor() {
     var avail = ["#4285F4", "#EA4235", "#FBBC05", "#34A853"];
-    //var avail = ["#4285F4", "#EA4235", "#FBBC05"];
     var index = Math.floor(Math.random()*avail.length);
     return avail[index];
 }
@@ -552,13 +531,6 @@ function makeGradient(color_a, color_b, x, y) {
          "origin": ["Point",x,y],
          "destination": ["Point",0,0]
     }
-}
-
-function rxy(x,y,dx,dy) {
-    return {
-        x: x+Math.random()*dx - dx/2,
-        y: y+Math.random()*dy - dy/2,
-    };
 }
 
 run();
