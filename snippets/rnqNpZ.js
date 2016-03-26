@@ -17,12 +17,11 @@ var worldTranslation = {
 }
 
 function run() {
-    var shapes = [];
     
-    var points = [];
+    var seeds = [];
     for (var z = -50; z < 200; z+=50) {
         for (var x = -100; x < 100; x+=25) {
-            points.push({
+            seeds.push({
                 x: x + Math.random()*10-5, 
                 y: 10,
                 z: z + Math.random()*10-5
@@ -30,28 +29,27 @@ function run() {
         }
     }
 
-    var selectCount = 5;
-    while(selectCount > 0) {
-        var index = Math.floor(Math.random()*points.length);
-        var point = points[index];
-        if (point.selected === undefined) {
-            selectCount--;
-            point.selected = selectCount;
+    var colorCount = 4;
+    while( colorCount >= 0 ) {
+        var index = Math.floor(Math.random()*seeds.length);
+        var seed = seeds[index];
+        
+        if (seed.color === undefined) {
+            seed.color = colorCount--;
         }
     }
 
-    var list = [];
-    points.forEach( function(point) {
+    var flowers = seeds.map( function(seed) {
         var startTime = Math.floor(Math.random()*8);
         var endTime = startTime+1;
         var scale = [0,Math.ceil(Math.random()*5)*10];
-        var handleScale = [scale[0],scale[1]+10];
+        var handleScale = [scale[0], scale[1]+10];
         
-        if (point.selected) {
-            point.bloomColor = tinycolor(getScaledColor(point.selected));
+        if (seed.color) {
+            seed.bloomColor = tinycolor(getScaledColor(seed.color));
         }
         else {
-            point.bloomColor = tinycolor(getRandomColor()).desaturate(100);
+            seed.bloomColor = tinycolor(getRandomColor()).desaturate(100);
         }
         
         var flowerParams = {
@@ -59,12 +57,12 @@ function run() {
             scale: scale,
             handleScale: handleScale,
             rotator: [0, 0],
-            bloomColor: point.bloomColor,
+            bloomColor: seed.bloomColor,
             time: [startTime, endTime*60],
             root: {
-                x: point.x,
-                y: point.y,
-                z: point.z 
+                x: seed.x,
+                y: seed.y,
+                z: seed.z 
                 },
             apicalTip: {
                 x:0,
@@ -72,14 +70,16 @@ function run() {
                 z:0 
                 }
             }
-        list.push(flowerParams);
+        
+        return flowerParams;
     });
 
-    list.sort( function(a,b) {
+    flowers.sort( function(a,b) {
         return b.root.z - a.root.z;
     });
 
-    list.forEach( function(flower) {
+    var shapes = [];
+    flowers.forEach( function(flower) {
         var stem = genStem(flower);
         var center = genFlowerCenter(flower);
         shapes = shapes.concat(stem.shape, center.shape);
