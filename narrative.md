@@ -207,9 +207,9 @@ Discovered counter intuitive ball behavior. If thrown down and forward at a shar
 
 As the number of prototypes increases, the pieces of code become apparent. For example, all the prototypes must write to the localstorage structure, and therefore all contain code to do. To faciliate further improvement, that code should be stored in a single place. The most obvious solution is to put it into it's own snippet. But that means multiple snippets must be executed before a given prototype runs. Because the prototypes now also include a variety of third party js files, namely [tinycolor](https://bgrins.github.io/TinyColor/) and [smooth.js](https://github.com/osuushi/Smooth.js/).
 
-The solution requires running a local server. The implemention was complicated by security restrictions and the nature of HTML documents. Such as CSP, mixed content restrictions, and self-signed SSL certificates.
+The solution requires running a local server. The implemention was more complicated than expected. While solving the issues I began to wonder why was I going to all this trouble? Shouldn't I be doing something worthwhile instead? A question like that is impossible to answer. We just do what we do, and sometimes we watch ourselves doing it.
 
-Seeing this working was wonderful. The result is that a a single snippet can load all the prerequisites, and run the prototype:
+When the local server worked without error, I felt a thrill. Here is the core interface, a simple snippet that loads prerequisites and runs the animation snippet:
 
 ```javascript
 addScriptSrc("https://localhost:4443/tinycolor.js");
