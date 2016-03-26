@@ -198,6 +198,25 @@ This function greatly increases productivity. The stage can be reset while an an
 :-----------------:|:-----------------:|:-----------------:
 ![yjJZBH][yjJZBH]  |![Diu8WJ][Diu8WJ]  |![rnqNpZ][rnqNpZ]
 
+---
+
+Discovered counter intuitive ball behavior. If thrown down and forward at a sharp angle, in a place with a low ceiling, the ball will bounce up and off the ceiling. But instead of continuing forward, t will bounce back toward the thrower. I spent quite a bit of time doing this. With some optimzation it becomes easy and the magic effect increases. It appears to be related to the spin imparted when throwing a ball foward, but more study is necessary.
+
+---
+
+The use of 3rd party JS files becomes important. I built a local server to serve the files, connected to the dev console through a utility script. The process was fraught with several difficulties:
+
+1. Hosting a local HTTPS server
+2. Getting a self-sgned certificate to be accepted by chrome.
+2. Cross-site-protection overrides
+
+But now a system is in place for easily connecting third party libraries into snippets.
+
+---
+
+Ice storms coat everything. Bounce the ball on pockets of air beneath thin layers of ice. And I lose the rubber ball to a stream while bouncing it in a culvert. Now my pockets are empty.
+
+Recollection of being mugged in Namibia.
 
 [default]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/default.jpg
