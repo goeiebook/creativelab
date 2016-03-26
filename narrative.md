@@ -30,7 +30,7 @@ I darkened. Such excellent presentation, casual phrasing, and three images demon
     
 Stay cool, Abrie. You can learn a lot from guys like this.
     
-Immediately open up the site and look deeper. How did Both make this thing? The Techno Crab mode unlocks additional tools: a pen tool, gradients, stroke control. But they are difficult to use. The anchor tool doesn't seem to work. The tiny vertex manipulators are aggravating. The play bar disappears at inconvienent times, then reappears at an even more inconvienient time. The pen tool is terrible. Heavy CPU usage causes my Macbook's fan to whine. But apparently none of these issues held Both back. 
+Immediately open up the site and look deeper. How did Both make this thing? The Techno Crab mode unlocks additional tools: a pen tool, gradients, stroke control. But they are difficult to use. The anchor tool doesn't seem to work. The tiny vertex manipulators are aggravating. The play bar disappears at inconvienent times, then reappears when least expected. The pen tool is terrible. Heavy CPU usage causes my Macbook's fan to whine. But apparently none of these issues held Both back. 
     
 The [Chrome Dev Console](https://developer.chrome.com/devtools/docs/console) remembers everything you enter, including mistakes and typos. At first this is helpful, but soon becomes pollution. Annoyed, I search Chrome's menus for a remedy. And, as it turns out, the remedy is non-trivial. But in the process I stumble onto the [Resources Panel](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/), which has an entry named [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage, and within that is an interesting string.
     
@@ -201,15 +201,15 @@ This function greatly increases productivity. The stage can be reset while an an
 
 ---
 
-Discovered counter intuitive ball behavior. If thrown down and forward at a sharp angle, in a place with a low ceiling, the ball will bounce up and off the ceiling. But instead of continuing forward, t will bounce back toward the thrower. I spent quite a bit of time doing this. With some optimzation it becomes easy and the magic effect increases. It appears to be related to the spin imparted when throwing a ball foward, but more study is necessary.
+Discovered counter intuitive ball behavior. If thrown down and forward at a sharp angle, in a place with a low ceiling, the ball will bounce up and off the ceiling as expected. But instead of continuing forward, it will bounce back toward the thrower. This is easily reproducible. I spent quite a bit of time experimenting with angles, enjoying the surprise. The phenomenon appears related to the spin imparted when throwing a ball foward, but more study is necessary.
 
 ---
 
-As the number of prototypes increases, the pieces of code become apparent. For example, all the prototypes must write to the localstorage structure, and therefore all contain code to do. To faciliate further improvement, that code should be stored in a single place. The most obvious solution is to put it into it's own snippet. But that means multiple snippets must be executed before a given prototype runs. Because the prototypes now also include a variety of third party js files, namely [tinycolor](https://bgrins.github.io/TinyColor/) and [smooth.js](https://github.com/osuushi/Smooth.js/).
+As the number of prototypes increases, the common elements of their code become apparent. For example, all the prototypes contain code to access the localstorage structure. To faciliate further improvement, that code should be stored in a single place. The most obvious solution is to put it into its own snippet. But that means multiple snippets must be executed before a given prototype runs. Some of the prototypes include third party js files, such as [tinycolor](https://bgrins.github.io/TinyColor/) and [smooth.js](https://github.com/osuushi/Smooth.js/). The rote right-click-run cycle gets tiring. It's time for an automated solution.
 
-The solution requires running a local server. The implemention was more complicated than expected. While solving the issues I began to wonder why was I going to all this trouble? Shouldn't I be doing something worthwhile instead? A question like that is impossible to answer. We just do what we do, and sometimes we watch ourselves doing it.
+The solution requires running a local server. Implementing it was more complicated than expected. While solving the issues I began to wonder why was I going to all this trouble? Shouldn't I be doing something worthwhile instead? A question like that is impossible to answer. We just do what we do, and sometimes we watch ourselves doing it.
 
-When the local server served without error, I felt a thrill. I suppose that's the ultimate reason for all behavior. Here is the core interface, a simple snippet that loads prerequisites and run the animation generator:
+When the local server served without error, it produced a thrill. That's probably the ultimate reason for any behavior. Here is the core interface, a simple snippet that loads prerequisites and runs the animation generator:
 
 ```javascript
 addScriptSrc("https://localhost:4443/tinycolor.js");
