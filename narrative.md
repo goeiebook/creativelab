@@ -231,7 +231,7 @@ function addScriptSrc(src) {
     document.head.appendChild(script);
 }
 ```
-
+Requires: [simple-https-server.py](https://raw.githubusercontent.com/goeiebook/creativelab/master/server/simple-htps-server.py) and [chrome-csp-disable](https://github.com/PhilGrayson/chrome-csp-disable) 
 ---
 
 Freezing rain coats everything with a layer of ice. Bounce the ball on pockets of air beneath thin layers of ice.
