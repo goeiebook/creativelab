@@ -195,9 +195,9 @@ Suddenly the workflow stops working. Changes to the localstorage structure no lo
 
 This function greatly increases productivity. The stage can be reset while an animation is running, without waiting for a page reload. Nearly instant feedback. I wonder what the handleIn/handleOut parameters do. From the source code it's apparent that [PaperJS](http://paperjs.org/) is used. A search for "paperjs handlein" provides [documentation about the parameter](http://paperjs.org/reference/segment/#segment). So --- the handles are points defining tangent curves. That doesn't mean much to me. An experiment is in order. Write code to arrange tangent points in a circle. The result looks like flowers and leaves. This leads to another run of prototypes. 
 
-[[live](https://www.creativelab5.com/s/yjJZBH)][[code](https://github.com/goeiebook/creativelab/blob/master/snippets/yjJZBH.js)].|[[live](https://www.creativelab5.com/s/Diu8WJ)][[code](https://github.com/goeiebook/creativelab/blob/master/snippets/Diu8WJ.js)]|[[live](https://www.creativelab5.com/s/rnqNpZ)][[code](https://github.com/goeiebook/creativelab/blob/master/snippets/rnqNpZ.js)]
-:-----------------:|:-----------------:|:-----------------:
-![yjJZBH][yjJZBH]  |![Diu8WJ][Diu8WJ]  |![rnqNpZ][rnqNpZ]
+[live](hyjJZBH.web) [code](yjJZBH.js)|[live](Diu8WJ.web) [code](Diu8WJ.js)|[live](rnqNpZ.web) [code](rnqNpZ.js)
+:--------------:|:--------------:|:--------------:
+![yjJZBH][yjJZBH.gif]|![Diu8WJ][Diu8WJ.gif]|![rnqNpZ][rnqNpZ.gif]
 
 ---
 
@@ -302,11 +302,29 @@ https://raw.githubusercontent.com/goeiebook/creativelab/master/images/brokenball
 [setstage]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/setstage.jpg
 
-[yjJZBH]:
+[yjJZBH.gif]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/yjJZBH.gif
 
-[Diu8WJ]:
+[Diu8WJ.gif]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/Diu8WJ.gif
 
-[rnqNpZ]:
+[rnqNpZ.gif]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/rnqNpZ.gif
+
+[yjJZBF.web]:
+https://www.creativelab5.com/s/yjJZBH
+
+[Diu8WJ.web]:
+https://www.creativelab5.com/s/Diu8WJ
+
+[rnqNpZ.web]:
+https://www.creativelab5.com/s/rnqNpZ
+
+[yjJZBF.js]:
+https://github.com/goeiebook/creativelab/blob/master/snippets/yjJZBF.js
+
+[Diu8WJ.js]:
+https://github.com/goeiebook/creativelab/blob/master/snippets/Diu8WJ.js
+
+[rnqNpZ.js]:
+https://github.com/goeiebook/creativelab/blob/master/snippets/rnqNpZ.js
