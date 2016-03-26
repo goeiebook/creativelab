@@ -5,7 +5,7 @@ Stories must begin somewhere. I heard about Google Creative Lab while trying to 
 ![the application site][default]
     
     
-A one year paid program, looking for new applicants. [The application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" And the form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a secret puzzle. [Solving the puzzle](https://github.com/mhipley/creativelab5/wiki/The-Google-Creative-Lab-5-Cheat-Sheet) yields a "Techno Crab" badge. I feel brilliant. I'm going to be admitted to a club of geniuses. Complete the application with an animation titled "Idempotent", and send it off.
+A one year paid program, looking for new applicants. [The application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" The form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a secret puzzle. [Solving the puzzle](https://github.com/mhipley/creativelab5/wiki/The-Google-Creative-Lab-5-Cheat-Sheet) yields a "Techno Crab" badge. I feel brilliant. I'm going to be admitted to a club of geniuses. Complete the application with an animation titled "Idempotent", and send it off.
     
 Idempotent. So clever. A shoo-in for sure.
     
@@ -167,8 +167,7 @@ The basketball was no longer in the tree. It was nowhere to be seen. Sometimes s
 
 More observations are gathered from playing with the ball. Strangers on the street would smile and greet. "Hello", "Nice day", and so on. I won't pretend to understand why that was happening. Maybe it's disarming to see someone play. Neurochemical psychological sociology. I imagine there is utility in this discovery. It could be used as a confidence trick.
 
-Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Shalom, shalom. About ten minutes later he had $200 of my dollars in his pocket. Something about his baby daughter needing money for medication. He said I could stay in his house in Tel Aviv, should I ever be around. He gave me a number I immediately recognized as fake, but I continued to play into his hands. I felt very stupid, but ever since I've been more aware of the signals confidence generates. 
-
+Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Shalom, shalom. About ten minutes later he had $200 of my dollars in his pocket. Something about his baby daughter needing money for medication. He said I could stay in his house in Tel Aviv, should I ever be around. He gave me a number I immediately recognized as fake, but I continued to play into his hands. We rode the subway together, in silence. I think both of us knew what the other knew. "What do you do for a living?" He asked me. "I'm a programmer." "Are you good it?" he asked, surprised. "Good luck with your daughter," I said, and got off the train.
 ---
 
 Equipped with javascript snippets, and [TinyColor](https://bgrins.github.io/TinyColor/), I produce several animations and spam them under the #creativelab5 hashtag. Profile views continue to climb, a 2335% increase since last month. Heady days. This serotonin rush is normal. It's what feeds the world.
@@ -180,7 +179,7 @@ Equipped with javascript snippets, and [TinyColor](https://bgrins.github.io/Tiny
 
 ---
 
-I found the basketball, hidden in undergrowth. I smiled and reached out to pick it up. But something was wrong. It had been stabbed. Disgusted, I dropped it and walked away. A few hours later I thought to take a picture of it. Because a story was forming, about code and circumstance. And the basketball played a key role. So I walked back to the park and photographed the ball where it lay. Then I picked it up and dropped it into a garbage can. The ball displaced air from the garbage can. The air stank like dog shit.
+While passing through the park I saw the basketball, hidden in undergrowth. I smiled and picked it up. But something was wrong. It was dead. It had been stabbed. Disgusted, I dropped it and walked away. A few hours later I thought to take a picture of it. Because a story was forming, about code and circumstance. And the basketball played a key role. So I walked back to the ball and photographed it. Then I picked it up and dropped it into a garbage can. The ball displaced air from the garbage can. The air stank of dog shit.
 
 ![stabbed basketball][brokenball]
 
