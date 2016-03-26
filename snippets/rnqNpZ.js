@@ -1,7 +1,6 @@
 console.log("running....");
+
 var SIZE = boardInterface.getBoardSize();
-
-
 var FOCAL_LENGTH = 800;
 
 var worldRotation = {
@@ -15,6 +14,8 @@ var worldTranslation = {
     y: function(t) { return 0; },
     z: function(t) { return 300; },  
 }
+
+run();
 
 function run() {
     
@@ -78,12 +79,11 @@ function run() {
         return b.root.z - a.root.z;
     });
 
-    var shapes = [];
-    flowers.forEach( function(flower) {
+    var shapes = flowers.reduce( function(flowerShapes, flower) {
         var stem = genStem(flower);
         var center = genFlowerCenter(flower);
-        shapes = shapes.concat(stem.shape, center.shape);
-    });
+        return flowerShapes.concat(stem.shape, center.shape);
+    }, []);
 
     boardInterface.apply(shapes);
     console.log("done.");
@@ -341,23 +341,6 @@ function genKeyframe(coords, params, time, t) {
 
 function genState(geometry, params, t) {
 
-    function translate(point, translation, t) {
-        return {
-            x: point.x + translation.x(t),
-            y: point.y + translation.y(t),
-            z: point.z + translation.z(t),
-        }
-    }
-
-    function scale(point, scale, t) {
-        return {
-            x: point.x * scale(t),
-            y: point.y * scale(t),
-            z: point.z * scale(t),
-        }
-    }
-
-
     var coordinates = geometry.coordinates.map( function(point, index) {
         var translated = translate(point, params.model.translation, t);
         var rotated = rotate(translated, params.model.rotation, t); 
@@ -365,7 +348,6 @@ function genState(geometry, params, t) {
 
         return {x:result.x, y:result.y, z:result.z};
     });
-
 
     var inHandles = geometry.inHandles.map( function(point, index) {
         var vertex = {
@@ -410,7 +392,6 @@ function genState(geometry, params, t) {
             z: result.z
         };
     });
-
 
     function applyWorld(point) {
         if (point) {
@@ -477,6 +458,22 @@ function addJitter(v) {
     ]
 }
 
+function translate(point, translation, t) {
+    return {
+        x: point.x + translation.x(t),
+        y: point.y + translation.y(t),
+        z: point.z + translation.z(t),
+    }
+}
+
+function scale(point, scale, t) {
+    return {
+        x: point.x * scale(t),
+        y: point.y * scale(t),
+        z: point.z * scale(t),
+    }
+}
+
 function rotate(coords, rotation, t) {
     var pitch = rotation.pitch(t);
     var roll = rotation.roll(t);
@@ -521,16 +518,3 @@ function getScaledColor(index) {
     var index = index%avail.length;
     return avail[index];
 }
-
-function makeGradient(color_a, color_b, x, y) {
-    return {
-        "gradient":{
-            "stops": [[color_a, 0.01],["white", 0.7],[color_b, 1.0]],
-            "radial": true
-         },
-         "origin": ["Point",x,y],
-         "destination": ["Point",0,0]
-    }
-}
-
-run();
