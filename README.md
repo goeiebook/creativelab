@@ -4,7 +4,6 @@ Stories must begin somewhere. I heard about Google Creative Lab while trying to 
     
 ![the application site][default]
     
-    
 A one year paid program, looking for new applicants. [The application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" The form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a secret puzzle. [Solving the puzzle](https://github.com/mhipley/creativelab5/wiki/The-Google-Creative-Lab-5-Cheat-Sheet) yields a "Techno Crab" badge. I feel brilliant. I'm going to be admitted to a club of geniuses. Complete the application with an animation titled "Idempotent", and send it off.
     
 Idempotent. So clever. A shoo-in for sure.
@@ -167,7 +166,7 @@ The basketball was no longer in the tree. It was nowhere to be seen. Sometimes s
 
 More observations are gathered from playing with the ball. Strangers on the street would smile and greet. "Hello", "Nice day", and so on. I won't pretend to understand why that was happening. Maybe it's disarming to see someone play. Neurochemical psychological sociology. I imagine there is utility in this discovery. It could be used as a confidence trick.
 
-Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Shalom, shalom. About ten minutes later he had $200 of my dollars in his pocket. Something about his baby daughter needing money for medication. He said I could stay in his house in Tel Aviv, should I ever be around. He gave me a number I immediately recognized as fake, but I continued to play into his hands. We rode the subway together, in silence. I think both of us knew what the other knew. "What do you do for a living?" He asked me. "I'm a programmer." He seemed surprised, "Are you good it?"
+Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Shalom, shalom. About ten minutes later he had $200 of my dollars in his pocket. Something about his baby daughter needing money for medication. He said I could stay in his house in Tel Aviv, should I ever be around. He gave me a number I immediately recognized as fake, but I continued to play into his hands. We rode the subway together, in silence. Both of us knew what the other knew. It was an awkard ride. "What do you do for a living?" He asked me. "I'm a programmer." He seemed surprised, "Are you good it?"
 
 "Good luck with your daughter," I said, and got off the train.
 
@@ -206,19 +205,19 @@ Discovered counter intuitive ball behavior. If thrown down and forward at a shar
 
 ---
 
-The use of 3rd party JS files becomes important. I built a local server to serve the files, connected to the dev console through a utility script. The process was fraught with several difficulties:
-
-1. Hosting a local HTTPS server
-2. Getting a self-sgned certificate to be accepted by chrome.
-2. Cross-site-protection overrides
+As the number of prototypes increases, the similar pieces of code between them becomes apparent. For example, all the prototypes write to the localstorage structure, and therefore all the snippets contain code to do. To faciliate further improvement, that code should be stored in a single place. For a while I do this by putting it into it's own snippet. But that means multiple snippets must be executed before the prototype runs. The solution requires running a local server. This was surprisingly complicated. The implementation involved CSP, mixed content restrictions, and self signed SSL certificates.
 
 But now a system is in place for easily connecting third party libraries into snippets.
 
 ---
 
-Ice storms coat everything. Bounce the ball on pockets of air beneath thin layers of ice. And I lose the rubber ball to a stream while bouncing it in a culvert. Now my pockets are empty.
+Freezing rain coats everything with a layer of ice. Bounce the ball on pockets of air beneath thin layers of ice.
 
-Recollection of being mugged in Namibia.
+[video here]
+
+And I lose the rubber ball to a stream while bouncing it in a culvert. Now my pockets are empty.
+
+Recollection of being mugged in Windhoek.
 
 [default]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/default.jpg
