@@ -209,7 +209,7 @@ As the number of prototypes increases, the pieces of code become apparent. For e
 
 The solution requires running a local server. The implemention was more complicated than expected. While solving the issues I began to wonder why was I going to all this trouble? Shouldn't I be doing something worthwhile instead? A question like that is impossible to answer. We just do what we do, and sometimes we watch ourselves doing it.
 
-When the local server worked without error, I felt a thrill. Here is the core interface, a simple snippet that loads prerequisites and runs the animation snippet:
+When the local server served without error, I felt a thrill. I suppose that's the ultimate reason for all behavior. Here is the core interface, a simple snippet that loads prerequisites and run the animation generator:
 
 ```javascript
 addScriptSrc("https://localhost:4443/tinycolor.js");
@@ -231,7 +231,8 @@ function addScriptSrc(src) {
     document.head.appendChild(script);
 }
 ```
-Requires: [simple-https-server.py](https://raw.githubusercontent.com/goeiebook/creativelab/master/server/simple-htps-server.py) and [chrome-csp-disable](https://github.com/PhilGrayson/chrome-csp-disable) 
+Requires: [simple-https-server.py](https://raw.githubusercontent.com/goeiebook/creativelab/master/server/simple-htps-server.py) and [chrome-csp-disable](https://github.com/PhilGrayson/chrome-csp-disable)
+
 ---
 
 Freezing rain coats everything with a layer of ice. Bounce the ball on pockets of air beneath thin layers of ice.
