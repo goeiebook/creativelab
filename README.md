@@ -167,7 +167,9 @@ The basketball was no longer in the tree. It was nowhere to be seen. Sometimes s
 
 More observations are gathered from playing with the ball. Strangers on the street would smile and greet. "Hello", "Nice day", and so on. I won't pretend to understand why that was happening. Maybe it's disarming to see someone play. Neurochemical psychological sociology. I imagine there is utility in this discovery. It could be used as a confidence trick.
 
-Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Shalom, shalom. About ten minutes later he had $200 of my dollars in his pocket. Something about his baby daughter needing money for medication. He said I could stay in his house in Tel Aviv, should I ever be around. He gave me a number I immediately recognized as fake, but I continued to play into his hands. We rode the subway together, in silence. I think both of us knew what the other knew. "What do you do for a living?" He asked me. "I'm a programmer." "Are you good it?" he replied, surprised. "Good luck with your daughter," I said, and got off the train.
+Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Shalom, shalom. About ten minutes later he had $200 of my dollars in his pocket. Something about his baby daughter needing money for medication. He said I could stay in his house in Tel Aviv, should I ever be around. He gave me a number I immediately recognized as fake, but I continued to play into his hands. We rode the subway together, in silence. I think both of us knew what the other knew. "What do you do for a living?" He asked me. "I'm a programmer." He seemed surprised, "Are you good it?"
+
+"Good luck with your daughter," I said, and got off the train.
 
 ---
 
