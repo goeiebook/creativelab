@@ -241,10 +241,10 @@ There are an unlimited number of ways to bounce and catch the ball. For a while 
 
 ---
 
-A character on Twitter begins to follow me. He is my first follower. He is generous with likes, and we enter into an exchange about hidden features in the Creative Lab 5 application. Such as the meaning of the six base-2 numbers surrounding the Techno Crab logo. And the presence of an interesting field in submitted applications, named 'rain'.
+A character on Twitter begins to follow me. He is my first follower. He is generous with likes, and we enter into an exchange about hidden features in the Creative Lab 5 application. Such as the meaning of the six base-2 numbers surrounding the Techno Crab logo. And the meaning of specific fields in a submitted application. is_hacker means is_technocrab. The field named 'rain' is less clear.
 
-Techno|Rain|
-:--------------:||:--------------:|
+Techno|Rain
+:--------------:|:--------------:
 ![technocrab][technocrab]|![set rain to try][rainflag]
 
 ---
