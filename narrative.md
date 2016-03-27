@@ -245,7 +245,7 @@ A character on Twitter begins to follow me. He is my first follower. He is gener
 
 Techno|Rain|
 :--------------:||:--------------:|
-![technocrab][technocrab]![set rain to try][rainflag]
+![technocrab][technocrab]|![set rain to try][rainflag]
 
 ---
 
