@@ -8,11 +8,11 @@ A one year paid program, looking for new applicants. [The application](https://c
     
 Idempotent. So clever. A shoo-in for sure.
     
-A day elapses. Then another. I revisit my application, and discover [it's broken](https://www.creativelab5.com/s/puukkz). The animation doesn't play as planned and the console shows an error. I spent a lot of time struggling with the UI to make that silly thing. Embarassed, I use twitter [to message](https://twitter.com/Andrew_Herzog/status/708081805103144960) one of the designers. A response arrives. 
+A day elapses. Then another. I revisit my application, and discover [it's broken](https://www.creativelab5.com/s/puukkz). The animation doesn't play as planned and the console shows an error. I had spent a lot of time struggling with the UI. Embarassed, I had a need to explain myself. I address a tweet [to message](https://twitter.com/Andrew_Herzog/status/708081805103144960) one of the designers. A response arrives. 
     
 ![the response][tweet]
     
-Is that sarcasm? I'm not socially adept. Maybe my message wasn't clear. This is confusing. But then something unanticipated happens: attention. Profile views and tweet impressions. Twitter analytics measures an increase of 1000%.
+Is that sarcasm? I'm not socially adept. Maybe the message wasn't clear. This is confusing. But then something unanticipated happens: attention. Profile views and tweet impressions. Twitter analytics measures an increase of 1000%.
     
 ---
     
@@ -22,7 +22,7 @@ In a pile of detritus I found a ball. I picked it up. Solid rubber, white, with 
     
 ---
     
-Checking analytics is addictive. Especially when more signal than noise. [The alternative is less fun.][bansky]. For now I was king of the #creativelab5 hashtag. I watched the live feed with relish, comparing new submissions to my own. They were bland, like mine; but none were broken, like mine. And none had the Techno Crab stamp. Then up pops [this masterpiece](https://www.creativelab5.com/s/pnMGi5).
+Checking analytics is addictive. Especially so when more signal than noise. [The alternative is less fun.][bansky]. For now I was king of the #creativelab5 hashtag. I watched the feed with relish, comparing new submissions to my own. They were bland, like mine; but none were broken, like mine. And none had the Techno Crab stamp. Then [this masterpiece](https://www.creativelab5.com/s/pnMGi5) arrives.
     
 ![the both submission][both]
     
@@ -30,15 +30,15 @@ Excellent presentation, casual phrasing, and three images demonstrating aspects 
     
 Stay cool, Abrie. You can learn a lot from guys like this.
     
-Immediately open up the site and look deeper. How did Both make this thing? The Techno Crab mode unlocks additional tools: a pen tool, gradients, stroke control. But they are difficult to use. The anchor tool doesn't seem to work. The tiny vertex manipulators are aggravating. The play bar disappears at inconvienent times, then reappears when least expected. The pen tool is terrible. Heavy CPU usage causes my Macbook's fan to whine. But apparently none of these issues held Both back. 
+Immediately open up the site and look deeper. How did Both make this thing? The Techno Crab mode unlocks additional tools: a pen tool, gradients, stroke control. But they are difficult to use. The anchor tool doesn't seem to work. The tiny vertex manipulators are aggravating. The play bar disappears at inconvienent times and reappears when least expected. The pen tool is terrible. Heavy CPU usage causes my Macbook's fan to whine. But apparently none of these issues held Both back. 
     
-The [Chrome Dev Console](https://developer.chrome.com/devtools/docs/console) remembers everything you enter, including mistakes and typos. At first this is helpful, but soon becomes pollution. Annoyed, I search Chrome's menus for a remedy. And, as it turns out, the remedy is non-trivial. But in the process I stumble onto the [Resources Panel](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/), which has an entry named [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage, and within that is an interesting string.
+The [Chrome Dev Console](https://developer.chrome.com/devtools/docs/console) remembers everything you enter, including mistakes and typos. At first this is helpful, but soon becomes pollution. Annoyed, I searched Chrome's menus for a remedy. And, as it turns out, the remedy is non-trivial. But in the process I stumbled onto the [Resources Panel](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/), which has an entry named [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage, and within that is an interesting string.
     
 ![local storage editor][localstorage]
     
 Pretty-printing the contents of 'boardStates' reveals a JSON data structure, with nomenclature suggesting animation. For example, [this](https://github.com/goeiebook/creativelab/blob/master/json/defaultBoardStates.json) is the default page. 
     
-The 'shapes' key is where the important details are. Keyframes, stroke and fill parameters, point coordinates, and things called 'handles'. This is exciting. Perhaps there is a way to create an animation using tools other than those provided by the site.
+The 'shapes' key is where the important details are. Keyframes, stroke and fill parameters, point coordinates, and things called 'handles'. This is exciting. Perhaps there is a way to create an animation with tools other than those provided by the site.
     
 ```javascript
 {
@@ -69,13 +69,13 @@ The 'shapes' key is where the important details are. Keyframes, stroke and fill 
     
 ```
     
-Removing all but one of the elements in the shape array yeilds [this JSON](https://github.com/goeiebook/creativelab/blob/master/json/simple.json). When pasted into the local storage field, nothing happens. But when the page is reloaded, the storage is structure is deserialized and --- Voila!
+Removing all but one of the elements in the shape array produces [this JSON](https://github.com/goeiebook/creativelab/blob/master/json/simple.json). When that is pasted into the local storage field, nothing happens. But when the page is reloaded, the storage is structure is deserialized and --- Voila!
     
 ![simple circle, er, I mean a G.][simplified]
     
 [code](https://www.creativelab5.com/s/m3JEdl).
 
-Encouraged, I change the JSON hapazardly. Like combinatorial chemistry, stochastic search, or percussive repair. The workflow went like this:
+Encouraged, I make hapazard edits and refresh the page. Like combinatorial chemistry, stochastic search, or percussive repair. The workflow went like this:
     
 1. Select boardStates field, CMD-c, shift-tab to terminal
 2. ```pbpaste | python -m json.tool > pretty.json```
@@ -83,15 +83,15 @@ Encouraged, I change the JSON hapazardly. Like combinatorial chemistry, stochast
 4. ```jq -c . simple.json | pbcopy```
 5. Select boardStates field, CMD-v, reload page.
     
-The workflow is inefficient, but already better than using the Techno Crab's `activatePen(104743);` or `penToolActivated=true;`
+Inefficient, but already better than using the Techno Crab's `activatePen(104743);` or `penToolActivated=true;`
     
 ---
     
-I'd been in the coffee shop for an hour, and decorum suggested it was time to leave. I packed up and walked to a different shop. The route goes through a park. Spring was near. Two kids were throwing a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. I approached them, an uncharacteristic behavior, and said "Could I show you how to throw that?" They handed it over. I said something about not having thrown a boomerang in a long time. Then I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I handed the boomerang back, "Now you try." The kid copied my technique and it flew out in a wide arc, curved up, around --- and then got stuck in a tree.
+I'd been in the coffee shop for an hour, and decorum suggested it was time to leave. I packed up and walked to a different shop. The route goes through a park. Spring was near. Two kids were throwing a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. I approached them and said "Could I show you how to throw that?" They handed it over. I said something about not having thrown a boomerang in a long time. Then I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I handed the boomerang back, "Now you try." The kid copied my technique and it flew out in a wide arc, curved up, around --- and then got stuck in a tree.
     
 ---
     
-With the animation data structure exposed, a whole set of possibilities were in mind. Animations could be made without having to use the clumsy Google Creative Lab 5 UI. But, the manual copy-pasting was tiring and error prone. A more programmatic workflow would be better. The dev console's command prompt could help. A series of commands like this, for example, provides a mechanisim for erasing all the shapes:
+With the animation data structure exposed, a whole set of possibilities were in mind. Animations could be made without having to use the clumsy Google Creative Lab 5 UI. But the manual copy-pasting was tiring and error prone. A more programmatic workflow would be better. The dev console's command prompt could help. A series of commands like this, for example, provides a mechanisim for erasing all the shapes:
     
 ```javascript
 function clearShapes() {
@@ -109,35 +109,35 @@ function clearShapes() {
 
 ```
 
-That's a pretty simple example. And it duplicates functionality already present in the application (`all.deleteAll()`) But demonstrates how code can be stored in a function. A step toward proceedural generation.
+That's a pretty simple example, and it duplicated functionality already present in the application (`all.deleteAll()`) But when code can be stored in a function it's a step toward proceedural generation.
     
-The problem is that the page must be reloaded in order to load the data from local storage. Which means you loose the javascript context, which then necessitates re-entering the code. Back to the copy-paste problem. Faced with this, a bit of searching reveals: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
+The problem is that the page must be reloaded in order to load the data from local storage. Which means you loose the javascript context, which then necessitates re-entering the code. Copy-paste helps, but then it's the same problem as before but in a slightly different domain. Looking for a solution turned up: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
     
 ![the snippets panel][snippets]
     
-Now we're talking. Right-click->Run. That's fun. So we go wild, like a bull in a china shop, copy-pasting blocks of code into a snippet to generate arrays of shapes and colors. What did those handleIn/handleOut parameters do? Whatever it was, it was interesting. Excessive and messy. But I was proud of the result. Even if it wasn't totally clear how the code worked.
+Now we're talking. Right-click->Run. That's fun. So we go wild, like a bull in a china shop, copy-pasting blocks of code into snippets generating arrays of shapes and colors. What did those handleIn/handleOut parameters do? Whatever it was, it was interesting. Excessive and messy. But I was proud of the result. Even if it wasn't totally clear how the code worked.
     
 ![what a mess][mess]
     
-I'm eager to publish this. I click the submit button, sign my "Cover Letter", and wait. The request fails. Try again. Fails. [500 Server Error](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_Server_Error). So the animation works locally, but remains trapped there. Unshareable. This must mean I've discovered another "Break It" feature! I tweet about it to the #creativelab5 people; expecting another 1000% increase in profile views.
+I clicked the submit button, signed my "Cover Letter", and waited for the requet to process. It takes a long time. Then it fails. Try again. Fails again. [500 Server Error](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_Server_Error). So the animation works locally, but remains trapped there. Unshareable. This must mean I've discovered another "Break It" feature! I tweet about it to the #creativelab5 people; expecting another 1000% increase in profile views.
     
 ![what a mess][500error]
     
 ---
     
-The following morning I walked past the tree that caught the boomerang. The boomerang wasn't there anymore. But there was a basketball up there. 
+The following morning I passed the tree that caught the boomerang. The boomerang wasn't there anymore. But there was a basketball up there. 
     
 ![boomerang replacement][basketball]
     
-I laughed aloud. Amused by storylines unfolding automatically. And this one had fractal similarity. I mean, this is like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). No writer is necessary. These are my thoughts while I bounce my rubber ball along the sidewalk. I wonder what will happen tomorrow. The story will evolve. I could take another humorous turn.
+I laughed aloud. Amused by storylines unfolding automatically. And this one had fractal similarity. I mean, this is like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). No writer is necessary. These are my thoughts while I bounce my rubber ball along the sidewalk. I wonder what will happen tomorrow. The story will evolve. It could take another humorous turn.
     
 ---
     
-The post about the 500 Error did not generate buzz. No replies, no tweet impressions, no link clicks. Maybe it's because it wasn't anything unexpected. The server rejected the submission because it was unacceptable, and that's expected.
+The post about the 500 Error did not generate buzz. No replies, no tweet impressions, no link clicks. Maybe it's because it wasn't anything unexpected. The server rejected the submission because it was unacceptable, and that's expected. My conclusion was too hasty.
 
-To narrow down the problem I edit the snippet; reducing the complexity bit by bit, resubmit, and repeat until the submission goes through. The problem was invalid timeline values and too many shapes. There is a limit to how complex animations may be. That's not surprising, in retrospect. Embarassing.
+I began to edit the snippet; hoping to remove the cause of failure. Reduce the complexity bit by bit, resubmit, and repeat until the submission goes through. The problem was invalid timeline values and too many shapes. There is a limit to how complex animations may be. That's not surprising, in retrospect. Reasonable, even. Embarassing, nonetheless.
     
-Now I start with a clean snippet and generate a set of 2d coordinate points. Add some random handles, multiply by some random trigometric functions. Divide coordinates by a constant value. And the result looks like fireworks. This is amazing. Again I do not know exactly how it works, but to an outsider it might seem designed. 
+Now I start with a clean snippet and generate a set of 2d coordinate points. Add some random handleIns and handleOuts, multiply by some random trigometric functions. Divide coordinates by a constant value. And the result looks like fireworks. This is amazing. Again I do not know exactly how it worked, but to an outsider it would seem designed. 
     
 ![burst][burst]
 
@@ -145,7 +145,7 @@ Now I start with a clean snippet and generate a set of 2d coordinate points. Add
     
 ---
     
-After three days of bouncing the ball around, discoveries begin to emerge. Aside from becoming better at manipulating it, I'm also beginning to note character details. Such as the sound of it bouncing through different environments. A distinctive splat when it splashes in a puddle (which also substantially reduces the bounce), and long reverberating echoes when bounced through a culvert.
+Discoveries about the ball begin to emerge after three days of play. Aside from becoming better at manipulating it, I'm also beginning to note character details. Such as the sound of it makes when bounced through different environments. splat when it splashes in a puddle (which also substantially reduces the bounce), and long echoes when bounced through a culvert.
     
 ![spectrogram of a tunnel bounce][tunnelbounce]
 [listen](https://youtu.be/8KXGaB3PApY).
@@ -162,11 +162,17 @@ So it goes, into the small hours of the morning. Setting handle values to 0's re
 
 ---
 
-The basketball was no longer in the tree. It was nowhere to be seen. Sometimes stories just end, I suppose. Maybe the story could be continued as fiction. A bird took the basketball.
+The basketball was no longer in the tree. It was nowhere to be seen. Sometimes stories just end. Maybe the story could be continued as fiction. A bird took the basketball.
 
-More observations are gathered from playing with the ball. Strangers on the street would smile and greet. "Hello", "Nice day", and so on. I won't pretend to understand why that was happening. Maybe it's disarming to see someone play. Neurochemical psychological sociology. I imagine there is utility in this discovery. It could be used as a confidence trick.
+The ball play continued to generate interesting observations. For instance, strangers on the street would smile and greet. "Hello", "Nice day", and so on. I won't pretend to understand why that was happening. Maybe it's disarming to see someone play. Neurochemical psychological sociology. But there is utility in the discovery. It could be used as a confidence trick.
 
-Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Shalom, shalom. About ten minutes later he had $200 of my dollars in his pocket. Something about his baby daughter needing money for medication. He said I could stay in his house in Tel Aviv, should I ever be around. He gave me a number I immediately recognized as fake, but I continued to play into his hands. We rode the subway together, in silence. Both of us knew what the other knew. It was an awkard ride. "What do you do for a living?" He asked me. "I'm a programmer." He seemed surprised, "Are you good it?"
+Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Shalom, shalom. About ten minutes later he had $200 of my dollars in his pocket. Something about his baby daughter needing money for medication. He said I could stay in his house in Tel Aviv, should I ever be around. He gave me a number I immediately recognized as fake, but I continued to play into his hands. We rode the subway together, in silence. Both of us knew what the other knew. It was an awkard ride.
+
+"What do you do for a living?" He asked me.
+
+"I'm a programmer."
+
+He seemed surprised, "Are you good it?"
 
 "Good luck with your daughter," I said, and got off the train.
 
@@ -181,7 +187,7 @@ Equipped with javascript snippets, and [TinyColor](https://bgrins.github.io/Tiny
 
 ---
 
-While passing through the park I saw the basketball, hidden in undergrowth. I smiled and picked it up. But something was wrong. It was dead. It had been stabbed. Disgusted, I dropped it and walked away. A few hours later I thought to take a picture of it. Because a story was forming, about code and circumstance. And the basketball played a key role. So I walked back to the ball and photographed it. Then I picked it up and dropped it into a garbage can. The ball displaced air from the garbage can. The air stank of dog shit.
+While passing through the park I spotted the basketball, hidden in undergrowth. I smiled and picked it up. But something was wrong. It was dead. It had been stabbed. Disgusted, I dropped it and walked away. A few hours later I thought to take a picture of it. Because a story was forming, about code and circumstance. And the basketball played a key role. So I returned to the ball and photographed it. Then I picked it up and dropped it into a garbage can. The ball displaced air from the garbage can. The air stank of dog shit.
 
 ![stabbed basketball][brokenball]
 
@@ -193,7 +199,7 @@ Suddenly the workflow stops working. Changes to the localstorage structure no lo
 
 `setStageFromLocal()` ... Was that always there? Invoke the function and the stage populates with what's in local storage. And, more importantly, it persits across reloads. Why didn't I think of looking for this before? What else am I blind to?
 
-This function greatly increases productivity. Now updates to the stage do not require a page reload. They can even be applied while the animation is running. Instant feedback.
+This function greatly increases productivity. Updates to the stage do not require a page reload. They can even be applied while the animation is running. Instant feedback.
 
 I wonder what the handleIn/handleOut parameters do. From the source code it's apparent that [PaperJS](http://paperjs.org/) is used. A search for "paperjs handlein" provides [documentation about the parameter](http://paperjs.org/reference/segment/#segment). So --- the handles are points defining tangent curves. That doesn't mean much to me. An experiment is in order. Write code to arrange tangent points in a circle. The result looks like flowers and leaves. This leads to another run of prototypes. 
 
@@ -207,11 +213,11 @@ Discovered counter intuitive ball behavior. If thrown down and forward at a shar
 
 ---
 
-As the number of prototypes increases, common code elements become apparent. For example, all the prototypes contain functions to access the localstorage structure. To faciliate further improvement, those functions should be stored in a single place. The most obvious solution is to contain them in a dedicated snippet. But with that approach the snippet must be re-run whenever the page is reloaded. The rote right-click-run cycle gets tiring. It's time for an automated solution.
+As the number of prototypes increases, common code elements become apparent. For example, all the prototypes contain functions to access the localstorage structure. Those functions should be stored in a single reusable place. The most obvious solution is a dedicated snippet. But with that approach the snippet must be re-run whenever the page is reloaded. And that means rote right-click-run cycle is duplicated. It's time for an automated solution.
 
-The solution requires running a local server. The implementation is more complicated than expected. Why am I going to all this trouble? Surely there something more worthwhile. And then the local server springs to life and serves without error. A thrill results. And as an extra benefit, now third party libraries like [tinycolor](https://bgrins.github.io/TinyColor/) and [smooth.js](https://github.com/osuushi/Smooth.js/) can be easily incorporated.
+The solution requires running a local server. The implementation is more complicated than expected. Why am I going to all this trouble? Surely there something else more worthwhile. And then the local server springs to life and serves without error. A thrill results. And, as an extra, third party libraries can be easily loaded. Like [tinycolor](https://bgrins.github.io/TinyColor/) and [smooth.js](https://github.com/osuushi/Smooth.js/).
 
-Here is the core interface, a snippet that loads prerequisites and runs the animation generator:
+This is the snippet that interfaces with the local server:
 
 ```javascript
 addScriptSrc("https://localhost:4443/tinycolor.js");
@@ -233,17 +239,18 @@ function addScriptSrc(src) {
     document.head.appendChild(script);
 }
 ```
-Using this requires: [simple-https-server.py](https://raw.githubusercontent.com/goeiebook/creativelab/master/server/simple-htps-server.py), [chrome-csp-disable](https://github.com/PhilGrayson/chrome-csp-disable) and a self-signed certificate.
+
+Using it requires: [simple-https-server.py](https://raw.githubusercontent.com/goeiebook/creativelab/master/server/simple-htps-server.py), [chrome-csp-disable](https://github.com/PhilGrayson/chrome-csp-disable) and a self-signed certificate.
 
 ---
 
-There are an unlimited number of ways to bounce and catch the ball. While walking, I try to bounce it forward from behind me; then catch it in a downturned palm as my arm swings forward. The ball needs to be thrown quite hard for this to work. During one attempt, it strikes a pebble and ricochets off the path. I go to retrieve it, and find that it landed in the middle of a jeweled bracelet. I smile because of the novelty added to this story. The cameras sensor turns copper and cubic zirconia into gold and diamonds.
+There are an unlimited number of ways to bounce and catch the ball. I tried to bounce it forward from behind me; then catch it in a downturned palm as my arm swings forward. The ball needs to be thrown quite hard for this to work. During one attempt it strikes a pebble and ricochets off the path. When I retrieve it, I find it landed in the middle of a jeweled bracelet. I smile because of the novelty added to this story. The camera's sensor turns copper and cubic zirconia into gold and diamonds.
 
 ![treasure][jewels]
 
 ---
 
-A character begins to follow me on Twitter. He is my first follower. He is generous with likes, and we enter into an exchange about hidden features in the Creative Lab 5 application. Such as the meaning of the six base-2 numbers surrounding the Techno Crab. And the meaning of specific fields in a submitted application; for instance `is_hacker` activates the Techno Crab. The field named `rain` is less clear.
+A character begins to follow me on Twitter. He is my first follower. He is generous with likes, and we enter into an exchange about hidden aspects of the Creative Lab 5 application. Such as the meaning of the six base-2 numbers surrounding the Techno Crab. And the meaning of specific fields in a submitted application; for instance `is_hacker` activates the Techno Crab. The field named `rain` is less clear.
 
 Techno|Rain
 :--------------:|:--------------:
@@ -267,7 +274,7 @@ But setting the rain flag to true does not have any visible effect. I do not exa
 
 ---
 
-The rate of code experimentation slows. An urge to write returns. I begin to write this story. Freezing rain arrives two days into spring. Ice coats everything. Beautiful sight, but lethal to nascent blossoms. The rain flag is what caused this. Setting it to `true` began a chain of events. Because it is the nature of the humans to find connection and analogy. The connection is spurious. But I enjoy observing my mind connect the cause and effect. Then I wonder, what is to say the two are not linked? Disconnected from reality by a long chain of causality. Maybe it's like the recent theory about [relationship between computational complexity and event horizons](http://www.nature.com/news/theoretical-physics-complexity-on-the-horizon-1.15285). The mathematics are beyond me, but the thoughts play while I bounce the white ball on bubbles of air under ice.
+The rate of code experimentation slows. An urge to write returns. I begin to write this story. Freezing rain arrives two days into spring. Ice coats everything. Beautiful sight, but lethal to nascent blossoms. The rain flag is what caused this. Setting it to `true` began a chain of events. Because it is the nature of the humans to find connection and analogy. The connection is spurious. But I enjoy the observation of my mind searching for cause and effect. Then I wonder, what is to say the two are not linked? Disconnected from reality by a long chain of causality. Maybe it's like the recent theories about the [relationship between computational complexity and event horizons](http://www.nature.com/news/theoretical-physics-complexity-on-the-horizon-1.15285). The mathematics are beyond me, but the thoughts play while I bounce the white ball on bubbles of air under ice.
 
 [video here]
 
