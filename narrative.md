@@ -203,13 +203,13 @@ I wonder what the handleIn/handleOut parameters do. From the source code it's ap
 
 ---
 
-Discovered counter intuitive ball behavior. If thrown down and forward at a sharp angle, in a place with a low ceiling, the ball will bounce up and off the ceiling as expected. But instead of continuing forward, it will bounce back toward the thrower. This is easily reproducible. I spent quite a bit of time experimenting with angles, enjoying the surprise. The phenomenon appears related to the spin imparted when throwing a ball foward, but more study is necessary.
+Discovered counter intuitive ball behavior. If thrown down and forward at a sharp angle, under a low ceiling, the ball will bounce up and off the ceiling. But instead of continuing forward as expected, it will bounce back toward the thrower. This is easily reproducible. I spent quite a bit of time experimenting with angles, enjoying the surprise. The phenomenon appears related to the spin imparted when throwing a ball foward, but more study is necessary.
 
 ---
 
-As the number of prototypes increases, the common elements of their code become apparent. For example, all the prototypes contain code to access the localstorage structure. To faciliate further improvement, that code should be stored in a single place. The most obvious solution is to put it into its own snippet. But that means multiple snippets must be executed before a given prototype runs. Some of the prototypes include third party js files, such as [tinycolor](https://bgrins.github.io/TinyColor/) and [smooth.js](https://github.com/osuushi/Smooth.js/). The rote right-click-run cycle gets tiring. It's time for an automated solution.
+As the number of prototypes increases, common code elements become apparent. For example, all the prototypes contain functions to access the localstorage structure. To faciliate further improvement, those functions should be stored in a single place. The most obvious solution is to contain them in a dedicated snippet. But with that approach the snippet must be re-run whenever the page is reloaded. The rote right-click-run cycle gets tiring. It's time for an automated solution.
 
-The solution requires running a local server. The implementation was more complicated than expected. For what end was I going to all this trouble? Surely there something more worthwhile. And then the local server served without error, and a thrill resulted.
+The solution requires running a local server. The implementation is more complicated than expected. Why am I going to all this trouble? Surely there something more worthwhile. And then the local server springs to life and serves without error. A thrill results. And as an extra benefit, now third party libraries like [tinycolor](https://bgrins.github.io/TinyColor/) and [smooth.js](https://github.com/osuushi/Smooth.js/) can be easily incorporated.
 
 Here is the core interface, a snippet that loads prerequisites and runs the animation generator:
 
@@ -237,27 +237,39 @@ Using this requires: [simple-https-server.py](https://raw.githubusercontent.com/
 
 ---
 
-There are an unlimited number of ways to bounce and catch the ball. For a while I try to bounce it forward from behind me, while walking; catching it in a downturned palm as my arm swings forward. The ball needs to be thrown quite hard for this to work. During one attempt, it strikes a pebble and ricochets off the path. I go to retrieve it, and find that it has landed in the middle of a jeweled bracelet. I smile because of the novelty added to this story. When I photograph it, camera sensor turns the copper and cubic zirconia into gold and diamonds.
+There are an unlimited number of ways to bounce and catch the ball. While walking, I try to bounce it forward from behind me; then catch it in a downturned palm as my arm swings forward. The ball needs to be thrown quite hard for this to work. During one attempt, it strikes a pebble and ricochets off the path. I go to retrieve it, and find that it landed in the middle of a jeweled bracelet. I smile because of the novelty added to this story. The cameras sensor turns copper and cubic zirconia into gold and diamonds.
 
 ![treasure][jewels]
 
 ---
 
-A character on Twitter begins to follow me. He is my first follower. He is generous with likes, and we enter into an exchange about hidden features in the Creative Lab 5 application. Such as the meaning of the six base-2 numbers surrounding the Techno Crab logo. And the meaning of specific fields in a submitted application. is_hacker means is_technocrab. The field named 'rain' is less clear.
+A character begins to follow me on Twitter. He is my first follower. He is generous with likes, and we enter into an exchange about hidden features in the Creative Lab 5 application. Such as the meaning of the six base-2 numbers surrounding the Techno Crab. And the meaning of specific fields in a submitted application; for instance `is_hacker` activates the Techno Crab. The field named `rain` is less clear.
 
 Techno|Rain
 :--------------:|:--------------:
 ![technocrab][technocrab]|![set rain to try][rainflag]
 
 
-The message around the crab logo spells TECHNO. The rain flag can be set to true by using this snippet. But setting the rain flag to true does not have any visible effect.
+The message around the crab logo spells TECHNO. The rain flag can be set to true using the code below, then submitting the application.
+
+```javascript
+var boardState = JSON.parse(
+    window.localStorage.getItem('boardStates'));
+
+extras['rain'] = true;
+boardState.rain = true;
+
+window.localStorage.setItem('boardStates',
+    JSON.stringify(boardState));
+```
+
+But setting the rain flag to true does not have any visible effect. I do not examine the issue any further.
 
 ---
 
-Two days into a spring, freezing rain arrives. It coats everything in a thick layer of ice. Absolutely beautiful, even if lethal to nascent blossoms. The rain flag comes to mind. Because it is the nature of the humans to see connection and analogy in things. Sometimes the connection is spurious. But it is fun to observe my mind connect the rain flag to this beautiful side effect. The connection is real, but disconnected from reality by a long chain of causality. Maybe it's like the recent theory about relationship between computational complexity and the horizon of a black hole. These playful thoughts circulate in mind, while I bounce the white ball on bubbles of air under ice.
+The rate of code experimentation slows. An urge to write returns. I begin to write this story. Freezing rain arrives two days into spring. A thick layer of ice coats everything. A beautiful sight, lethal to nascent blossoms. Setting the rain flag to `true` is what caused all this. Because it is the nature of the humans to see connection and analogy in things. The connection is spurious. But it is fun to observe my mind connect the flag and the effect. So I wonder, what is to say that it did not cause this? Disconnected from reality by a long chain of causality. Maybe it's like the recent theory about [relationship between computational complexity and event horizons](http://www.nature.com/news/theoretical-physics-complexity-on-the-horizon-1.15285). The mathematics are beyond me, but the playful thoughts circulate while I bounce the white ball on bubbles of air under ice.
 
 [video here]
-
 
 ---
 notes for future development:
