@@ -247,9 +247,12 @@ Techno|Rain
 :--------------:|:--------------:
 ![technocrab][technocrab]|![set rain to try][rainflag]
 
+
+The message around the crab logo spells TECHNO. The rain flag can be set to true by using this snippet. But setting the rain flag to true does not have any visible effect.
+
 ---
 
-Freezing rain coats everything with a layer of ice. Bounce the ball on pockets of air beneath thin layers of ice.
+Two days into a spring, freezing rain arrives. It coats everything in a thick layer of ice. It's absolutely beautiful, even if lethal to new blossoms. The nature of the human mind is to see connection and analogy in things. It is fun to think that setting the rain flag to true had caused this beautiful side effect. In the long chain of causality, complexity erases it's role. Maybe it's like the recent theory about connection between computational complexity and the horizon of a black hole. These playful thoughts circulate in mind, while I bounce the white ball on air bubbles trapped under ice.
 
 [video here]
 
@@ -345,4 +348,3 @@ https://raw.githubusercontent.com/goeiebook/creativelab/master/images/rainflag.j
 
 [technocrab]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/technocrab.jpg
-
