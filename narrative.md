@@ -193,7 +193,9 @@ Suddenly the workflow stops working. Changes to the localstorage structure no lo
 
 `setStageFromLocal()` ... Was that always there? Invoke the function and the stage populates with what's in local storage. And, more importantly, it persits across reloads. Why didn't I think of looking for this before? What else am I blind to?
 
-This function greatly increases productivity. The stage can be reset while an animation is running, without waiting for a page reload. Nearly instant feedback. I wonder what the handleIn/handleOut parameters do. From the source code it's apparent that [PaperJS](http://paperjs.org/) is used. A search for "paperjs handlein" provides [documentation about the parameter](http://paperjs.org/reference/segment/#segment). So --- the handles are points defining tangent curves. That doesn't mean much to me. An experiment is in order. Write code to arrange tangent points in a circle. The result looks like flowers and leaves. This leads to another run of prototypes. 
+This function greatly increases productivity. Now updates to the stage do not require a page reload. They can even be applied while the animation is running. Instant feedback.
+
+I wonder what the handleIn/handleOut parameters do. From the source code it's apparent that [PaperJS](http://paperjs.org/) is used. A search for "paperjs handlein" provides [documentation about the parameter](http://paperjs.org/reference/segment/#segment). So --- the handles are points defining tangent curves. That doesn't mean much to me. An experiment is in order. Write code to arrange tangent points in a circle. The result looks like flowers and leaves. This leads to another run of prototypes. 
 
 [live](hyjJZBH.web) [code](yjJZBH.js)|[live](Diu8WJ.web) [code](Diu8WJ.js)|[live](rnqNpZ.web) [code](rnqNpZ.js)
 :--------------:|:--------------:|:--------------:
@@ -252,13 +254,15 @@ The message around the crab logo spells TECHNO. The rain flag can be set to true
 
 ---
 
-Two days into a spring, freezing rain arrives. It coats everything in a thick layer of ice. It's absolutely beautiful, even if lethal to new blossoms. The nature of the human mind is to see connection and analogy in things. It is fun to think that setting the rain flag to true had caused this beautiful side effect. In the long chain of causality, complexity erases it's role. Maybe it's like the recent theory about connection between computational complexity and the horizon of a black hole. These playful thoughts circulate in mind, while I bounce the white ball on air bubbles under ice.
+Two days into a spring, freezing rain arrives. It coats everything in a thick layer of ice. Absolutely beautiful, even if lethal to nascent blossoms. The rain flag comes to mind. Because it is the nature of the humans to see connection and analogy in things. Sometimes the connection is spurious. But it is fun to observe my mind connect the rain flag to this beautiful side effect. The connection is real, but disconnected from reality by a long chain of causality. Maybe it's like the recent theory about relationship between computational complexity and the horizon of a black hole. These playful thoughts circulate in mind, while I bounce the white ball on bubbles of air under ice.
 
 [video here]
 
-And I lose the rubber ball to a stream while bouncing it in a culvert. Now my pockets are empty.
 
-Recollection of being mugged in Windhoek.
+---
+notes for future development:
+- Lost the rubber ball to a stream while bouncing it in a culvert. Saddened.
+- Recollection of being mugged in Windhoek.
 
 [default]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/default.jpg
