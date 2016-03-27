@@ -4,7 +4,7 @@ Stories must begin somewhere. I heard about Google Creative Lab while trying to 
     
 ![the application site][default]
     
-A one year paid program, looking for new applicants. [The application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" The form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a secret puzzle. [Solving the puzzle](https://github.com/mhipley/creativelab5/wiki/The-Google-Creative-Lab-5-Cheat-Sheet) yields a "Techno Crab" badge. I feel brilliant. I'm going to be admitted to a club of geniuses. Complete the application with an animation titled "Idempotent", and send it off.
+A one year paid program, looking for new applicants. [The application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" The form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a secret puzzle. [Solving the puzzle](https://github.com/mhipley/creativelab5/wiki/The-Google-Creative-Lab-5-Cheat-Sheet) yields a "Techno Crab" badge. Complete the application with an animation titled "Idempotent", and send it off.
     
 Idempotent. So clever. A shoo-in for sure.
     
@@ -12,13 +12,13 @@ A day elapses. Then another. I revisit my application, and discover [it's broken
     
 ![the response][tweet]
     
-Is that sarcasm? I'm not socially adept. Maybe I wasn't clear. This is confusing. But then something unanticipated happens: profile views and tweet impressions. Twitter analytics measures an increase of 1000%.
+Is that sarcasm? I'm not socially adept. Maybe my message wasn't clear. This is confusing. But then something unanticipated happens: attention. Profile views and tweet impressions. Twitter analytics measures an increase of 1000%.
     
 ---
     
 Winter was finally coming to a close. The snow began to melt. When snow melts it leaves a distinctive aftermath. Piles of gravel, salt, and soggy cigarette butts. Like glacial till. Snowplow scars and single wet mittens.
     
-In a pile of detritus I found a rubber ball. I picked it up. Solid rubber, white, with a grey splotch. A lot of bounce. A dog toy. I put it in my pocket. While walking, I thought to [tweet about the ball](https://twitter.com/goeiebook/status/709378927219728384). And formed a plan to carry the ball with me at all times. Because by carrying something at all times you're bound to discover something new.
+In a pile of detritus I found a ball. I picked it up. Solid rubber, white, with a grey splotch. A lot of bounce. Probably a dog toy. I put it in my pocket. While walking, I thought to [tweet about it](https://twitter.com/goeiebook/status/709378927219728384), and formed a plan to carry it with me at all times. Because by doing so you increase the chance of discovering something new.
     
 ---
     
@@ -26,7 +26,7 @@ Checking analytics is addictive. Especially when more signal than noise. [The al
     
 ![the both submission][both]
     
-I darkened. Such excellent presentation, casual phrasing, and three images demonstrating aspects of design. All the other submissions look pale.
+Excellent presentation, casual phrasing, and three images demonstrating aspects of design. And the animation uses clever tricks. I darkened.
     
 Stay cool, Abrie. You can learn a lot from guys like this.
     
