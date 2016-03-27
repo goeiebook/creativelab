@@ -237,7 +237,7 @@ Requires: [simple-https-server.py](https://raw.githubusercontent.com/goeiebook/c
 
 There are an unlimited number of ways to bounce the ball. For a while I try to bounce it forward from behind me, while walking; catching it in a downturned palm as my arm swings forward. The ball needs to be thrown quite hard for this to work. During one attempt it strikes a pebble and ricochets off the path, bouncing into the grass. It lands in the middle of a jeweled bracelet. I smile to see this; because it adds novelty to this story.
 
-[pic needed]
+![treasure][jewels]
 
 ---
 
@@ -328,3 +328,6 @@ https://github.com/goeiebook/creativelab/blob/master/snippets/Diu8WJ.js
 
 [rnqNpZ.js]:
 https://github.com/goeiebook/creativelab/blob/master/snippets/rnqNpZ.js
+
+[jewels]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/jewels.jpg
