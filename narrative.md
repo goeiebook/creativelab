@@ -207,9 +207,9 @@ Discovered counter intuitive ball behavior. If thrown down and forward at a shar
 
 As the number of prototypes increases, the common elements of their code become apparent. For example, all the prototypes contain code to access the localstorage structure. To faciliate further improvement, that code should be stored in a single place. The most obvious solution is to put it into its own snippet. But that means multiple snippets must be executed before a given prototype runs. Some of the prototypes include third party js files, such as [tinycolor](https://bgrins.github.io/TinyColor/) and [smooth.js](https://github.com/osuushi/Smooth.js/). The rote right-click-run cycle gets tiring. It's time for an automated solution.
 
-The solution requires running a local server. Implementing it was more complicated than expected. While solving the issues I began to wonder why was I going to all this trouble? Shouldn't I be doing something worthwhile instead? A question like that is impossible to answer. We just do what we do, and sometimes we watch ourselves doing it.
+The solution requires running a local server. The implementation was more complicated than expected. For what end was I going to all this trouble? Surely there something more worthwhile. And then the local server served without error, and a thrill resulted.
 
-When the local server served without error, it produced a thrill. That's probably the ultimate reason for any behavior. Here is the core interface, a simple snippet that loads prerequisites and runs the animation generator:
+Here is the core interface, a snippet that loads prerequisites and runs the animation generator:
 
 ```javascript
 addScriptSrc("https://localhost:4443/tinycolor.js");
@@ -231,13 +231,19 @@ function addScriptSrc(src) {
     document.head.appendChild(script);
 }
 ```
-Requires: [simple-https-server.py](https://raw.githubusercontent.com/goeiebook/creativelab/master/server/simple-htps-server.py) and [chrome-csp-disable](https://github.com/PhilGrayson/chrome-csp-disable)
+Using this requires: [simple-https-server.py](https://raw.githubusercontent.com/goeiebook/creativelab/master/server/simple-htps-server.py), [chrome-csp-disable](https://github.com/PhilGrayson/chrome-csp-disable) and a self-signed certificate.
 
 ---
 
-There are an unlimited number of ways to bounce the ball. For a while I try to bounce it forward from behind me, while walking; catching it in a downturned palm as my arm swings forward. The ball needs to be thrown quite hard for this to work. During one attempt it strikes a pebble and ricochets off the path, bouncing into the grass. It lands in the middle of a jeweled bracelet. I smile because of the novelty it adds to this story. Through the camera sensor the copper and cubic zirconia look like gold and diamonds.
+There are an unlimited number of ways to bounce and catch the ball. For a while I try to bounce it forward from behind me, while walking; catching it in a downturned palm as my arm swings forward. The ball needs to be thrown quite hard for this to work. During one attempt, it strikes a pebble and ricochets off the path. I go to retrieve it, and find that it has landed in the middle of a jeweled bracelet. I smile because of the novelty added to this story. When I photograph it, camera sensor turns the copper and cubic zirconia into gold and diamonds.
 
 ![treasure][jewels]
+
+---
+
+A character on Twitter begins to follow me. He is my first follower. He is generous with likes, and we enter into an exchange about hidden features in the Creative Lab 5 application. Such as the meaning of the six base-2 numbers surrounding the Techno Crab logo. They spell TECHNO. Also we discuss the presence of an interesting field in the submitted applications: 'rain'.
+
+![set rain to try][rainflag]
 
 ---
 
@@ -331,3 +337,7 @@ https://github.com/goeiebook/creativelab/blob/master/snippets/rnqNpZ.js
 
 [jewels]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/jewels.jpg
+
+[rainflag]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/rainflag.jpg
+
