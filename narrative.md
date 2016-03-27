@@ -241,9 +241,11 @@ There are an unlimited number of ways to bounce and catch the ball. For a while 
 
 ---
 
-A character on Twitter begins to follow me. He is my first follower. He is generous with likes, and we enter into an exchange about hidden features in the Creative Lab 5 application. Such as the meaning of the six base-2 numbers surrounding the Techno Crab logo. They spell TECHNO. Also we discuss the presence of an interesting field in the submitted applications: 'rain'.
+A character on Twitter begins to follow me. He is my first follower. He is generous with likes, and we enter into an exchange about hidden features in the Creative Lab 5 application. Such as the meaning of the six base-2 numbers surrounding the Techno Crab logo. And the presence of an interesting field in submitted applications, named 'rain'.
 
-![set rain to try][rainflag]
+Techno|Rain|
+:--------------:||:--------------:|
+![technocrab][technocrab]![set rain to try][rainflag]
 
 ---
 
@@ -340,4 +342,7 @@ https://raw.githubusercontent.com/goeiebook/creativelab/master/images/jewels.jpg
 
 [rainflag]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/rainflag.jpg
+
+[technocrab]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/technocrab.jpg
 
