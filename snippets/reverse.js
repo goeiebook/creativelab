@@ -1,3 +1,5 @@
+/* Run this as a javascript snippet in Chrome Dev Console. */
+
 /* This will load https://www.creativelab5.com/s/FnMYfI */
 run('FnMYfI');
 
