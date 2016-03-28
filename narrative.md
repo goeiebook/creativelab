@@ -188,7 +188,7 @@ Equipped with javascript snippets, and [TinyColor](https://bgrins.github.io/Tiny
 
 ---
 
-While passing through the park I spotted the basketball, hidden in undergrowth. I smiled and picked it up. But something was wrong. It was dead. It had been stabbed. Disgusted, I dropped it and walked away. A few hours later I thought to take a picture of it. Because a story was forming, about code and circumstance. And the basketball played a key role. So I returned to the ball and photographed it. Then I picked it up and dropped it into a garbage can. The ball displaced air from the garbage can. The air stank of dog shit.
+While passing through the park I spotted the basketball, hidden in undergrowth. I smiled and picked it up. But something was wrong. It was dead. Stabbed. Disgusted, I dropped it and walked away. A few hours later I thought to take a picture of it. Because the basketball had become part of this story. So I returned and photographed it. Then I picked it up and dropped it into a garbage can. It displaced air as it fell to the bottom. The air stank of dog shit.
 
 ![stabbed basketball][brokenball]
 
