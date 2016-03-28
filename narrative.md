@@ -276,7 +276,8 @@ But setting the rain flag to true does not have any visible effect. I do not exa
 
 The rate of code experimentation slows. An urge to write returns. I begin to write this story. Freezing rain arrives two days into spring. Ice coats everything. Beautiful sight, but lethal to nascent blossoms. The rain flag is what caused this. Setting it to `true` began a chain of events. Because it is the nature of the humans to find connection and analogy. The connection is spurious. But I enjoy the observation of my mind searching for cause and effect. Then I wonder, what is to say the two are not linked? Disconnected from reality by a long chain of causality. Maybe it's like the recent theories about the [relationship between computational complexity and event horizons](http://www.nature.com/news/theoretical-physics-complexity-on-the-horizon-1.15285). The mathematics are beyond me, but the thoughts play while I bounce the white ball on bubbles of air under ice.
 
-[video here]
+![bubbleball framecap][bubbleball]
+[youtube movie](https://youtu.be/lo1q3oU93UM)
 
 ---
 notes for future development:
@@ -371,3 +372,6 @@ https://raw.githubusercontent.com/goeiebook/creativelab/master/images/rainflag.j
 
 [technocrab]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/technocrab.jpg
+
+[bubbleball]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/bubbleball.jpg
