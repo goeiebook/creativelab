@@ -275,15 +275,37 @@ But setting the rain flag to true does not have any visible effect. I do not exa
 
 ---
 
-The production of new prototypes slows. An urge to write returns. I begin writing this story. Freezing rain falls  two days into spring. Ice coats everything. It is beautiful. It is lethal to nascent blossoms. It was caused by setting the rain flag to `true`. Because it is the nature of the humans to see connection and analogy. The connection is spurious. But it is pleasant to observe my mind consider the possibility of a connection. Then I wondered, what is to say the two aren't linked? Maybe it's like the recent theories about the [relationship between computational complexity and event horizons](http://www.nature.com/news/theoretical-physics-complexity-on-the-horizon-1.15285). The mathematics are out of reach, but the thoughts play while I bounce the white ball on bubbles of air under ice.
+The production of new prototypes slows. An urge to write returns. I begin recording this story. Freezing rain falls  two days into spring. Ice coats everything. It is beautiful. But lethal to nascent blossoms. Setting the rain flag to `true` percipitated this. Because it is the nature of the humans to discern connection and analogy. In this case it is spurious, but it is fun to observe my mind consider the possibility. But what is to say the two aren't linked? Maybe it's like the recent theories about the [relationship between computational complexity and event horizons](http://www.nature.com/news/theoretical-physics-complexity-on-the-horizon-1.15285). The mathematics are out of reach, but the thoughts play while I bounce the white ball on bubbles of air under ice.
 
 ![bubbleball framecap][bubbleball]
 
 [youtube](https://youtu.be/lo1q3oU93UM)
 
 ---
+
+Public posts of creativelab5 applications remain generally bland, but occasionally a remarkable one pops up. This one is particularly interesting (escher)
+
+These complex ones are interesting, and their mechanics are intriguing. I want to see how they work. Viewing a published application reveals a `<script>` tag with javascript assigning a dictionary to a variable named `shareData`. At first I tried extracting this data and parsing it as JSON, but that is not possible because it contains javascript instructions. An alternative is to copy the string in a variable in Eval it. This is a dangerous thing to do, and generally frowned on. But in this case we can be reasonably trusting of the contents. With the shareData variable populated into a javascript context, it is becomes a simple matter to copy the shape data into the boardStates structure. Refreshing the stage then shows the animation, where it can be closely studied.
+
+Both Pinto and Both used clever tricks to generate their animations.
+
+[todo; code and images]
+
+---
+
+One morning I returned to the culvert to experiment with the bounce-back phenomenon. I throw the ball forward, the angle is too low and it does not bounce of the ceiling. Instead it continues foward, out of the culvert and plops into the stream. Anyone watching me would have thought I deliberatly threw it into the water. I remain where I am, and film the space where the ball was last seen.
+
+---
+
+One morning the temperative climbs above zero. Now spring is definately taking hold. The trees shed their coats of ice. Cracking and crashing sounds fill the world. It is dangerous. A small piece falls form from high up and strikes my finger. It breaks the skin and I bleed.
+
+---
+
+I miss the white ball. I always search the banks of the stream where it fell in, but do not have much hope of finding it. Then I found another ball; day-glo orange, a miniature tennis ball. It is wet and off-putting, but I pick it up anyway. It does not bounce well. It is the third ball in this story; which seems appropriate. I cannot leave it, so I rinse it in the stream and let it dry. It is small and not as much fun as the white ball. But is another turn in this story, and I resign to carrying it with me.
+
+---
+
 notes for future development:
-- Lost the rubber ball to a stream while bouncing it in a culvert. Saddened.
 - Recollection of being mugged in Windhoek.
 
 [default]:
