@@ -129,15 +129,15 @@ The following morning I passed the tree that caught the boomerang. The boomerang
     
 ![boomerang replacement][basketball]
     
-I laughed aloud. Amused by storylines unfolding automatically. And this one had fractal similarity. I mean, this is like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). No writer is necessary. These are my thoughts while I bounce my rubber ball along the sidewalk. I wonder what will happen tomorrow. The story will evolve. It could take another humorous turn.
+I laughed aloud. Amused by storylines unfolding automatically. And this one had fractal similarity. I mean, this is like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). These are my thoughts while I bounce my rubber ball along the sidewalk. I wonder what will happen tomorrow. Maybe the story will take another humorous turn.
     
 ---
     
-The post about the 500 Error did not generate buzz. No replies, no tweet impressions, no link clicks. Maybe it's because it wasn't anything unexpected. The server rejected the submission because it was unacceptable, and that's expected. My conclusion was too hasty.
+The post about the 500 Error did not generate buzz. No replies, no tweet impressions, no link clicks. Maybe it wasn't anything unexpected. The error was returned because the submission was unacceptable. That would be expected.
 
-I began to edit the snippet; hoping to remove the cause of failure. Reduce the complexity bit by bit, resubmit, and repeat until the submission goes through. The problem was invalid timeline values and too many shapes. There is a limit to how complex animations may be. That's not surprising, in retrospect. Reasonable, even. Embarassing, nonetheless.
+Edit the snippet. Reduce complexity by a bit and resubmit. Repeat until the submission goes through. Eventually it does. That proves it. The problem was invalid timeline values and too many shapes. So there is a limit to how complex animations may be. That's not surprising, in retrospect. Reasonable, even. Embarassing.
     
-Now I start with a clean snippet and generate a set of 2d coordinate points. Add some random handleIns and handleOuts, multiply by some random trigometric functions. Divide coordinates by a constant value. And the result looks like fireworks. This is amazing. Again I do not know exactly how it worked, but to an outsider it would seem designed. 
+Begin again with a clean snippet. Generate a set of points. Add some random handleIns and handleOuts. Multiply by trigometric functions. Divide by a constant value. The result looks like fireworks. I don't know exactly how it works, but to an outsider it would seem designed. 
     
 ![burst][burst]
 
@@ -145,7 +145,7 @@ Now I start with a clean snippet and generate a set of 2d coordinate points. Add
     
 ---
     
-Discoveries about the ball begin to emerge after three days of play. Aside from becoming better at manipulating it, I'm also beginning to note character details. Such as the sound of it makes when bounced through different environments. splat when it splashes in a puddle (which also substantially reduces the bounce), and long echoes when bounced through a culvert.
+Discoveries about the ball begin to emerge after three days of play. Aside from becoming better at manipulating it, I'm also beginning to note character details. Such as the sound it makes in different environments. Splat when it's bounced into a buddle (which also substantially reduces the return energy). Echoed reverberations when bounced through a culvert.
     
 ![spectrogram of a tunnel bounce][tunnelbounce]
 
@@ -153,9 +153,9 @@ Discoveries about the ball begin to emerge after three days of play. Aside from 
 
 ---
     
-Dividing two-dimensional coordinates by a third number is called foreshortening. I learn this reading about [perspective projection](https://en.wikipedia.org/wiki/3D_projection#Weak_perspective_projection). It's not something one really needs to know. Toolkits like [ThreeJS](http://threejs.org/) take care of it for you. But maybe with some disciplined application 3D things could be coaxed from the Creative Lab 5 application. Maybe a few more profile views will be generated. Ah hell, I'm getting addicted.
-    
-So it goes, into the small hours of the morning. Setting handle values to 0's results in right angles. Reading on Wikipedia about the role of a focal length multiplier. Be aware that if the z coorindate is zero, you'll be dividing by zero. If your z-coordinate is less than zero things are going to turn upside down. And then, suddenly, [everything works](https://www.creativelab5.com/s/uNwej3). 
+Dividing two-dimensional coordinates by a third number is called foreshortening. I learn this reading about [perspective projection](https://en.wikipedia.org/wiki/3D_projection#Weak_perspective_projection). It's not something one needs to know. Toolkits like [ThreeJS](http://threejs.org/) take care of it for you. But maybe with some disciplined application 3D things could be coaxed from the Creative Lab 5 application. Maybe a few more profile views will be generated.
+
+Ah hell, I'm getting addicted. So it goes, into the small hours of the morning. Setting handle values to 0's results in right angles. Read on Wikipedia about the role of a focal length multiplier. Be aware that if the z coorindate is zero, you'll be dividing by zero. If your z-coordinate is less than zero things are going to turn upside down. And then, suddenly, [something works](https://www.creativelab5.com/s/uNwej3). 
     
 ![boxillusion][uNwej3]
 
@@ -163,11 +163,11 @@ So it goes, into the small hours of the morning. Setting handle values to 0's re
 
 ---
 
-The basketball was no longer in the tree. It was nowhere to be seen. Sometimes stories just end. Maybe the story could be continued as fiction. A bird took the basketball.
+The basketball was no longer in the tree. It vanished. Sometimes stories just end. Maybe the story could be continued as fiction. A bird took the basketball.
 
-The ball play continued to generate interesting observations. For instance, strangers on the street would smile and greet. "Hello", "Nice day", and so on. I won't pretend to understand why that was happening. Maybe it's disarming to see someone play. Neurochemical psychological sociology. But there is utility in the discovery. It could be used as a confidence trick.
+I continued to bounce the ball everywhere I went. Surprising observations resulted. For instance, strangers would smile and greet. "Hello", "Nice day", and so on. I won't pretend to understand why that was happening. But maybe it's disarming to see someone play. Neurochemical psychological sociology. There is utility in the discovery. One could use it as a confidence trick, if so inclined.
 
-Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Shalom, shalom. About ten minutes later he had $200 of my dollars in his pocket. Something about his baby daughter needing money for medication. He said I could stay in his house in Tel Aviv, should I ever be around. He gave me a number I immediately recognized as fake, but I continued to play into his hands. We rode the subway together, in silence. Both of us knew what the other knew. It was an awkard ride.
+Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Shalom, shalom. About ten minutes later he had $200 of my dollars in his pocket. His baby daughter needed money for medication. He said I could stay in his house in Tel Aviv. He gave me a number I immediately recognized as fake, but I continued to play into his hands. We rode the subway together, in silence. Both of us knew what the other knew. It was an awkard ride.
 
 "What do you do for a living?" He asked me.
 
@@ -175,11 +175,11 @@ Once, while waiting in a subway station, I was approached by a man. It started o
 
 He seemed surprised, "Are you good it?"
 
-"Good luck with your daughter," I said, and got off the train.
+"Good luck with your daughter," I said, and got off the train nine stops too early.
 
 ---
 
-Equipped with javascript snippets, and [TinyColor](https://bgrins.github.io/TinyColor/), I produce several animations and spam them under the #creativelab5 hashtag. Profile views continue to climb, a 2335% increase since last month. Heady days. This serotonin rush is normal. It's what feeds the world.
+Equipped with javascript snippets, and [TinyColor](https://bgrins.github.io/TinyColor/), I produce several animations and spam them under the #creativelab5 hashtag. Profile views continue to accumulate, a 2335% increase since last month. Heady days. This serotonin rush is normal. It's what feeds the world.
 
 [live](https://www.creativelab5.com/s/cWcMsq).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/cWcMsq.js).|[live](https://www.creativelab5.com/s/aIZcsx).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/aIZcsx.js).|[live](https://www.creativelab5.com/s/shv7V4).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/shv7V4.js).
 :-----------------:|:-----------------:|:-----------------:
@@ -188,21 +188,21 @@ Equipped with javascript snippets, and [TinyColor](https://bgrins.github.io/Tiny
 
 ---
 
-While passing through the park I spotted the basketball, hidden in undergrowth. I smiled and picked it up. But something was wrong. It was dead. Stabbed. Disgusted, I dropped it and walked away. A few hours later I thought to take a picture of it. Because the basketball had become part of this story. So I returned and photographed it. Then I picked it up and dropped it into a garbage can. It displaced air as it fell to the bottom. The air stank of dog shit.
+While passing through the park I find the basketball, hidden in undergrowth. I smiled and picked it up. But something felt wrong. It was cold and limp. Stabbed. Disgusted, I dropped it and walked away. A few hours later I thought to take a picture of it. Because the basketball was now part of this story. I returned and photographed it. Then I picked it up and dropped it into a garbage can. As it fell it displaced air. The air stank of dog shit.
 
 ![stabbed basketball][brokenball]
 
 ---
 
-Suddenly the workflow stops working. Changes to the localstorage structure no longer persist across page reloads. Is there a parallel to the fate of the basketball? Have the Creative Lab staff closed a hole? In an attempt to understand what's happening, I turn to the source code. It's not obfuscated, but it is big and noisy. Chrome dev console slows to a crawl. Text search for 'boardStates', and find:
+Suddenly the workflow stops working. Changes to the localstorage structure no longer persist across page reloads. Is there a parallel to the fate of the basketball? Have the Creative Lab staff closed a hole? When this type of thing happens the answer might be found in the source code. It's not obfuscated, but it is big and noisy. Chrome dev console slows to a crawl. Text search for 'boardStates', and find:
 
 ![this is useful][setstage]
 
-`setStageFromLocal()` ... Was that always there? Invoke the function and the stage populates with what's in local storage. And, more importantly, it persits across reloads. Why didn't I think of looking for this before? What else am I blind to?
+`setStageFromLocal()` ... Was that always there? Invoke the function and the stage populates with what's in local storage. And, more importantly, it persits across reloads. Why did I not think of looking for this before? What else am I blind to?
 
-This function greatly increases productivity. Updates to the stage do not require a page reload. They can even be applied while the animation is running. Instant feedback.
+The function greatly increases productivity. Updates to the stage are now instantenous and do not require a page reload. They can even be applied while the animation is running.
 
-I wonder what the handleIn/handleOut parameters do. From the source code it's apparent that [PaperJS](http://paperjs.org/) is used. A search for "paperjs handlein" provides [documentation about the parameter](http://paperjs.org/reference/segment/#segment). So --- the handles are points defining tangent curves. That doesn't mean much to me. An experiment is in order. Write code to arrange tangent points in a circle. The result looks like flowers and leaves. This leads to another run of prototypes. 
+I wonder what the handleIn/handleOut parameters do. From the source code it's apparent that [PaperJS](http://paperjs.org/) is used. A search for "paperjs handlein" provides [documentation about the parameter](http://paperjs.org/reference/segment/#segment). So --- the handles define points on tangent curves. That doesn't mean much to me. An experiment is in order. Write code to arrange tangent points in a circle. The result looks like flowers and leaves. This spawns another run of prototypes. 
 
 [live](hyjJZBH.web) [code](yjJZBH.js)|[live](Diu8WJ.web) [code](Diu8WJ.js)|[live](rnqNpZ.web) [code](rnqNpZ.js)
 :--------------:|:--------------:|:--------------:
@@ -210,13 +210,13 @@ I wonder what the handleIn/handleOut parameters do. From the source code it's ap
 
 ---
 
-Discovered counter intuitive ball behavior. If thrown down and forward at a sharp angle, under a low ceiling, the ball will bounce up and off the ceiling. But instead of continuing forward as expected, it will bounce back toward the thrower. This is easily reproducible. I spent quite a bit of time experimenting with angles, enjoying the surprise. The phenomenon appears related to the spin imparted when throwing a ball foward, but more study is necessary.
+Discovered counter intuitive ball behavior. If thrown down and forward at a sharp angle, under a low ceiling, the ball will bounce up and off the ceiling. But instead of continuing forward as expected, it will return toward the thrower. This is easily reproducible. It's wonderful. I spent quite a bit of time experimenting with angles, enjoying the surprise. The phenomenon appears due to the spin imparted when throwing a ball foward, but more study is necessary.
 
 ---
 
-As the number of prototypes increases, common code elements become apparent. For example, all the prototypes contain functions to access the localstorage structure. Those functions should be stored in a single reusable place. The most obvious solution is a dedicated snippet. But with that approach the snippet must be re-run whenever the page is reloaded. And that means rote right-click-run cycle is duplicated. It's time for an automated solution.
+As the number of prototypes increases, common code elements become apparent. For example, all the prototypes contain functions to access the localstorage structure. Those functions should be stored in a single reusable place. The most obvious solution is a dedicated snippet. But then snippet must be re-run whenever the page is reloaded. And as the number of components grows, the cycle of right-click-run becomes rote. It's time for an automated solution.
 
-The solution requires running a local server. The implementation is more complicated than expected. Why am I going to all this trouble? Surely there something else more worthwhile. And then the local server springs to life and serves without error. A thrill results. And, as an extra, third party libraries can be easily loaded. Like [tinycolor](https://bgrins.github.io/TinyColor/) and [smooth.js](https://github.com/osuushi/Smooth.js/).
+The solution requires running a local server. Implementing it is more complicated than expected. Several surprising stumbling blocks. Why am I going to all this trouble? Surely time would be better spent elsewhere. And then the local server springs to life and serves without error. A thrill results. And, as a bonus, now third party libraries can be easily loaded. Such as [tinycolor](https://bgrins.github.io/TinyColor/) and [smooth.js](https://github.com/osuushi/Smooth.js/).
 
 This is the snippet that interfaces with the local server:
 
@@ -245,13 +245,13 @@ Using it requires: [simple-https-server.py](https://raw.githubusercontent.com/go
 
 ---
 
-There are an unlimited number of ways to bounce and catch the ball. I tried to bounce it forward from behind me; then catch it in a downturned palm as my arm swings forward. The ball needs to be thrown quite hard for this to work. During one attempt it strikes a pebble and ricochets off the path. When I retrieve it, I find it landed in the middle of a jeweled bracelet. I smile because of the novelty added to this story. The camera's sensor turns copper and cubic zirconia into gold and diamonds.
+After nearly a week with the ball I've discovered several ways to throw and catch it. One method is to bounce it forward from behind me; then catch it in a downturned palm as my arm swings forward. For this to work the ball must be thrown quite hard. During one attempt it strikes a pebble and ricochets off the path. When I retrieve it, I find it landed in the middle of a jeweled bracelet. My camera's sensor turns the copper and cubic zirconia into gold and diamonds.
 
 ![treasure][jewels]
 
 ---
 
-A character begins to follow me on Twitter. He is my first follower. He is generous with likes, and we enter into an exchange about hidden aspects of the Creative Lab 5 application. Such as the meaning of the six base-2 numbers surrounding the Techno Crab. And the meaning of specific fields in a submitted application; for instance `is_hacker` activates the Techno Crab. The field named `rain` is less clear.
+A character begins to follow me on Twitter. He is my first follower. He is generous with likes, and we enter into an exchange about hidden aspects of the Creative Lab 5 application. Such as the meaning of the six base-2 numbers surrounding the Techno Crab. And the utility of specific fields in a submitted application; for instance `is_hacker` activates the Techno Crab. The field named `rain` is less clear.
 
 Techno|Rain
 :--------------:|:--------------:
@@ -271,11 +271,11 @@ window.localStorage.setItem('boardStates',
     JSON.stringify(boardState));
 ```
 
-But setting the rain flag to true does not have any visible effect. I do not examine the issue any further.
+But setting the rain flag to true does not appear to have any visible effect. I do not examine the issue any further.
 
 ---
 
-The production of new prototypes slows. An urge to write returns. I begin recording this story. Freezing rain falls  two days into spring. Ice coats everything. It is beautiful. But lethal to nascent blossoms. Setting the rain flag to `true` percipitated this. Because it is the nature of the humans to discern connection and analogy. In this case it is spurious, but it is fun to observe my mind consider the possibility. But what is to say the two aren't linked? Maybe it's like the recent theories about the [relationship between computational complexity and event horizons](http://www.nature.com/news/theoretical-physics-complexity-on-the-horizon-1.15285). The mathematics are out of reach, but the thoughts play while I bounce the white ball on bubbles of air under ice.
+The number of profile views slows. My submissions to not garner likes from an persons of influence. The motivation begins to wane. The urge to write returns. I begin recording this story. One night freezing rain falls onto the city. Ice coats everything. It is beautiful. It was caused by setting the rain flag to `true`. I say that because it is the nature of humans to discern connection and analogy. In this case it is spurious, but the observation is fun to observe. Yet, what is to say that there no connection? Maybe it's like the recent theories about the [relationship between computational complexity and event horizons](http://www.nature.com/news/theoretical-physics-complexity-on-the-horizon-1.15285). The mathematics are out of reach, but the thoughts play while I bounce the white ball on bubbles of air under ice.
 
 ![bubbleball framecap][bubbleball]
 
@@ -283,11 +283,12 @@ The production of new prototypes slows. An urge to write returns. I begin record
 
 ---
 
-Public posts of creativelab5 applications remain generally bland, but occasionally a remarkable one pops up. This one is particularly interesting (escher)
+I stop making new animations. But I watch the stream for new submissions. Most are bland and uninspired. But occasionally a remarkable one pops up. Like [this one](https://creativelab5.com/s/uJclLz)
 
-These complex ones are interesting, and their mechanics are intriguing. I want to see how they work. Viewing a published application reveals a `<script>` tag with javascript assigning a dictionary to a variable named `shareData`. At first I tried extracting this data and parsing it as JSON, but that is not possible because it contains javascript instructions. An alternative is to copy the string in a variable in Eval it. This is a dangerous thing to do, and generally frowned on. But in this case we can be reasonably trusting of the contents. With the shareData variable populated into a javascript context, it is becomes a simple matter to copy the shape data into the boardStates structure. Refreshing the stage then shows the animation, where it can be closely studied.
+These complex ones are interesting, and their mechanics are intriguing. I want to see how they work. View Source of a published application to see a `<script>` tag with javascript assigning a dictionary to a variable named `shareData`. This data cannot be extracted as JSON because it contains javascript. That fact took a few tries to understand. The way to read it is to use [javascript eval](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval) it. Generally speaking, that's a dangerous thing to do. But in this case it's probably ok. Once the shareData variable is populated into a javascript context, it is becomes a simple matter to copy it into the boardStates structure. Refreshing the stage then shows the animation, where it can be studied.
 
-Both Pinto and Both used clever tricks to generate their animations.
+By studying the animations of Pinto and Both, I learn that they are clever people.
+
 
 [todo; code and images]
 
@@ -303,6 +304,7 @@ One morning the temperative climbs above zero. Now spring is definately taking h
 
 I miss the white ball. I always search the banks of the stream where it fell in, but do not have much hope of finding it. Then I found another ball; day-glo orange, a miniature tennis ball. It is wet and off-putting, but I pick it up anyway. It does not bounce well. It is the third ball in this story; which seems appropriate. I cannot leave it, so I rinse it in the stream and let it dry. It is small and not as much fun as the white ball. But is another turn in this story, and I resign to carrying it with me.
 
+[todo: image]
 ---
 
 notes for future development:
