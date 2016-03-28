@@ -111,7 +111,7 @@ function clearShapes() {
 
 That's a pretty simple example, and it duplicated functionality already present in the application (`all.deleteAll()`) But when code can be stored in a function it's a step toward proceedural generation.
     
-The problem is that the page must be reloaded in order to load the data from local storage. Which means you loose the javascript context, which then necessitates re-entering the code. Copy-paste helps, but then it's the same problem as before but in a slightly different domain. Looking for a solution turned up: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
+The problem is that the page must be reloaded in order to load the data from local storage. Which means you lose the javascript context, which then necessitates re-entering the code. Copy-paste helps, but then it's the same problem as before but in a slightly different domain. Looking for a solution turned up: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
     
 ![the snippets panel][snippets]
     
