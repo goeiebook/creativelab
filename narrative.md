@@ -32,7 +32,7 @@ Stay cool, Abrie. You can learn a lot from guys like this.
     
 Immediately open up the site and look deeper. How did Both make this thing? The Techno Crab mode unlocks additional tools: a pen tool, gradients, stroke control. But they are difficult to use. The anchor tool doesn't seem to work. The tiny vertex manipulators are aggravating. The play bar disappears at inconvienent times and reappears when least expected. The pen tool is terrible. Heavy CPU usage causes my Macbook's fan to whine. But apparently none of these issues held Both back. 
     
-The [Chrome Dev Console](https://developer.chrome.com/devtools/docs/console) remembers everything you enter, including mistakes and typos. At first this is helpful, but soon becomes pollution. Annoyed, I searched Chrome's menus for a remedy. And, as it turns out, the remedy is non-trivial. But in the process I stumbled onto the [Resources Panel](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/), which has an entry named [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage, and within that is an interesting string.
+The [Chrome Dev Console](https://developer.chrome.com/devtools/docs/console) remembers everything you enter, including mistakes and typos. At first this is helpful, but soon becomes pollution. Annoyed, I searched Chrome's menus for a remedy. And, as it turns out, the remedy is non-trivial. But in the process I stumbled onto the [Resources Panel](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/), which has an entry named [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage), and within that is an interesting string.
     
 ![local storage editor][localstorage]
     
@@ -294,15 +294,18 @@ By studying the animations of Pinto and Both, I learn that they are clever peopl
 
 ---
 
-One morning I returned to the culvert to experiment with the bounce-back phenomenon. I throw the ball forward, the angle is too low and it does not bounce of the ceiling. Instead it continues foward, out of the culvert and plops into the stream. Anyone watching me would have thought I deliberatly threw it into the water. I remain where I am, and film the space where the ball was last seen.
+One morning I returned to the culvert to experiment with the bounce-back phenomenon. On the first throw the angle is too shallow. It fails to reach the ceiling, and continues forward instead. It bounces happily along, and then plops into the rushing stream. Gone. Anyone watching would have thought I threw it in deliberatly. That was clumsy. I film the space where the ball was last seen.
+
+[insert film]
+---
+
+One morning the temperative climbs above zero. Now spring is gaining momentum. The trees shed their coats of ice. Cracking and crashing sounds fill the world. It is dangerous. A small piece falls from high up, striking my finger. It breaks skin and I bleed.
 
 ---
 
-One morning the temperative climbs above zero. Now spring is definately taking hold. The trees shed their coats of ice. Cracking and crashing sounds fill the world. It is dangerous. A small piece falls form from high up and strikes my finger. It breaks the skin and I bleed.
+I miss the white ball. When I pass the place it fell in, I always peer into the water and look along the banks. There is not much hope for recovery. But a few blocks further, along a sidewalk through a park, I find another ball. Day-glo orange, a miniature tennis ball. It is wet and disgusting, but I pick it up anyway. It does not bounce well. Despite the bright color, it is sad. The third ball of this story. I cannot leave it.
 
----
-
-I miss the white ball. I always search the banks of the stream where it fell in, but do not have much hope of finding it. Then I found another ball; day-glo orange, a miniature tennis ball. It is wet and off-putting, but I pick it up anyway. It does not bounce well. It is the third ball in this story; which seems appropriate. I cannot leave it, so I rinse it in the stream and let it dry. It is small and not as much fun as the white ball. But is another turn in this story, and I resign to carrying it with me.
+I wash it in the sink of a mall bathroom, then dry it in a Dyson Airblade. I resign to carrying it with me.
 
 [todo: image]
 ---
