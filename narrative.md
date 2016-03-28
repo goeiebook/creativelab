@@ -119,7 +119,7 @@ Now we're talking. Right-click->Run. That's fun. So we go wild, like a bull in a
     
 ![what a mess][mess]
     
-I clicked the submit button, signed my "Cover Letter", and waited for the requet to process. It takes a long time. Then it fails. Try again. Fails again. [500 Server Error](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_Server_Error). So the animation works locally, but remains trapped there. Unshareable. This must mean I've discovered another "Break It" feature! I tweet about it to the #creativelab5 people; expecting another 1000% increase in profile views.
+I clicked the submit button, signed my "Cover Letter", and waited for the request to process. It takes longer than expected. Then it fails. Try again. Fails again, [500 Server Error](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_Server_Error). So the animation worked locally, but remained trapped there. Unshareable. This must mean I've discovered another "Break It" feature! I tweet to the #creativelab5 people; expecting another 1000% increase in profile views.
     
 ![what a mess][500error]
     
@@ -129,15 +129,15 @@ The following morning I passed the tree that caught the boomerang. The boomerang
     
 ![boomerang replacement][basketball]
     
-I laughed aloud. Amused by storylines unfolding automatically. And this one had fractal similarity. I mean, this is like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). These are my thoughts while I bounce my rubber ball along the sidewalk. I wonder what will happen tomorrow. Maybe the story will take another humorous turn.
+I laughed aloud. Amused by stories unfolding automatically. And this one had fractal similarity. I mean, this is like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). Those are my thoughts while I bounced the rubber ball along a route. I wondered what would happen tomorrow. Maybe the story would take another good turn.
     
 ---
     
-The post about the 500 Error did not generate buzz. No replies, no tweet impressions, no link clicks. Maybe it wasn't anything unexpected. The error was returned because the submission was unacceptable. That would be expected.
+The post about the 500 Error did not generate buzz. No replies, no tweet impressions, no link clicks. Maybe it wasn't anything unexpected. That is to say, the error was returned because the submission was unacceptable. And that would be expected.
 
 Edit the snippet. Reduce complexity by a bit and resubmit. Repeat until the submission goes through. Eventually it does. That proves it. The problem was invalid timeline values and too many shapes. So there is a limit to how complex animations may be. That's not surprising, in retrospect. Reasonable, even. Embarassing.
     
-Begin again with a clean snippet. Generate a set of points. Add some random handleIns and handleOuts. Multiply by trigometric functions. Divide by a constant value. The result looks like fireworks. I don't know exactly how it works, but to an outsider it would seem designed. 
+Begin again with a clean snippet. Generate a set of points. Add some random handleIns and handleOuts. Multiply by trigometric functions. Divide by a constant value. The result looks like fireworks. How it works is not completely clear. But to an outsider it would seem designed. 
     
 ![burst][burst]
 
@@ -145,7 +145,7 @@ Begin again with a clean snippet. Generate a set of points. Add some random hand
     
 ---
     
-Discoveries about the ball begin to emerge after three days of play. Aside from becoming better at manipulating it, I'm also beginning to note character details. Such as the sound it makes in different environments. Splat when it's bounced into a buddle (which also substantially reduces the return energy). Echoed reverberations when bounced through a culvert.
+Discoveries about the ball begin to emerge after three days of play. Aside from becoming better at manipulating it, I'm also begin to note character details. Such as the sound it makes in different environments. _Splat_ when it's bounced into a buddle (which also substantially reduces the return energy). Long tailed reverberations follow when bounced through a culvert.
     
 ![spectrogram of a tunnel bounce][tunnelbounce]
 
