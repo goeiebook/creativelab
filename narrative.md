@@ -78,7 +78,7 @@ Removing all but one of the elements in the shape array produces [this JSON](htt
 Encouraged, I make hapazard edits and refresh the page. Like combinatorial chemistry, stochastic search, or percussive repair. The workflow went like this:
     
 1. Select boardStates field, CMD-c, shift-tab to terminal
-2. ```pbpaste | python -m json.tool &gt; pretty.json```
+2. ```pbpaste | python -m json.tool > pretty.json```
 3. ```pico pretty.json```
 4. ```jq -c . simple.json | pbcopy```
 5. Select boardStates field, CMD-v, reload page.
@@ -115,7 +115,7 @@ The problem is that the page must be reloaded in order to load the data from loc
     
 ![the snippets panel][snippets]
     
-Now we're talking. Right-click-&gt;Run. That's fun. So we go wild, like a bull in a china shop, copy-pasting blocks of code into snippets generating arrays of shapes and colors. What did those handleIn/handleOut parameters do? Whatever it was, it was interesting. Excessive and messy. But I was proud of the result. Even if it wasn't totally clear how the code worked.
+Now we're talking. Right-click->Run. That's fun. So we go wild, like a bull in a china shop, copy-pasting blocks of code into snippets generating arrays of shapes and colors. What did those handleIn/handleOut parameters do? Whatever it was, it was interesting. Excessive and messy. But I was proud of the result. Even if it wasn't totally clear how the code worked.
     
 ![what a mess][mess]
     
@@ -175,15 +175,16 @@ Once, while waiting in a subway station, I was approached by a man. It started o
 
 He seemed surprised, "Are you good it?"
 
-"Good luck with your daughter," I said. And got off the train nine stops too early.
+"Good luck with your daughter," I said, and got off the train nine stops too early.
 
 ---
 
-Equipped with snippets and [TinyColor](https://bgrins.github.io/TinyColor/), I produce several animations and spam the #creativelab5 hashtag. Profile views continue to accumulate, a 2335% increase since last month. It's good to be seen. A serotonin rush is normal. It's what feeds the world.
+Equipped with javascript snippets, and [TinyColor](https://bgrins.github.io/TinyColor/), I produce several animations and spam them under the #creativelab5 hashtag. Profile views continue to accumulate, a 2335% increase since last month. Heady days. This serotonin rush is normal. It's what feeds the world.
 
 [live](https://www.creativelab5.com/s/cWcMsq).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/cWcMsq.js).|[live](https://www.creativelab5.com/s/aIZcsx).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/aIZcsx.js).|[live](https://www.creativelab5.com/s/shv7V4).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/shv7V4.js).
 :-----------------:|:-----------------:|:-----------------:
 ![cWcMsq][cWcMsq]  |![aIZcsx][aIZcsx]  |![shv7V4][shv7V4]
+
 
 ---
 
@@ -284,4 +285,69 @@ The number of profile views slows. My submissions to not garner likes from an pe
 
 I stop making new animations. But I watch the stream for new submissions. Most are bland and uninspired. But occasionally a remarkable one pops up. Like [this one](https://creativelab5.com/s/uJclLz)
 
-These complex ones are interesting, and their mechanics are intriguing. I want to see how they work. View Source of a published application to see a `
+These complex ones are interesting, and their mechanics are intriguing. I want to see how they work. View Source of a published application to see a `<script>` tag with javascript assigning a dictionary to a variable named `shareData`. This data cannot be extracted as JSON because it contains javascript. That fact took a few tries to understand. The way to read it is to use [javascript eval](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval) it. Generally speaking, that's a dangerous thing to do. But in this case it's probably ok. Once the shareData variable is populated into a javascript context, it is becomes a simple matter to copy it into the boardStates structure. Refreshing the stage then shows the animation, where it can be studied.
+
+By studying the animations of Pinto and Both, I learn that they are clever people.
+
+Zach Both|Eric Pinto
+:--------------------|:---------------------:
+![wireboth][wireboth]|![wirepinto][wirepinto]
+
+---
+
+One morning I returned to the culvert to experiment with the bounce-back phenomenon. On the first throw the angle is too shallow. It fails to reach the ceiling, and continues forward instead. It bounces happily along, and then plops into the rushing stream. Gone. Anyone watching would have thought I threw it in deliberatly. That was clumsy. I film the space where the ball was last seen.
+
+[insert film]
+---
+
+One morning the temperature climbs above zero. Now spring is gaining momentum. The trees shed their coats of ice. Sheets and fragments crack and crash to the ground. It is dangerous. I walk into the middle of grove of trees and stand there, listening to the noise of it all. It's as if a part of the world is crumbling around me. A small piece falls from high up and strikes my finger. It breaks skin and I bleed.
+
+---
+
+I miss the white ball. When I pass the place it fell in, I always peer into the water and look along the banks. There is not much hope for recovery. But a few blocks further, along a sidewalk through a park, I find another ball. Day-glo orange, a miniature tennis ball. It is wet and disgusting, but I pick it up anyway. It does not bounce well. Despite the bright color, it is sad. The third ball of this story. I cannot leave it.
+
+I wash it in the sink of a mall bathroom, dry it with a Dyson Airblade --- a marvelous piece of overengineering.
+
+![orangeball][orangeball]
+
+---
+
+Cold weather 
+
+notes for future development:
+- Recollection of being mugged in Windhoek.
+
+[default]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/default.jpg
+[bansky]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/bansky.jpg
+[tweet]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/tweet.jpg
+[both]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/both.jpg
+[localstorage]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/localstorge.png
+[simplified]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/simplified.jpg
+[snippets]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/snippets.jpg
+[500error]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/500error.jpg
+[basketball]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/basketball.jpg
+[mess]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/mess.jpg
+[burst]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/burst.gif
+[tunnelbounce]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/tunnelbounce.jpg
+[uNwej3]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/uNwej3.gif
+[cWcMsq]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/cWcMsq.gif
+[aIZcsx]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/aIZcsx.gif
+[shv7V4]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/shv7V4.gif
+[brokenball]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/brokenball.jpg
+[setstage]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/setstage.jpg
+[yjJZBH.gif]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/yjJZBH.gif
+[Diu8WJ.gif]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/Diu8WJ.gif
+[rnqNpZ.gif]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/rnqNpZ.gif
+[yjJZBF.web]: https://www.creativelab5.com/s/yjJZBH
+[Diu8WJ.web]: https://www.creativelab5.com/s/Diu8WJ
+[rnqNpZ.web]: https://www.creativelab5.com/s/rnqNpZ
+[yjJZBF.js]: https://github.com/goeiebook/creativelab/blob/master/snippets/yjJZBF.js
+[Diu8WJ.js]: https://github.com/goeiebook/creativelab/blob/master/snippets/Diu8WJ.js
+[rnqNpZ.js]: https://github.com/goeiebook/creativelab/blob/master/snippets/rnqNpZ.js
+[jewels]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/jewels.jpg
+[rainflag]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/rainflag.jpg
+[technocrab]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/technocrab.jpg
+[bubbleball]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/bubbleball.jpg
+[wireboth]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/wireboth.jpg
+[wirepinto]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/wirepinto.jpg
+[orangeball]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/orangeball.jpg

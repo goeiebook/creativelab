@@ -1,0 +1,18 @@
+.container {
+    width: 30em;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+p > img {
+    width: 100%;
+    border: 1px solid grey;
+}
+
+table {
+    width: 100%;
+}
+
+td > img {
+    width: 100%;
+}
