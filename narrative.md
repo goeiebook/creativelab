@@ -1,6 +1,6 @@
 ## Discovery Requires Circumstance
     
-Stories must begin somewhere. I heard about Google Creative Lab while trying to promote myself. [A retweet](https://twitter.com/PRHDigital/status/707503572733313024) via @editionsatplay mentioned a new Creative Lab 5 site. What is that?
+Stories begin somewhere. I heard about Google Creative Lab while trying to promote myself. [A retweet](https://twitter.com/PRHDigital/status/707503572733313024) via @editionsatplay mentioned a new Creative Lab 5 site. What is that?
     
 ![the application site][default]
     
