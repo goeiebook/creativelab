@@ -1,0 +1,260 @@
+<html>
+<head>
+    <link rel="stylesheet" href="default.css" type="text/css">
+    <link rel="stylesheet" href="narrative.css" type="text/css">
+</head>
+<body>
+<div class="container">
+<h2>Discovery Requires Circumstance</h2>
+<p>Stories must begin somewhere. I heard about Google Creative Lab while trying to promote myself. <a href="https://twitter.com/PRHDigital/status/707503572733313024">A retweet</a> via @editionsatplay mentioned a new Creative Lab 5 site. What is that?</p>
+<p><img alt="the application site" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/default.jpg" /></p>
+<p>A one year paid program, looking for new applicants. <a href="https://creativelab5.com">The application</a> is a web application, "<em>Write it, design it, code it, move it, break it.</em>" The form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a secret puzzle. <a href="https://github.com/mhipley/creativelab5/wiki/The-Google-Creative-Lab-5-Cheat-Sheet">Solving the puzzle</a> yields a "Techno Crab" badge. Complete the application with an animation titled "Idempotent", and send it off.</p>
+<p>Idempotent. So clever. A shoo-in for sure.</p>
+<p>A day elapses. Then another. I revisit my application, and discover <a href="https://www.creativelab5.com/s/puukkz">it's broken</a>. The animation doesn't play as planned and the console shows an error. I had spent a lot of time struggling with the UI. Embarassed, I had a need to explain myself. I address a tweet <a href="https://twitter.com/Andrew_Herzog/status/708081805103144960">to message</a> one of the designers. A response arrives. </p>
+<p><img alt="the response" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/tweet.jpg" /></p>
+<p>Is that sarcasm? I'm not socially adept. Maybe the message wasn't clear. This is confusing. But then something unanticipated happens: attention. Profile views and tweet impressions. Twitter analytics measures an increase of 1000%.</p>
+<hr />
+<p>Winter was finally coming to a close. The snow began to melt. When snow melts it leaves a distinctive aftermath. Piles of gravel, salt, and soggy cigarette butts. Like glacial till. Snowplow scars and single wet mittens.</p>
+<p>In a pile of detritus I found a ball. I picked it up. Solid rubber, white, with a grey splotch. A lot of bounce. Probably a dog toy. I put it in my pocket. While walking, I thought to <a href="https://twitter.com/goeiebook/status/709378927219728384">tweet about it</a>, and formed a plan to carry it with me at all times. Because by doing so you increase the chance of discovering something new.</p>
+<hr />
+<p>Checking analytics is addictive. Especially so when more signal than noise. <a href="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/bansky.jpg">The alternative is less fun.</a>. For now I was king of the #creativelab5 hashtag. I watched the feed with relish, comparing new submissions to my own. They were bland, like mine; but none were broken, like mine. And none had the Techno Crab stamp. Then <a href="https://www.creativelab5.com/s/pnMGi5">this masterpiece</a> arrives.</p>
+<p><img alt="the both submission" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/both.jpg" /></p>
+<p>Excellent presentation, casual phrasing, and three images demonstrating aspects of design. And the animation uses clever tricks. I darkened.</p>
+<p>Stay cool, Abrie. You can learn a lot from guys like this.</p>
+<p>Immediately open up the site and look deeper. How did Both make this thing? The Techno Crab mode unlocks additional tools: a pen tool, gradients, stroke control. But they are difficult to use. The anchor tool doesn't seem to work. The tiny vertex manipulators are aggravating. The play bar disappears at inconvienent times and reappears when least expected. The pen tool is terrible. Heavy CPU usage causes my Macbook's fan to whine. But apparently none of these issues held Both back. </p>
+<p>The <a href="https://developer.chrome.com/devtools/docs/console">Chrome Dev Console</a> remembers everything you enter, including mistakes and typos. At first this is helpful, but soon becomes pollution. Annoyed, I searched Chrome's menus for a remedy. And, as it turns out, the remedy is non-trivial. But in the process I stumbled onto the <a href="https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/">Resources Panel</a>, which has an entry named <a href="https://developer.mozilla.org/en/docs/Web/API/Window/localStorage">Local Storage</a>, and within that is an interesting string.</p>
+<p><img alt="local storage editor" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/localstorge.png" /></p>
+<p>Pretty-printing the contents of 'boardStates' reveals a JSON data structure, with nomenclature suggesting animation. For example, <a href="https://github.com/goeiebook/creativelab/blob/master/json/defaultBoardStates.json">this</a> is the default page. </p>
+<p>The 'shapes' key is where the important details are. Keyframes, stroke and fill parameters, point coordinates, and things called 'handles'. This is exciting. Perhaps there is a way to create an animation with tools other than those provided by the site.</p>
+<div class="codehilite"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;shapes&quot;</span><span class="o">:</span> <span class="p">[{</span>
+    <span class="s2">&quot;break&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+    <span class="s2">&quot;duped&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+    <span class="s2">&quot;fillColor&quot;</span><span class="o">:</span> <span class="s2">&quot;#4285f4&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;hierarchyIndex&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+    <span class="s2">&quot;isLine&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+    <span class="s2">&quot;keyframes&quot;</span><span class="o">:</span> <span class="p">[{</span>
+        <span class="s2">&quot;ease&quot;</span><span class="o">:</span> <span class="s2">&quot;easeInOutExpo&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;fillColor&quot;</span><span class="o">:</span> <span class="s2">&quot;#4285f4&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;handlesMoved&quot;</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="s2">&quot;state&quot;</span><span class="o">:</span> <span class="p">{</span>
+            <span class="s2">&quot;handleIn&quot;</span><span class="o">:</span> <span class="p">[[</span><span class="s2">&quot;Point&quot;</span><span class="p">,</span> <span class="mf">16.9011</span><span class="p">,</span> <span class="mf">6.97627</span><span class="p">]],</span>
+            <span class="s2">&quot;handleOut&quot;</span><span class="o">:</span> <span class="p">[[</span><span class="s2">&quot;Point&quot;</span><span class="p">,</span><span class="o">-</span><span class="mf">16.9011</span><span class="p">,</span> <span class="o">-</span><span class="mf">6.97627</span><span class="p">]],</span>
+            <span class="s2">&quot;point&quot;</span><span class="o">:</span> <span class="p">[[</span><span class="s2">&quot;Point&quot;</span><span class="p">,</span><span class="mf">456.21216</span><span class="p">,</span> <span class="mf">287.17157</span><span class="p">]]</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;strokeColor&quot;</span><span class="o">:</span> <span class="s2">&quot;#4285f4&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;strokeWidth&quot;</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="s2">&quot;time&quot;</span><span class="o">:</span> <span class="mi">0</span>
+    <span class="p">}],</span>
+    <span class="s2">&quot;numSides&quot;</span><span class="o">:</span> <span class="mi">8</span><span class="p">,</span>
+    <span class="s2">&quot;strokeColor&quot;</span><span class="o">:</span> <span class="s2">&quot;#4285f4&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;strokeWidth&quot;</span><span class="o">:</span> <span class="mi">1</span>
+    <span class="p">}]</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<p>Removing all but one of the elements in the shape array produces <a href="https://github.com/goeiebook/creativelab/blob/master/json/simple.json">this JSON</a>. When that is pasted into the local storage field, nothing happens. But when the page is reloaded, the storage is structure is deserialized and --- Voila!</p>
+<p><img alt="simple circle, er, I mean a G." src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/simplified.jpg" /></p>
+<p><a href="https://www.creativelab5.com/s/m3JEdl">code</a>.</p>
+<p>Encouraged, I make hapazard edits and refresh the page. Like combinatorial chemistry, stochastic search, or percussive repair. The workflow went like this:</p>
+<ol>
+<li>Select boardStates field, CMD-c, shift-tab to terminal</li>
+<li><code>pbpaste | python -m json.tool &gt; pretty.json</code></li>
+<li><code>pico pretty.json</code></li>
+<li><code>jq -c . simple.json | pbcopy</code></li>
+<li>Select boardStates field, CMD-v, reload page.</li>
+</ol>
+<p>Inefficient, but already better than using the Techno Crab's <code>activatePen(104743);</code> or <code>penToolActivated=true;</code></p>
+<hr />
+<p>I'd been in the coffee shop for an hour, and decorum suggested it was time to leave. I packed up and walked to a different shop. The route goes through a park. Spring was near. Two kids were throwing a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. I approached them and said "Could I show you how to throw that?" They handed it over. I said something about not having thrown a boomerang in a long time. Then I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I handed the boomerang back, "Now you try." The kid copied my technique and it flew out in a wide arc, curved up, around --- and then got stuck in a tree.</p>
+<hr />
+<p>With the animation data structure exposed, a whole set of possibilities were in mind. Animations could be made without having to use the clumsy Google Creative Lab 5 UI. But the manual copy-pasting was tiring and error prone. A more programmatic workflow would be better. The dev console's command prompt could help. A series of commands like this, for example, provides a mechanisim for erasing all the shapes:</p>
+<div class="codehilite"><pre><span></span><span class="kd">function</span> <span class="nx">clearShapes</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">boardStateString</span> <span class="o">=</span>
+        <span class="nb">window</span><span class="p">.</span><span class="nx">localstorage</span><span class="p">.</span><span class="nx">getItem</span><span class="p">(</span><span class="s1">&#39;boardStates&#39;</span><span class="p">);</span>
+
+    <span class="kd">var</span> <span class="nx">boardState</span> <span class="o">=</span> 
+        <span class="nx">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">boardStateString</span><span class="p">);</span>
+
+    <span class="nx">boardState</span><span class="p">.</span><span class="nx">shapes</span> <span class="o">=</span> <span class="p">[];</span>
+
+    <span class="nb">window</span><span class="p">.</span><span class="nx">localstorage</span><span class="p">.</span><span class="nx">setItem</span><span class="p">(</span><span class="s1">&#39;boardStates&#39;</span><span class="p">,</span>
+        <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">boardState</span><span class="p">));</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<p>That's a pretty simple example, and it duplicated functionality already present in the application (<code>all.deleteAll()</code>) But when code can be stored in a function it's a step toward proceedural generation.</p>
+<p>The problem is that the page must be reloaded in order to load the data from local storage. Which means you lose the javascript context, which then necessitates re-entering the code. Copy-paste helps, but then it's the same problem as before but in a slightly different domain. Looking for a solution turned up: <a href="https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en">Snippets</a>!</p>
+<p><img alt="the snippets panel" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/snippets.jpg" /></p>
+<p>Now we're talking. Right-click-&gt;Run. That's fun. So we go wild, like a bull in a china shop, copy-pasting blocks of code into snippets generating arrays of shapes and colors. What did those handleIn/handleOut parameters do? Whatever it was, it was interesting. Excessive and messy. But I was proud of the result. Even if it wasn't totally clear how the code worked.</p>
+<p><img alt="what a mess" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/mess.jpg" /></p>
+<p>I clicked the submit button, signed my "Cover Letter", and waited for the request to process. It takes longer than expected. Then it fails. Try again. Fails again, <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_Server_Error">500 Server Error</a>. So the animation worked locally, but remained trapped there. Unshareable. This must mean I've discovered another "Break It" feature! I tweet to the #creativelab5 people; expecting another 1000% increase in profile views.</p>
+<p><img alt="what a mess" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/500error.jpg" /></p>
+<hr />
+<p>The following morning I passed the tree that caught the boomerang. The boomerang wasn't there anymore. But there was a basketball up there. </p>
+<p><img alt="boomerang replacement" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/basketball.jpg" /></p>
+<p>I laughed aloud. Amused by stories unfolding automatically. And this one had fractal similarity. I mean, this is like the Peanuts' <a href="http://peanuts.wikia.com/wiki/Kite-Eating_Tree">kite-eating tree</a>. Those are my thoughts while I bounced the rubber ball along a route. I wondered what would happen tomorrow. Maybe the story would take another good turn.</p>
+<hr />
+<p>The post about the 500 Error did not generate buzz. No replies, no tweet impressions, no link clicks. Maybe it wasn't anything unexpected. That is to say, the error was returned because the submission was unacceptable. And that would be expected.</p>
+<p>Edit the snippet. Reduce complexity by a bit and resubmit. Repeat until the submission goes through. Eventually it does. That proves it. The problem was invalid timeline values and too many shapes. So there is a limit to how complex animations may be. That's not surprising, in retrospect. Reasonable, even. Embarassing.</p>
+<p>Begin again with a clean snippet. Generate a set of points. Add some random handleIns and handleOuts. Multiply by trigometric functions. Divide by a constant value. The result looks like fireworks. How it works is not completely clear. But to an outsider it would seem designed. </p>
+<p><img alt="burst" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/burst.gif" /></p>
+<p><a href="https://www.creativelab5.com/s/31KE8L">live</a>. <a href="https://github.com/goeiebook/creativelab/blob/master/snippets/31KE8L.js">code</a>.</p>
+<hr />
+<p>Discoveries about the ball begin to emerge after three days of play. Aside from becoming better at manipulating it, I'm also begin to note character details. Such as the sound it makes in different environments. <em>Splat</em> when it's bounced into a buddle (which also substantially reduces the return energy). Long tailed reverberations follow when bounced through a culvert.</p>
+<p><img alt="spectrogram of a tunnel bounce" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/tunnelbounce.jpg" /></p>
+<p><a href="https://youtu.be/8KXGaB3PApY">youtube</a>.</p>
+<hr />
+<p>Dividing two-dimensional coordinates by a third number is called foreshortening. I learn this reading about <a href="https://en.wikipedia.org/wiki/3D_projection#Weak_perspective_projection">perspective projection</a>. It's not something one needs to know. Toolkits like <a href="http://threejs.org/">ThreeJS</a> take care of it for you. But maybe with some disciplined application 3D things could be coaxed from the Creative Lab 5 application. Maybe a few more profile views will be generated.</p>
+<p>Ah hell, I'm getting addicted. So it goes, into the small hours of the morning. Setting handle values to 0's results in right angles. Read on Wikipedia about the role of a focal length multiplier. Be aware that if the z coorindate is zero, you'll be dividing by zero. If your z-coordinate is less than zero things are going to turn upside down. And then, suddenly, <a href="https://www.creativelab5.com/s/uNwej3">something works</a>. </p>
+<p><img alt="boxillusion" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/uNwej3.gif" /></p>
+<p><a href="https://www.creativelab5.com/s/uNwej3">live</a>. <a href="https://github.com/goeiebook/creativelab/blob/master/snippets/uNwej3.js">code</a>.</p>
+<hr />
+<p>The basketball was no longer in the tree. It vanished. Sometimes stories just end. Maybe the story could be continued as fiction. A bird took the basketball.</p>
+<p>I continued to bounce the ball everywhere I went. Surprising observations resulted. For instance, strangers would smile and greet. "Hello", "Nice day", and so on. I won't pretend to understand why that was happening. But maybe it's disarming to see someone play. Neurochemical psychological sociology. There is utility in the discovery. One could use it as a confidence trick, if so inclined.</p>
+<p>Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Shalom, shalom. About ten minutes later he had $200 of my dollars in his pocket. His baby daughter needed money for medication. He said I could stay in his house in Tel Aviv. He gave me a number I immediately recognized as fake, but I continued to play into his hands. We rode the subway together, in silence. Both of us knew what the other knew. It was an awkard ride.</p>
+<p>"What do you do for a living?" He asked me.</p>
+<p>"I'm a programmer."</p>
+<p>He seemed surprised, "Are you good it?"</p>
+<p>"Good luck with your daughter," I said, and got off the train nine stops too early.</p>
+<hr />
+<p>Equipped with javascript snippets, and <a href="https://bgrins.github.io/TinyColor/">TinyColor</a>, I produce several animations and spam them under the #creativelab5 hashtag. Profile views continue to accumulate, a 2335% increase since last month. Heady days. This serotonin rush is normal. It's what feeds the world.</p>
+<table>
+<thead>
+<tr>
+<th align="center"><a href="https://www.creativelab5.com/s/cWcMsq">live</a>.<a href="https://github.com/goeiebook/creativelab/blob/master/snippets/cWcMsq.js">code</a>.</th>
+<th align="center"><a href="https://www.creativelab5.com/s/aIZcsx">live</a>.<a href="https://github.com/goeiebook/creativelab/blob/master/snippets/aIZcsx.js">code</a>.</th>
+<th align="center"><a href="https://www.creativelab5.com/s/shv7V4">live</a>.<a href="https://github.com/goeiebook/creativelab/blob/master/snippets/shv7V4.js">code</a>.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img alt="cWcMsq" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/cWcMsq.gif" /></td>
+<td align="center"><img alt="aIZcsx" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/aIZcsx.gif" /></td>
+<td align="center"><img alt="shv7V4" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/shv7V4.gif" /></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>While passing through the park I find the basketball, hidden in undergrowth. I smiled and picked it up. But something felt wrong. It was cold and limp. Stabbed. Disgusted, I dropped it and walked away. A few hours later I thought to take a picture of it. Because the basketball was now part of this story. I returned and photographed it. Then I picked it up and dropped it into a garbage can. As it fell it displaced air. The air stank of dog shit.</p>
+<p><img alt="stabbed basketball" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/brokenball.jpg" /></p>
+<hr />
+<p>Suddenly the workflow stops working. Changes to the localstorage structure no longer persist across page reloads. Is there a parallel to the fate of the basketball? Have the Creative Lab staff closed a hole? When this type of thing happens the answer might be found in the source code. It's not obfuscated, but it is big and noisy. Chrome dev console slows to a crawl. Text search for 'boardStates', and find:</p>
+<p><img alt="this is useful" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/setstage.jpg" /></p>
+<p><code>setStageFromLocal()</code> ... Was that always there? Invoke the function and the stage populates with what's in local storage. And, more importantly, it persits across reloads. Why did I not think of looking for this before? What else am I blind to?</p>
+<p>The function greatly increases productivity. Updates to the stage are now instantenous and do not require a page reload. They can even be applied while the animation is running.</p>
+<p>I wonder what the handleIn/handleOut parameters do. From the source code it's apparent that <a href="http://paperjs.org/">PaperJS</a> is used. A search for "paperjs handlein" provides <a href="http://paperjs.org/reference/segment/#segment">documentation about the parameter</a>. So --- the handles define points on tangent curves. That doesn't mean much to me. An experiment is in order. Write code to arrange tangent points in a circle. The result looks like flowers and leaves. This spawns another run of prototypes. </p>
+<table>
+<thead>
+<tr>
+<th align="center"><a href="hyjJZBH.web">live</a> <a href="yjJZBH.js">code</a></th>
+<th align="center"><a href="Diu8WJ.web">live</a> <a href="Diu8WJ.js">code</a></th>
+<th align="center"><a href="rnqNpZ.web">live</a> <a href="rnqNpZ.js">code</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img alt="yjJZBH" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/yjJZBH.gif" /></td>
+<td align="center"><img alt="Diu8WJ" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/Diu8WJ.gif" /></td>
+<td align="center"><img alt="rnqNpZ" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/rnqNpZ.gif" /></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Discovered counter intuitive ball behavior. If thrown down and forward at a sharp angle, under a low ceiling, the ball will bounce up and off the ceiling. But instead of continuing forward as expected, it will return toward the thrower. This is easily reproducible. It's wonderful. I spent quite a bit of time experimenting with angles, enjoying the surprise. The phenomenon appears due to the spin imparted when throwing a ball foward, but more study is necessary.</p>
+<hr />
+<p>As the number of prototypes increases, common code elements become apparent. For example, all the prototypes contain functions to access the localstorage structure. Those functions should be stored in a single reusable place. The most obvious solution is a dedicated snippet. But then snippet must be re-run whenever the page is reloaded. And as the number of components grows, the cycle of right-click-run becomes rote. It's time for an automated solution.</p>
+<p>The solution requires running a local server. Implementing it is more complicated than expected. Several surprising stumbling blocks. Why am I going to all this trouble? Surely time would be better spent elsewhere. And then the local server springs to life and serves without error. A thrill results. And, as a bonus, now third party libraries can be easily loaded. Such as <a href="https://bgrins.github.io/TinyColor/">tinycolor</a> and <a href="https://github.com/osuushi/Smooth.js/">smooth.js</a>.</p>
+<p>This is the snippet that interfaces with the local server:</p>
+<div class="codehilite"><pre><span></span><span class="nx">addScriptSrc</span><span class="p">(</span><span class="s2">&quot;https://localhost:4443/tinycolor.js&quot;</span><span class="p">);</span>
+<span class="nx">addScriptSrc</span><span class="p">(</span><span class="s2">&quot;https://localhost:4443/Smooth-0.1.7.js&quot;</span><span class="p">);</span>
+<span class="nx">addScriptSrc</span><span class="p">(</span><span class="s2">&quot;https://localhost:4443/boardinterface.js&quot;</span><span class="p">);</span>
+<span class="nx">addScriptSrc</span><span class="p">(</span><span class="s2">&quot;https://localhost:4443/main.js&quot;</span><span class="p">);</span>
+
+<span class="kd">function</span> <span class="nx">addScriptSrc</span><span class="p">(</span><span class="nx">src</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">preexisting</span> <span class="o">=</span> 
+        <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="sb">`script[src^=&#39;</span><span class="si">${</span><span class="nx">src</span><span class="si">}</span><span class="sb">&#39;]`</span><span class="p">);</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="nx">preexisting</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nb">document</span><span class="p">.</span><span class="nx">head</span><span class="p">.</span><span class="nx">removeChild</span><span class="p">(</span><span class="nx">preexisting</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="kd">var</span> <span class="nx">script</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">&#39;script&#39;</span><span class="p">);</span>
+    <span class="nx">script</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="sb">`</span><span class="si">${</span><span class="nx">src</span><span class="si">}</span><span class="sb">?cacheBust=</span><span class="si">${</span><span class="nb">Date</span><span class="p">.</span><span class="nx">now</span><span class="p">()</span><span class="si">}</span><span class="sb">`</span><span class="p">;</span>
+    <span class="nx">script</span><span class="p">.</span><span class="nx">async</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">head</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">script</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<p>Using it requires: <a href="https://raw.githubusercontent.com/goeiebook/creativelab/master/server/simple-htps-server.py">simple-https-server.py</a>, <a href="https://github.com/PhilGrayson/chrome-csp-disable">chrome-csp-disable</a> and a self-signed certificate.</p>
+<hr />
+<p>After nearly a week with the ball I've discovered several ways to throw and catch it. One method is to bounce it forward from behind me; then catch it in a downturned palm as my arm swings forward. For this to work the ball must be thrown quite hard. During one attempt it strikes a pebble and ricochets off the path. When I retrieve it, I find it landed in the middle of a jeweled bracelet. My camera's sensor turns the copper and cubic zirconia into gold and diamonds.</p>
+<p><img alt="treasure" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/jewels.jpg" /></p>
+<hr />
+<p>A character begins to follow me on Twitter. He is my first follower. He is generous with likes, and we enter into an exchange about hidden aspects of the Creative Lab 5 application. Such as the meaning of the six base-2 numbers surrounding the Techno Crab. And the utility of specific fields in a submitted application; for instance <code>is_hacker</code> activates the Techno Crab. The field named <code>rain</code> is less clear.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Techno</th>
+<th align="center">Rain</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img alt="technocrab" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/technocrab.jpg" /></td>
+<td align="center"><img alt="set rain to try" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/rainflag.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p>The message around the crab logo spells TECHNO. The rain flag can be set to true using the code below, then submitting the application.</p>
+<div class="codehilite"><pre><span></span><span class="kd">var</span> <span class="nx">boardState</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span>
+    <span class="nb">window</span><span class="p">.</span><span class="nx">localStorage</span><span class="p">.</span><span class="nx">getItem</span><span class="p">(</span><span class="s1">&#39;boardStates&#39;</span><span class="p">));</span>
+
+<span class="nx">extras</span><span class="p">[</span><span class="s1">&#39;rain&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+<span class="nx">boardState</span><span class="p">.</span><span class="nx">rain</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+
+<span class="nb">window</span><span class="p">.</span><span class="nx">localStorage</span><span class="p">.</span><span class="nx">setItem</span><span class="p">(</span><span class="s1">&#39;boardStates&#39;</span><span class="p">,</span>
+    <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">boardState</span><span class="p">));</span>
+</pre></div>
+
+
+<p>But setting the rain flag to true does not appear to have any visible effect. I do not examine the issue any further.</p>
+<hr />
+<p>The number of profile views slows. My submissions to not garner likes from an persons of influence. The motivation begins to wane. The urge to write returns. I begin recording this story. One night freezing rain falls onto the city. Ice coats everything. It is beautiful. It was caused by setting the rain flag to <code>true</code>. I say that because it is the nature of humans to discern connection and analogy. In this case it is spurious, but the observation is fun to observe. Yet, what is to say that there no connection? Maybe it's like the recent theories about the <a href="http://www.nature.com/news/theoretical-physics-complexity-on-the-horizon-1.15285">relationship between computational complexity and event horizons</a>. The mathematics are out of reach, but the thoughts play while I bounce the white ball on bubbles of air under ice.</p>
+<p><img alt="bubbleball framecap" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/bubbleball.jpg" /></p>
+<p><a href="https://youtu.be/lo1q3oU93UM">youtube</a></p>
+<hr />
+<p>I stop making new animations. But I watch the stream for new submissions. Most are bland and uninspired. But occasionally a remarkable one pops up. Like <a href="https://creativelab5.com/s/uJclLz">this one</a></p>
+<p>These complex ones are interesting, and their mechanics are intriguing. I want to see how they work. View Source of a published application to see a <code>&lt;script&gt;</code> tag with javascript assigning a dictionary to a variable named <code>shareData</code>. This data cannot be extracted as JSON because it contains javascript. That fact took a few tries to understand. The way to read it is to use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval">javascript eval</a> it. Generally speaking, that's a dangerous thing to do. But in this case it's probably ok. Once the shareData variable is populated into a javascript context, it is becomes a simple matter to copy it into the boardStates structure. Refreshing the stage then shows the animation, where it can be studied.</p>
+<p>By studying the animations of Pinto and Both, I learn that they are clever people.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Zach Both</th>
+<th align="center">Eric Pinto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><img alt="wireboth" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/wireboth.jpg" /></td>
+<td align="center"><img alt="wirepinto" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/wirepinto.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>One morning I returned to the culvert to experiment with the bounce-back phenomenon. On the first throw the angle is too shallow. It fails to reach the ceiling, and continues forward instead. It bounces happily along, and then plops into the rushing stream. Gone. Anyone watching would have thought I threw it in deliberatly. That was clumsy. I film the space where the ball was last seen.</p>
+<h2>[insert film]</h2>
+<p>One morning the temperature climbs above zero. Now spring is gaining momentum. The trees shed their coats of ice. Sheets and fragments crack and crash to the ground. It is dangerous. I walk into the middle of grove of trees and stand there, listening to the noise of it all. It's as if a part of the world is crumbling around me. A small piece falls from high up and strikes my finger. It breaks skin and I bleed.</p>
+<hr />
+<p>I miss the white ball. When I pass the place it fell in, I always peer into the water and look along the banks. There is not much hope for recovery. But a few blocks further, along a sidewalk through a park, I find another ball. Day-glo orange, a miniature tennis ball. It is wet and disgusting, but I pick it up anyway. It does not bounce well. Despite the bright color, it is sad. The third ball of this story. I cannot leave it.</p>
+<p>I wash it in the sink of a mall bathroom, dry it with a Dyson Airblade --- a marvelous piece of overengineering.</p>
+<p><img alt="orangeball" src="https://raw.githubusercontent.com/goeiebook/creativelab/master/images/orangeball.jpg" /></p>
+<hr />
+<p>Cold weather </p>
+<p>notes for future development:
+- Recollection of being mugged in Windhoek.</p></div>
+</body>
+</html>
