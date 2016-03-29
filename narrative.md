@@ -30,7 +30,7 @@ Excellent presentation, casual phrasing, and three images demonstrating aspects 
     
 Stay cool, Abrie. You can learn a lot from guys like this.
     
-Immediately open up the site and look deeper. How did he make this thing if the pen doesn't work? The UI is so clumsy. There's a tool called Anchor, but I wasn't able to get that to work either. The tiny vertex manipulators were aggravating. The play bar disappeared at inconvienent times and reappeared when least expected. Heavy CPU usage causes my Macbook's fan to whine. But apparently none of these issues held Both back.
+Immediately open up the site and look deeper. How did he make this thing if the pen doesn't work? The UI is so clumsy. There's a tool called Anchor, but I wasn't able to get that to work either. The tiny vertex manipulators were aggravating. The play bar disappeared at inconvienent times and reappeared when least expected. Heavy CPU usage caused my Macbook's fan to whine. But apparently none of these issues held Both back.
     
 For insight into sites, the dev console is the window to use. I began entering commands, searching for new things. The [Chrome Dev Console](https://developer.chrome.com/devtools/docs/console) remembers everything entered, including mistakes and typos. At first this is helpful, but soon becomes pollution. Annoyed, I clicked through the menus looking for a remedy. And, as it turns out, the remedy is non-trivial. But the search took me to the [Resources Panel](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/), which has an entry named [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage), and within that was an interesting string.
     
@@ -83,7 +83,7 @@ Encouraged, I made hapazard edits followed by page refreshes. Like combinatorial
 4. ```jq -c . simple.json | pbcopy```
 5. Select boardStates field, CMD-v, reload page.
     
-Inefficient, but already better than nothing. Then somewhere between the refreshes, I accidently click the canvas and draw a line. The pen tool had started working. The only explanation was that a bug fix had been deployed. That was reassuring. My inability to use the tool wasn't due to ignorance.
+Inefficient, but already better than nothing. Then somewhere between the refreshes, I accidently click the canvas and draw a line. The pen tool had started working. The only explanation was that a bug fix had been deployed. That was reassuring. My inability to use the tool wasn't due to ignorance. Maybe Both had used a pen after all.
 
 ---
     
