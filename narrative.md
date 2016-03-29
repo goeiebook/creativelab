@@ -293,9 +293,11 @@ Studying the animations of [@zachboth](https://twitter.com/zachboth) and [@clapi
 
 ---
 
-One morning I returned to the culvert to experiment with the bounce-back phenomenon. On the first throw the angle is too shallow. It fails to reach the ceiling, and continues forward instead. It bounces happily along, and then plops into the rushing stream. Gone. Anyone watching would have thought I threw it in deliberatly. That was clumsy. I film the space where the ball was last seen.
+One morning I returned to the culvert to experiment with the bounce-back phenomenon. On the first throw the angle is too shallow. It fails to reach the ceiling, and continues forward instead. It bounces happily along, and then plops into the rushing stream. Gone. Anyone watching would have thought I threw it in deliberatly. That was clumsy. I film the space where the ball was last seen. Somewhere out of the view the ball was being rolled by the current.
 
 ![tunnel where the white ball was lost][tunnel]
+[youtube](https://youtu.be/Tlg8rVd8Uvo).
+
 ---
 
 One morning the temperature finally climbed above zero. The promise of spring was gaining strenth. The trees shed their coats of ice. Cracking sounds filled the forest, accompanied by crashes as fragments smashed to the ground. It was dangerous. I walked into the middle of grove of trees and stood there, listening to the noise of it all. It's not often one can watch while a part of the world crumbles. A small piece fell from high up and struck my finger. It broke the skin and drew blood. I photographed my bloody finger, and then deleted the photo.
