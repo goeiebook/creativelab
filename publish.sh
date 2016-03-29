@@ -5,4 +5,5 @@ git checkout master index.html
 git checkout master narrative.css
 git checkout master default.css
 git commit -m "published."
-
+git push origin
+git checkout master
