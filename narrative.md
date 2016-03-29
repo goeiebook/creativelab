@@ -206,7 +206,7 @@ Unencumbered, I wonder what the handleIn/handleOut parameters do. From the sourc
 
 ---
 
-One of my favorite places to bounce the ball was in culvert under a busy road. One morning I threw the ball down and forward at a sharp angle. It bounced off ground, then off the ceiling, and then in a counterintutive direction. It return toward me. The effect was reproducible. It was wonderful. Experimenting showed the phenomenon probably involved spin imparted to the ball initially when thrown, but more study was necessary.
+One of my favorite places to bounce the ball was in culvert under a busy road. One morning I threw the ball down and forward at a sharp angle. It bounced off the ground, then off the ceiling, and then in a counterintuitive direction --- returning to me. That was wonderful. Experimentation implied the phenomenon involved spin imparted by the throw, but more study was necessary.
 
 ---
 
@@ -271,6 +271,8 @@ But setting the rain flag to true does not appear to have any visible effect. I 
 ---
 
 The upward trend of profile views begins to drop off. My submissions do not collect likes from an persons of influence. Perhaps I have overstayed my welcome. Motivation begins to wane. The animations probably aren't as neat to others as they are to me. The urge to write returns. Writing usually provides insight. I begin recording this story.
+
+![frozen blossoms][frozen]
 
 One night freezing rain falls onto the city. Ice coats everything. It is beautiful. It was caused by setting the rain flag to `true`. I say that because it is the nature of humans to discern connection and analogy. In this case it is spurious, but the observation remains. But what is to say that there no connection? Maybe it's like the recent theories about the [relationship between computational complexity and event horizons](http://www.nature.com/news/theoretical-physics-complexity-on-the-horizon-1.15285). The mathematics of [anti-de sitter space](https://en.wikipedia.org/wiki/Anti-de_Sitter_space) are beyond me, but the thoughts play while I bounce the white ball on bubbles of air under ice.
 
@@ -351,3 +353,4 @@ notes for future development:
 [orangeball]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/orangeball.jpg
 [escher]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/escher.jpg
 [tunnel]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/tunnel.jpg
+[frozen]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/frozen.jpg
