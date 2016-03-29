@@ -307,7 +307,7 @@ I miss the white ball. When I pass the place it fell in, I always peer into the 
 
 I wash it in the sink of a mall bathroom, then dry it in a Dyson Airblade. I resign to carrying it with me.
 
-[todo: image]
+![orangeball][orangeball]
 ---
 
 notes for future development:
@@ -404,3 +404,6 @@ https://raw.githubusercontent.com/goeiebook/creativelab/master/images/technocrab
 
 [bubbleball]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/bubbleball.jpg
+
+[orangeball]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/orangeball.jpg
