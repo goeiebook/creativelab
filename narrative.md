@@ -289,8 +289,9 @@ These complex ones are interesting, and their mechanics are intriguing. I want t
 
 By studying the animations of Pinto and Both, I learn that they are clever people.
 
-
-[todo; code and images]
+Zach Both|Eric Pinto
+:--------------------|:---------------------:
+![wireboth][wireboth]|![wirepinto][wirepinto]
 
 ---
 
@@ -299,16 +300,19 @@ One morning I returned to the culvert to experiment with the bounce-back phenome
 [insert film]
 ---
 
-One morning the temperative climbs above zero. Now spring is gaining momentum. The trees shed their coats of ice. Cracking and crashing sounds fill the world. It is dangerous. A small piece falls from high up, striking my finger. It breaks skin and I bleed.
+One morning the temperature climbs above zero. Now spring is gaining momentum. The trees shed their coats of ice. Sheets and fragments crack and crash to the ground. It is dangerous. I walk into the middle of grove of trees and stand there, listening to the noise of it all. It's as if a part of the world is crumbling around me. A small piece falls from high up and strikes my finger. It breaks skin and I bleed.
 
 ---
 
 I miss the white ball. When I pass the place it fell in, I always peer into the water and look along the banks. There is not much hope for recovery. But a few blocks further, along a sidewalk through a park, I find another ball. Day-glo orange, a miniature tennis ball. It is wet and disgusting, but I pick it up anyway. It does not bounce well. Despite the bright color, it is sad. The third ball of this story. I cannot leave it.
 
-I wash it in the sink of a mall bathroom, then dry it in a Dyson Airblade. I resign to carrying it with me.
+I wash it in the sink of a mall bathroom, dry it with a Dyson Airblade --- a marvelous piece of overengineering.
 
 ![orangeball][orangeball]
+
 ---
+
+Cold weather 
 
 notes for future development:
 - Recollection of being mugged in Windhoek.
