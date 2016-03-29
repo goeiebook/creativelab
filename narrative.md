@@ -12,7 +12,7 @@ A day elapses. Then another. I revisit my application, and discover [it's broken
     
 ![the response][tweet]
     
-Sarcasm? I don't know. I'm not socially adept. Maybe I wasn't clear. Confusion. But then something unanticipated happens: attention. Profile views and tweet impressions. Twitter analytics measures an increase of 1000%.
+Sarcasm? I don't know, is it? Does the academy accept short films? I'm not socially adept. Maybe I wasn't clear. Confusion. But then something unanticipated happens: attention. Profile views and tweet impressions. Twitter analytics measures an increase of 1000%.
     
 ---
     
@@ -270,22 +270,24 @@ But setting the rain flag to true does not appear to have any visible effect. I 
 
 ---
 
-The upward trend of profile views begins to drop off. My submissions do not garner likes from an persons of influence. Perhaps I have overstayed my welcome. Motivation begins to wane. The animations probably aren't as neat to others as they are to me. The urge to write returns. Writing usually provides insight. I begin recording this story. One night freezing rain falls onto the city. Ice coats everything. It is beautiful. It was caused by setting the rain flag to `true`. I say that because it is the nature of humans to discern connection and analogy. In this case it is spurious, but the observation remains. But what is to say that there no connection? Maybe it's like the recent theories about the [relationship between computational complexity and event horizons](http://www.nature.com/news/theoretical-physics-complexity-on-the-horizon-1.15285). The mathematics of [anti-de sitter space](https://en.wikipedia.org/wiki/Anti-de_Sitter_space) are beyond me, but the thoughts play while I bounce the white ball on bubbles of air under ice.
+The upward trend of profile views begins to drop off. My submissions do not collect likes from an persons of influence. Perhaps I have overstayed my welcome. Motivation begins to wane. The animations probably aren't as neat to others as they are to me. The urge to write returns. Writing usually provides insight. I begin recording this story.
+
+One night freezing rain falls onto the city. Ice coats everything. It is beautiful. It was caused by setting the rain flag to `true`. I say that because it is the nature of humans to discern connection and analogy. In this case it is spurious, but the observation remains. But what is to say that there no connection? Maybe it's like the recent theories about the [relationship between computational complexity and event horizons](http://www.nature.com/news/theoretical-physics-complexity-on-the-horizon-1.15285). The mathematics of [anti-de sitter space](https://en.wikipedia.org/wiki/Anti-de_Sitter_space) are beyond me, but the thoughts play while I bounce the white ball on bubbles of air under ice.
 
 ![bubbleball framecap][bubbleball]
 [youtube](https://youtu.be/lo1q3oU93UM)
 
 ---
 
-I stopped making new animations, but continued to watch the stream for new submissions. Most were bland and uninspired. But occasionally a remarkable one came through. Like [this one](https://creativelab5.com/s/uJclLz)
+I stopped developing new animations, but continued to watch the stream for submissions. Most were bland and uninspired. But occasionally a remarkable one came through. Like [this one](https://creativelab5.com/s/uJclLz) by [@clapinton](https://twitter.com/clapinton)
 
 ![escher][escher]
 
-Complex creations like that are intruiging. I wanted to see how they work. View Source of a published application to see a `<script>` tag with javascript assigning a dictionary to a variable named `shareData`. This data cannot be extracted as JSON because it contains javascript. That fact took a few tries to understand. The way to read it is to use [javascript eval](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval) it. Generally speaking, that's a dangerous thing to do. But in this case it's probably ok. Once the shareData variable is populated into a javascript context, it is becomes a simple matter to copy it into the boardStates structure. Refreshing the stage then shows the animation, where it can be studied.
+Complex creations like that are intriguing. I wanted to see how they work. View Source of a published application to see a `<script>` tag with javascript assigning a dictionary to a variable named `shareData`. This data cannot be extracted as JSON because it contains javascript. That fact took a few tries to understand. The way to read it is to use [javascript eval](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval) it. Generally speaking, that's a dangerous thing to do. But in this case it's probably ok. Once the shareData variable is populated into a javascript context, it is becomes a simple matter to copy it into the boardStates structure. Refreshing the stage then shows the animation, where it can be studied.
 
-By studying the animations of Pinto and Both, I learn that they are clever people.
+Studying the animations of [@zachboth](https://twitter.com/zachboth) and [@clapinton](https://twitter.com/clapinton) confirms they are clever people. I'm not sure why that makes me sad.
 
-Zach Both|Eric Pinto
+[@zachboth](https://twitter.com/zachboth)|[@clapinton](https://twitter.com/clapinton)
 :--------------------|:---------------------:
 ![wireboth][wireboth]|![wirepinto][wirepinto]
 
@@ -293,22 +295,20 @@ Zach Both|Eric Pinto
 
 One morning I returned to the culvert to experiment with the bounce-back phenomenon. On the first throw the angle is too shallow. It fails to reach the ceiling, and continues forward instead. It bounces happily along, and then plops into the rushing stream. Gone. Anyone watching would have thought I threw it in deliberatly. That was clumsy. I film the space where the ball was last seen.
 
-[insert film]
+![tunnel where the white ball was lost][tunnel]
 ---
 
-One morning the temperature climbs above zero. Now spring is gaining momentum. The trees shed their coats of ice. Sheets and fragments crack and crash to the ground. It is dangerous. I walk into the middle of grove of trees and stand there, listening to the noise of it all. It's as if a part of the world is crumbling around me. A small piece falls from high up and strikes my finger. It breaks skin and I bleed.
+One morning the temperature finally climbed above zero. The promise of spring was gaining strenth. The trees shed their coats of ice. Cracking sounds filled the forest, accompanied by crashes as fragments smashed to the ground. It was dangerous. I walked into the middle of grove of trees and stood there, listening to the noise of it all. It's not often one can watch while a part of the world crumbles. A small piece fell from high up and struck my finger. It broke the skin and drew blood. I photographed my bloody finger, and then deleted the photo.
 
 ---
 
-I miss the white ball. When I pass the place it fell in, I always peer into the water and look along the banks. There is not much hope for recovery. But a few blocks further, along a sidewalk through a park, I find another ball. Day-glo orange, a miniature tennis ball. It is wet and disgusting, but I pick it up anyway. It does not bounce well. Despite the bright color, it is sad. The third ball of this story. I cannot leave it.
+I missed the white ball. Each time I passed the place it was last seen, I would peer into the water and look along the banks. But there was no hope of recovery. Then one morning, a few blocks further along a sidewalk through a park, I find another ball. Day-glo orange, a miniature tennis ball. It is wet and disgusting, but I pick it up anyway. It does not bounce well. Despite the bright color, it is sad. The third ball of this story.
 
-I wash it in the sink of a mall bathroom, dry it with a Dyson Airblade --- a marvelous piece of overengineering.
+I took it with me into a mall and washed it in a sink with liquid hand soap. I patted it with paper towel, then dried inside a Dyson Airblade.
 
 ![orangeball][orangeball]
 
 ---
-
-Cold weather 
 
 notes for future development:
 - Recollection of being mugged in Windhoek.
@@ -348,3 +348,4 @@ notes for future development:
 [wirepinto]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/wirepinto.jpg
 [orangeball]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/orangeball.jpg
 [escher]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/escher.jpg
+[tunnel]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/tunnel.jpg
