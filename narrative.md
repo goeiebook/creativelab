@@ -409,5 +409,11 @@ https://raw.githubusercontent.com/goeiebook/creativelab/master/images/technocrab
 [bubbleball]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/bubbleball.jpg
 
+[wireboth]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/wireboth.jpg
+
+[wirepinto]:
+https://raw.githubusercontent.com/goeiebook/creativelab/master/images/wirepinto.jpg
+
 [orangeball]:
 https://raw.githubusercontent.com/goeiebook/creativelab/master/images/orangeball.jpg
