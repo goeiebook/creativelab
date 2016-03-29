@@ -1,18 +1,18 @@
 ## Discovery Requires Circumstance
     
-Stories begin somewhere. I heard about Google Creative Lab while trying to promote myself. [A retweet](https://twitter.com/PRHDigital/status/707503572733313024) via @editionsatplay mentioned a new Creative Lab 5 site. What is that?
+Stories begin somewhere. Nobody was looking at my work. In trying to promote myself I learned about Google Creative Lab. It was through [a retweet](https://twitter.com/PRHDigital/status/707503572733313024) via @editionsatplay. They said it was a program looking for new applicants.
     
 ![the application site][default]
     
-A one year paid program, looking for new applicants. [The application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" The form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a secret puzzle. [Solving the puzzle](https://github.com/mhipley/creativelab5/wiki/The-Google-Creative-Lab-5-Cheat-Sheet) yields a "Techno Crab" badge. Complete the application with an animation titled "Idempotent", and send it off.
+A one year paid program, [the application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" The form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a secret puzzle. [Solving the puzzle](https://github.com/mhipley/creativelab5/wiki/The-Google-Creative-Lab-5-Cheat-Sheet) yields a "Techno Crab" badge. I was conditioned to believe this would lead to success. I completed the application with an animation titled "Idempotent", and sent it off.
     
 Idempotent. So clever. A shoo-in for sure.
     
-A day elapses. Then another. I revisit my application, and discover [it's broken](https://www.creativelab5.com/s/puukkz). The animation doesn't play as planned and the console shows an error. I had spent a lot of time struggling with the UI. Embarassed, I had a need to explain myself. I address a tweet [to message](https://twitter.com/Andrew_Herzog/status/708081805103144960) one of the designers. A response arrives. 
+A day elapses. Then another. I revisit my application, and discover [it's broken](https://www.creativelab5.com/s/puukkz). The animation doesn't play as planned and the console shows an error. I had spent a lot of time struggling with the UI. The pen didn't work and the anchors didn't work. Embarassed, I felt need to explain myself. Addressed a tweet [to message](https://twitter.com/Andrew_Herzog/status/708081805103144960) one of the designers. A response arrived. 
     
 ![the response][tweet]
     
-Is that sarcasm? I'm not socially adept. Maybe the message wasn't clear. This is confusing. But then something unanticipated happens: attention. Profile views and tweet impressions. Twitter analytics measures an increase of 1000%.
+Sarcasm... or is it? I'm not socially adept. Maybe the message wasn't clear. Confusion. But then something unanticipated happens: attention. Profile views and tweet impressions. Twitter analytics measures an increase of 1000%.
     
 ---
     
@@ -21,24 +21,23 @@ Winter was finally coming to a close. The snow began to melt. When snow melts it
 In a pile of detritus I found a ball. I picked it up. Solid rubber, white, with a grey splotch. A lot of bounce. Probably a dog toy. I put it in my pocket. While walking, I thought to [tweet about it](https://twitter.com/goeiebook/status/709378927219728384), and formed a plan to carry it with me at all times. Because by doing so you increase the chance of discovering something new.
     
 ---
-    
-Checking analytics is addictive. Especially so when more signal than noise. [The alternative is less fun.][bansky]. For now I was king of the #creativelab5 hashtag. I watched the feed with relish, comparing new submissions to my own. They were bland, like mine; but none were broken, like mine. And none had the Techno Crab stamp. Then [this masterpiece](https://www.creativelab5.com/s/pnMGi5) arrives.
+A 1000% percent increase in views is easy when going form zero. Checking analytics became engrossing. There was more signal than noise. [The alternative is less fun.][bansky]. For a while I became king of the #creativelab5 hashtag. I watched the feed with relish, comparing new submissions to my own. They were bland, like mine; but none were broken, like mine. And none had the Techno Crab stamp. Then [this masterpiece](https://www.creativelab5.com/s/pnMGi5) arrived.
     
 ![the both submission][both]
     
 Excellent presentation, casual phrasing, and three images demonstrating aspects of design. And the animation uses clever tricks. I darkened.
     
-Stay cool, Abrie. You can learn a lot from guys like this.
+Stay cool, Abrie. You can learn a lot from guys like this. This guy knows how to market himself.
     
-Immediately open up the site and look deeper. How did Both make this thing? The Techno Crab mode unlocks additional tools: a pen tool, gradients, stroke control. But they are difficult to use. The anchor tool doesn't seem to work. The tiny vertex manipulators are aggravating. The play bar disappears at inconvienent times and reappears when least expected. The pen tool is terrible. Heavy CPU usage causes my Macbook's fan to whine. But apparently none of these issues held Both back. 
+Immediately open up the site and look deeper. How did he make this thing? The Techno Crab mode unlocks additional tools: pen, gradients, stroke control. But they are difficult to use. I wasn't able to get the pen tool to work. And the anchor tool didn't do anything. The tiny vertex manipulators were aggravating. The play bar disappeared at inconvienent times and reappeared when least expected. Heavy CPU usage causes my Macbook's fan to whine. But apparently none of these issues held Both back.
     
-The [Chrome Dev Console](https://developer.chrome.com/devtools/docs/console) remembers everything you enter, including mistakes and typos. At first this is helpful, but soon becomes pollution. Annoyed, I searched Chrome's menus for a remedy. And, as it turns out, the remedy is non-trivial. But in the process I stumbled onto the [Resources Panel](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/), which has an entry named [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage), and within that is an interesting string.
+The [Chrome Dev Console](https://developer.chrome.com/devtools/docs/console) remembers everything entered, including mistakes and typos. At firs this is helpful, but soon becomes pollution. Annoyed, I clicked Chrome's menus for a remedy. And, as it turns out, the remedy is non-trivial. But in the process I stumbled onto the [Resources Panel](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/), which has an entry named [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage), and within that was an interesting string.
     
 ![local storage editor][localstorage]
     
 Pretty-printing the contents of 'boardStates' reveals a JSON data structure, with nomenclature suggesting animation. For example, [this](https://github.com/goeiebook/creativelab/blob/master/json/defaultBoardStates.json) is the default page. 
     
-The 'shapes' key is where the important details are. Keyframes, stroke and fill parameters, point coordinates, and things called 'handles'. This is exciting. Perhaps there is a way to create an animation with tools other than those provided by the site.
+The 'shapes' key contained lists of keyframes, stroke and fill parameters, point coordinates, and things called 'handles'. Perhaps there is was a way to create an animation using tools other than the ones available.
     
 ```javascript
 {
@@ -69,13 +68,13 @@ The 'shapes' key is where the important details are. Keyframes, stroke and fill 
     
 ```
     
-Removing all but one of the elements in the shape array produces [this JSON](https://github.com/goeiebook/creativelab/blob/master/json/simple.json). When that is pasted into the local storage field, nothing happens. But when the page is reloaded, the storage is structure is deserialized and --- Voila!
+Clearing the shape array of everything except the first element produced [this JSON](https://github.com/goeiebook/creativelab/blob/master/json/simple.json). When pasted into the local storage field, nothing happened. But after a page reload, the storage structure was deserialized and --- Voila!
     
 ![simple circle, er, I mean a G.][simplified]
     
 [code](https://www.creativelab5.com/s/m3JEdl).
 
-Encouraged, I make hapazard edits and refresh the page. Like combinatorial chemistry, stochastic search, or percussive repair. The workflow went like this:
+Encouraged, I made hapazard edits and followed by page refreshes. Like combinatorial chemistry, stochastic search, or percussive repair. The workflow went like this:
     
 1. Select boardStates field, CMD-c, shift-tab to terminal
 2. ```pbpaste | python -m json.tool > pretty.json```
@@ -83,8 +82,8 @@ Encouraged, I make hapazard edits and refresh the page. Like combinatorial chemi
 4. ```jq -c . simple.json | pbcopy```
 5. Select boardStates field, CMD-v, reload page.
     
-Inefficient, but already better than using the Techno Crab's `activatePen(104743);` or `penToolActivated=true;`
-    
+Inefficient, but already better than nothing. Then somewhere between the refreshes the pen tool starts working. A bug fix had been deployed. That was nice to see. My inability to use the tool wasn't due to ignorance.
+
 ---
     
 I'd been in the coffee shop for an hour, and decorum suggested it was time to leave. I packed up and walked to a different shop. The route goes through a park. Spring was near. Two kids were throwing a boomerang. Clearly they did not know what they were doing. "This thing sucks!" said one. I approached them and said "Could I show you how to throw that?" They handed it over. I said something about not having thrown a boomerang in a long time. Then I threw it. It went in a perfect arc, and I caught it. I'd never caught a boomerang before. "Wow!" said the kids. I handed the boomerang back, "Now you try." The kid copied my technique and it flew out in a wide arc, curved up, around --- and then got stuck in a tree.
