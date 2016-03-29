@@ -1,10 +1,10 @@
 ## Discovery Requires Circumstance
     
-Stories begin somewhere. Nobody was looking at my work. In trying to promote myself I learned about Google Creative Lab. It was through [a retweet](https://twitter.com/PRHDigital/status/707503572733313024) via @editionsatplay. A mention about a program looking for new applicants.
+Stories begin somewhere. Nobody was looking at my work. I created a Twitter account because marketing seemed necessary. As a consequence I saw [a retweet](https://twitter.com/PRHDigital/status/707503572733313024) via @editionsatplay. A mention about a program looking for new applicants.
     
 ![the application site][default]
     
-A one year paid experience, [the application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" The form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a secret puzzle. [Solving the puzzle](https://github.com/mhipley/creativelab5/wiki/The-Google-Creative-Lab-5-Cheat-Sheet) yields a "Techno Crab" badge. The badge activated a pen tool but the pen tool didnt't work. The whole UI seemed buggy. Maybe that was part of the challenge. I made an animation titled "Idempotent", and sent it off.
+A one year paid experience, [the application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" The form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a secret puzzle. [Solving the puzzle](https://github.com/mhipley/creativelab5/wiki/The-Google-Creative-Lab-5-Cheat-Sheet) yields a "Techno Crab" badge. The badge activated a pen tool but I'm unable to use it. The UI seemed buggy. Maybe that was part of the challenge. I made an animation titled "Idempotent", and sent it off.
     
 Idempotent. So clever. A shoo-in for sure.
     
@@ -296,17 +296,17 @@ Studying the animations of [@zachboth](https://twitter.com/zachboth) and [@clapi
 One morning I returned to the culvert to experiment with the bounce-back phenomenon. On the first throw the angle is too shallow. It fails to reach the ceiling, and continues forward instead. It bounces happily along, and then plops into the rushing stream. Gone. Anyone watching would have thought I threw it in deliberatly. That was clumsy. I film the space where the ball was last seen. Somewhere out of the view the ball was being rolled by the current.
 
 ![tunnel where the white ball was lost][tunnel]
-[youtube](https://youtu.be/Tlg8rVd8Uvo).
+[youtube](https://youtu.be/kkN8np7-m-k).
 
 ---
 
-One morning the temperature finally climbed above zero. The promise of spring was gaining strenth. The trees shed their coats of ice. Cracking sounds filled the forest, accompanied by crashes as fragments smashed to the ground. It was dangerous. I walked into the middle of grove of trees and stood there, listening to the noise of it all. It's not often one can watch while a part of the world crumbles. A small piece fell from high up and struck my finger. It broke the skin and drew blood. I photographed my bloody finger, and then deleted the photo.
+One morning the temperature climbed above zero. Spring was gaining strenth. The trees shed their coats of ice. Sounds of cracking filled the forest. Fragments and sheets came crashing down. It was dangerous. I walked into the middle of grove of trees and stood there, listening to the noise of it all. It's not often one can watch while a part of the world crumbles. A small piece fell from high up and struck my finger. It broke the skin and drew blood. I photographed my bloody finger, and then deleted the photo.
 
 ---
 
-I missed the white ball. Each time I passed the place it was last seen, I would peer into the water and look along the banks. But there was no hope of recovery. Then one morning, a few blocks further along a sidewalk through a park, I find another ball. Day-glo orange, a miniature tennis ball. It is wet and disgusting, but I pick it up anyway. It does not bounce well. Despite the bright color, it is sad. The third ball of this story.
+I missed the white ball. Each time I passed the place it was last seen, I would peer into the water and look along the banks. But there was no hope of recovery. One morning, a few blocks past where the white ball as last seen, I found another ball. Day-glo orange, a miniature tennis ball. This could be irony, poetry, or coincidence. It is wet and disgusting, but I pick it up anyway. It did not bounce well. It was sad despite the bright color.
 
-I took it with me into a mall and washed it in a sink with liquid hand soap. I patted it with paper towel, then dried inside a Dyson Airblade.
+I took it with me into a mall and washed it in a sink with liquid hand soap. I patted it with paper towel, then dried it inside a Dyson Airblade. Over the course of the day I would sometimes take it from my pocket and look at it. Silly thing.
 
 ![orangeball][orangeball]
 
