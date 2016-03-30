@@ -8,7 +8,7 @@ A one year paid experience, [the application](https://creativelab5.com) is a web
     
 Idempotent. So clever. A shoo-in for sure.
     
-A day elapsed. Then another. I revisited my application, and discovered it was [broken](https://www.creativelab5.com/s/puukkz). The animation didn't play correctly and the console showed an error. It looked terrible. Then I felt need to explain myself. Maybe I felt embarassed. I addressed a tweet [to message](https://twitter.com/Andrew_Herzog/status/708081805103144960) one of the designers. A response arrived. 
+A day elapsed. Then another. I revisited my application, and discovered it was [broken](https://www.creativelab5.com/s/puukkz). The animation didn't play correctly and the console showed an error. It looked terrible. I felt need to explain myself. Maybe I felt embarassed. I addressed a tweet [to message](https://twitter.com/Andrew_Herzog/status/708081805103144960) one of the designers. A response arrived. 
     
 ![the response][tweet]
     
@@ -16,7 +16,7 @@ Sarcasm? I don't know. Does the academy accept short films? I'm not socially ade
     
 ---
     
-Winter was finally coming to a close. The snow melted. When snow goes it leaves behind a distinctive aftermath. Piles of gravel, salt, and soggy cigarette butts. Like glacial till with snowplow scars and single wet mittens.
+Winter was finally coming to a close. The snow melted. When snow goes away it leaves a distinctive aftermath. Piles of gravel, salt, and soggy cigarette butts. Like glacial till with snowplow scars and single wet mittens.
     
 In a pile of detritus was a white ball. I picked it up. Solid rubber, with a grey splotch. A lot of bounce. Probably a dog toy. I put it in my pocket. I thought to [tweet about it](https://twitter.com/goeiebook/status/709378927219728384), and formed a plan to carry the ball with me at all times. Because by doing so you increase the chance of discovering something new.
     
