@@ -283,7 +283,7 @@ Freezing rain fell onto the city. Everything became coated with ice. It was beca
 
 ---
 
-New submissions occasionally arrived on the twitter stream. Most were bland and uninspired. But sometimes a remarkable one came through. Like [this one](https://creativelab5.com/s/uJclLz) by [@clapinton](https://twitter.com/clapinton)
+New submissions occasionally arrived on the twitter stream. But sometimes a remarkable one came through. Like [this one](https://creativelab5.com/s/uJclLz) by [@clapinton](https://twitter.com/clapinton)
 
 ![escher][escher]
 
