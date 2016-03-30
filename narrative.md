@@ -316,7 +316,7 @@ Then, one morning, a few blocks away, I found a different ball. It was day-glo o
 
 I took it with me to a mall and washed it with liquid soap in a bathroom sink. I patted it with paper towel, then dried it with a Dyson Airblade.
 
-I carried it with me. Sometimes I would take it from my pocket and look at it. Silly thing. Just a coincidence.
+Sometimes I take it from my pocket and look at it. Silly thing. Just a coincidence.
 
 ![orangeball][orangeball]
 
