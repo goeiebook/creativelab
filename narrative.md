@@ -12,7 +12,7 @@ A day elapsed. Then another. Then I revisited my application and discovered it w
     
 ![the response][tweet]
     
-Maybe I wasn't clear. Confusion. But then something unanticipated happens: attention. Profile views and tweet impressions. Twitter analytics measured an increase of 1000%.
+This confused me. But then something unanticipated happens: attention. Profile views and tweet impressions. Twitter analytics measured an increase of 1000%.
     
 ---
     
