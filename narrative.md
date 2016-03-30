@@ -151,7 +151,7 @@ Discoveries involving the ball began three days after I found it. Aside from bec
 
 ---
     
-Dividing two-dimensional coordinates by a third number is called foreshortening. I learned that term while reading about [perspective projection](https://en.wikipedia.org/wiki/3D_projection#Weak_perspective_projection). It's not something one needs to know. Toolkits like [ThreeJS](http://threejs.org/) take care of it for you. But maybe applying it in a disciplined manner could tease 3D things from Creative Lab 5 application. Maybe a few more profile views could be collected.
+Dividing two-dimensional coordinates by a third number is called foreshortening. I learned that reading about [perspective projection](https://en.wikipedia.org/wiki/3D_projection#Weak_perspective_projection). It's not something one needs to know. Toolkits like [ThreeJS](http://threejs.org/) take care of it for you. But maybe applying it in a disciplined manner could tease 3D things from Creative Lab 5 application. Maybe a few more profile views could be collected.
 
 Ah hell, I was becoming addicted. So it goes, into the small hours of the morning. Setting handle values to 0's will make sharp angles. Wikipedia described the role of a focal length multiplier. Be aware that if the z coorindate is zero, you'll be dividing by zero. If your z-coordinate is less than zero things are going to turn upside down. And then, suddenly, something worked. 
     
