@@ -115,7 +115,7 @@ The page had to be reloaded to show changes. Reloading the page destroyed the ja
     
 ![the snippets panel][snippets]
     
-Now we're talking. Right-click &larr; Run. That's fun. I went wild, like a bull in a china shop, ignoring DRY and other rules of thumb. The code created arrays of shapes and colors. What did those handleIn/handleOut parameters do? Whatever it did, the result was interesting. Excessive and messy. I was proud of it.
+Now we're talking. Right-click &rarr; Run. That's fun. I went wild, like a bull in a china shop, ignoring DRY and other rules of thumb. The code created arrays of shapes and colors. What did those handleIn/handleOut parameters do? Whatever it did, the result was interesting. Excessive and messy. I was proud of it.
     
 ![what a mess][mess]
     
