@@ -22,15 +22,15 @@ In a pile of detritus was a white ball. I picked it up. Solid rubber with a grey
     
 ---
 
-The 1000% percent increase in views wasn't very impressive considering it came from zero. But checking analytics became engrossing. There was more signal than noise. [The alternative is no fun.][bansky]. For a while I was king of the #creativelab5 hashtag. I'd watch the feed for new submissions and eagerly compare them to mine. They were bland, like mine; but none were broken, like mine. And none had the Techno Crab stamp. Then [this masterpiece](https://www.creativelab5.com/s/pnMGi5) arrived.
+The 1000% percent increase in views wasn't very impressive considering it came from zero. But checking analytics became engrossing. There was more signal than noise. [The alternative is no fun.][bansky]. For a while I was king of the #creativelab5 hashtag. I'd watch for new submissions and compare them to mine. They were bland, like mine; but none were broken, like mine. And none had the Techno Crab stamp. Then [this masterpiece](https://www.creativelab5.com/s/pnMGi5) arrived.
     
 ![the both submission][both]
     
-Excellent presentation, casual phrasing, and three images demonstrating aspects of design. And somehow it included new shapes. This guy had figured out how to use the pen. I darkened.
+Excellent presentation, casual phrasing, and three images demonstrating aspects of design. And somehow it included new shapes. He had figured out how to use the pen. I darkened.
     
-Stay cool, Abrie. You can learn a lot from guys like this.
+Stay cool, Abrie. You could learn a lot from guys like this.
     
-Immediately open up the site and look deeper. How was it made if the pen didn't work? There's a tool called anchor, but I wasn't able to get that to work either. The tiny vertex manipulators were aggravating. The play bar disappeared at inconvienent times and reappeared when least expected. Heavy CPU usage caused my Macbook's fan to whine. But apparently none of these issues held Both back.
+Immediately I opened the site and look deeper. How could that application have been made without a pen? There's a tool called anchor, but I wasn't able to get that to work either. The tiny vertex manipulators were aggravating. The play bar disappeared at inconvienent times and reappeared when least expected. Heavy CPU usage caused my Macbook's fan to whine. Apparently none of these problems had held Both back.
     
 For insight into sites, the dev console is the window to use. I entered commands, searching for new things. The [Chrome Dev Console](https://developer.chrome.com/devtools/docs/console) remembers everything entered, including mistakes and typos. At first this is helpful, but soon becomes pollution. Annoyed, I clicked through the menus looking for a remedy. And, as it turns out, the remedy is non-trivial. But the search took me to the [Resources Panel](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/), which has an entry named [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage), and within that was an interesting string.
     
