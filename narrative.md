@@ -299,14 +299,14 @@ I used this technique to study the animations of [@zachboth](https://twitter.com
 
 ---
 
-One morning I went to the culvert to experiment with the bounce-back phenomenon. On the first throw the angle was too shallow. The ball did not reach the ceiling. It bounced forward, out of the tunnel, and plopped into the rushing stream. Gone. Anyone watching would have thought it was intentional. If it was or was not, it could not change a thing. It was clumsy. All I could think to do was to film where the ball was last seen. As the film rolled the ball was underwater. Somewhere out of the view it was being rolled by the current.
+One morning I went to the culvert to experiment with the bounce-back phenomenon. On the first throw the angle was too shallow. The ball did not reach the ceiling. It bounced forward, out of the tunnel, and plopped into the rushing stream. Gone. Anyone watching would have thought it was intentional. If it was or was not, it could not change a thing. It was clumsy. All I could think to do was to film where the ball was last seen. As the film rolled, the ball was underwater.
 
 ![tunnel where the white ball was lost][tunnel]
 [youtube](https://youtu.be/kkN8np7-m-k).
 
 ---
 
-The temperature began to climb, then broke zero. Spring was gaining strength. The trees shed their coats of ice. Cracking sounds filled the forest. Fragments and sheets came crashing down. It was dangerous. I walked into a stand of trees and stood there, listening to the noise of it all. It's not often one can watch while a world crumbles. A small piece fell from high up and struck my finger. It broke the skin and drew blood. I photographed my bloody finger, then deleted the photo.
+The temperature began to climb, then broke zero. Spring gained strength. The trees shed their coats of ice. Cracking sounds filled the forest. Fragments and sheets came crashing down. It was dangerous. I walked into a stand of trees and stood there, listening to the noise of it all. It's not often one can watch while a world crumbles. A small piece fell from high up and struck my finger. It broke the skin and drew blood. I photographed my bloody finger, then deleted the photo.
 
 ---
 
