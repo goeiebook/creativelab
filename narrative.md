@@ -83,7 +83,7 @@ Encouraged, I made hapazard edits followed by page refreshes. Like combinatorial
 4. ```jq -c . simple.json | pbcopy```
 5. Select boardStates field, CMD-v, reload page.
     
-Inefficient, but already better than nothing. Then somewhere between the refreshes, I accidently clicked the canvas and drew a line. The pen tool had started working. Maybe a bug fix had been deployed, unannounced. Too late to turn back now.
+Inefficient, but already better than nothing. Then somewhere between the refreshes, I accidently clicked the canvas and drew a line. The pen tool had started working. Maybe a bug fix had been deployed unannounced. Too late to turn back now.
 
 ---
     
