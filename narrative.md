@@ -4,7 +4,7 @@ Stories begin somewhere. Nobody was looking at my work. I created a Twitter acco
     
 ![the application site][default]
     
-A one year paid experience, [the application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" The form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a secret puzzle. [Solving the puzzle](https://github.com/mhipley/creativelab5/wiki/The-Google-Creative-Lab-5-Cheat-Sheet) yields a "Techno Crab" badge. The badge activated a pen tool but I'm unable to use it. The UI seemed buggy. Maybe that was part of the challenge. I made an animation titled "Idempotent", and sent it off.
+A one year paid experience, [the application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" The form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a secret puzzle. [Solving the puzzle](https://github.com/mhipley/creativelab5/wiki/The-Google-Creative-Lab-5-Cheat-Sheet) yields a "Techno Crab" badge. The badge supposedly activated a pen tool but the pen tool didn't work. The UI seemed buggy. Maybe that was part of the challenge. I made an animation titled "Idempotent", and sent it off.
     
 Idempotent. So clever. A shoo-in for sure.
     
@@ -12,11 +12,11 @@ A day elapses. Then another. I revisit my application, and discover [it's broken
     
 ![the response][tweet]
     
-Sarcasm? I don't know, is it? Does the academy accept short films? I'm not socially adept. Maybe I wasn't clear. Confusion. But then something unanticipated happens: attention. Profile views and tweet impressions. Twitter analytics measures an increase of 1000%.
+Sarcasm? I don't know. Does the academy accept short films? I'm not socially adept. Maybe I wasn't clear. Confusion. But then something unanticipated happens: attention. Profile views and tweet impressions. Twitter analytics measures an increase of 1000%.
     
 ---
     
-Winter was finally coming to a close. The snow melted. When snow goes it leaves a distinctive aftermath. Piles of gravel, salt, and soggy cigarette butts. Like glacial till with snowplow scars and single wet mittens.
+Winter was finally coming to a close. The snow melted. When snow goes it leaves behind a distinctive aftermath. Piles of gravel, salt, and soggy cigarette butts. Like glacial till with snowplow scars and single wet mittens.
     
 In a pile of detritus was a white ball. I picked it up. Solid rubber, with a grey splotch. A lot of bounce. Probably a dog toy. I put it in my pocket. I thought to [tweet about it](https://twitter.com/goeiebook/status/709378927219728384), and formed a plan to carry the ball with me at all times. Because by doing so you increase the chance of discovering something new.
     
@@ -30,9 +30,9 @@ Excellent presentation, casual phrasing, and three images demonstrating aspects 
     
 Stay cool, Abrie. You can learn a lot from guys like this.
     
-Immediately open up the site and look deeper. How was it made if the pen didn't work? The UI is so clumsy. There's a tool called anchor, but I wasn't able to get that to work either. The tiny vertex manipulators were aggravating. The play bar disappeared at inconvienent times and reappeared when least expected. Heavy CPU usage caused my Macbook's fan to whine. But apparently none of these issues held Both back.
+Immediately open up the site and look deeper. How was it made if the pen didn't work? There's a tool called anchor, but I wasn't able to get that to work either. The tiny vertex manipulators were aggravating. The play bar disappeared at inconvienent times and reappeared when least expected. Heavy CPU usage caused my Macbook's fan to whine. But apparently none of these issues held Both back.
     
-For insight into sites, the dev console is the window to use. I entering commands, searching for new things. The [Chrome Dev Console](https://developer.chrome.com/devtools/docs/console) remembers everything entered, including mistakes and typos. At first this is helpful, but soon becomes pollution. Annoyed, I clicked through the menus looking for a remedy. And, as it turns out, the remedy is non-trivial. But the search took me to the [Resources Panel](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/), which has an entry named [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage), and within that was an interesting string.
+For insight into sites, the dev console is the window to use. I entered commands, searching for new things. The [Chrome Dev Console](https://developer.chrome.com/devtools/docs/console) remembers everything entered, including mistakes and typos. At first this is helpful, but soon becomes pollution. Annoyed, I clicked through the menus looking for a remedy. And, as it turns out, the remedy is non-trivial. But the search took me to the [Resources Panel](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/), which has an entry named [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage), and within that was an interesting string.
     
 ![local storage editor][localstorage]
     
@@ -91,7 +91,7 @@ I'd been in the coffee shop for an hour, and decorum suggested it was time to le
     
 ---
     
-Since the animation data was editable, a whole new set of possibilities were possible. Animations could be made without the clumsy Google Creative Lab 5 UI. But editing the structure through the manual copy-pasting was tiring and error-prone. A more programmatic workflow was needed. The dev console's command prompt could help. A series of commands like this, for example, create a function for erasing all the shapes:
+Since the animation data was editable, a whole new set of possibilities were possible. Animations could be made without using the UI. But editing the structure by manual copy-pasting was tiring and error-prone. A more programmatic workflow was needed. The dev console's command prompt could help. A series of commands like this, for example, create a function for erasing all the shapes:
     
 ```javascript
 function clearShapes() {
@@ -111,15 +111,15 @@ function clearShapes() {
 
 That specific functionality was already present in the application, as `all.deleteAll()`. But when code can be stored in a function it's a step toward proceedural generation.
     
-But page must be reloaded in order to view changes. Reloading a page destroys the javascript context. Therefore the functions would need to be re-entered on every reload. So it was just another copy-paste routine, but in a slightly different domain. Looking for a solution turned up: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
+The page must be reloaded in order to view changes. Reloading a page destroys the javascript context. Therefore the functions needed to be re-entered on every reload. So it was just another copy-paste routine, but in a slightly different domain. Looking for a solution turned up: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
     
 ![the snippets panel][snippets]
     
-Now we're talking. Right-click &larr; Run. That's fun. I went wild, like a bull in a china shop, ignoring DRY and other rules of thumb. The code created arrays of shapes and colors. What did those handleIn/handleOut parameters do? Whatever it did, the result was interesting. Excessive and messy. But I was proud of it.
+Now we're talking. Right-click &larr; Run. That's fun. I went wild, like a bull in a china shop, ignoring DRY and other rules of thumb. The code created arrays of shapes and colors. What did those handleIn/handleOut parameters do? Whatever it did, the result was interesting. Excessive and messy. I was proud of it.
     
 ![what a mess][mess]
     
-It seemed worthy of submission. I clicked the button, signed the "Cover Letter", and waited for the request to complete. The request took a long time, then returned an empty error response. Tried again. Same failure returned. [500 Server Error](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_Server_Error). So the animation worked locally, but was trapped there. Unshareable. I must have discovered another "Break It" feature! I tweet to the #creativelab5 people; expecting another 1000% increase in profile views.
+It seemed worthy of submission. I clicked the button, signed the "Cover Letter", and waited for the request to complete. The request took a long time, then returned an empty error response. Tried again. Failure again. [500 Server Error](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_Server_Error). So the animation worked locally, but was trapped there. Unshareable. I must have discovered another "Break It" feature! I tweet to the #creativelab5 people; expecting another 1000% increase in profile views.
     
 ![what a mess][500error]
     
@@ -135,7 +135,7 @@ I laughed aloud. Amused by automatic stories. This one had fractal similarity. I
     
 The post about the 500 Error did not generate buzz. No replies, no tweet impressions, no link clicks. Maybe it wasn't anything unexpected. That is to say, the error was returned because the submission was unacceptable. And that would be expected.
 
-Edit the snippet. Reduce complexity and resubmit. Repeat until the submission goes through. Eventually it does. That proves it. The problem was invalid timeline values and too many shapes. A constraint of animation complexity. That's not surprising, in retrospect. Reasonable, even. Embarassing.
+Edit the snippet. Reduce complexity and resubmit. Repeat until the submission goes through. Eventually it does. That proves it. The problem was invalid timeline values and too many shapes. A constraint on animation complexity. Reasonable, in retrospect. Embarassing too.
     
 Begin again with a clean snippet. Generate a random set of coordinates. Add some random handleIns and handleOuts. Multiply by trigometric functions. Divide by a constant value. The result were fireworks. It looked like fireworks. How it worked was not completely clear. But to an outsider it would seem designed. 
     
@@ -162,9 +162,9 @@ Ah hell, I was becoming addicted. So it goes, into the small hours of the mornin
 
 The basketball was no longer in the tree. It was nowhere to be seen. Sometimes stories just end. Maybe the story could be continued as fiction. A bird took the basketball.
 
-The white ball continued with me everywhere I went. Some the discoveries were surprising. For instance, strangers would smile and greet. "Hello", "Nice day", and so on. I won't pretend to understand why that was happening. But maybe the reasons is that it's disarming to see someone play. Neurochemical psychological sociology. There is utility in the discovery. If one were so inclined, it could be used as a confidence trick.
+The white ball continued with me everywhere I went. Some the discoveries were surprising. For instance, strangers would smile and greet. "Hello", "Nice day", and so on. I do not pretend to understand why that was happening. But maybe the reason is that it's disarming to see someone play. Neurochemical psychological sociology. It could be used as a confidence trick, if one were so inclined.
 
-Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Shalom, shalom. About ten minutes later he had $200 of my dollars in his pocket. His baby daughter needed money for medication. He said I could stay in his house in Tel Aviv. He gave me a number I immediately recognized as fake, but I continued to play into his hands. We rode the subway together, in silence. Both of us knew what the other knew. It was an awkard ride.
+Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Shalom, shalom. About ten minutes later he had $200 of my dollars in his pocket. His baby daughter needed money for medication. He said I could stay in his house in Tel Aviv. He gave me a number I immediately recognized as fake, but I continued to play into his hands. We rode the subway together, in silence. Both of us knew what the other knew. It was awkard.
 
 "What do you do for a living?" He asked me.
 
@@ -212,7 +212,7 @@ Bouncing the ball through a culvert tunnel was one of my favorite things to do. 
 
 ---
 
-As the number of prototypes increased, common code elements became apparent. All the prototypes, for example, contained functions for accessing the localstorage structure. Those functions could be reused if stored in a single place. The natural soultion was to put the code dedicated snippet. But then that snippet would need to be re-run whenever the page was reloaded. And as the number of snippets grew, the amount of right-click-runs became excessive. The time was right for a new solution.
+As the number of prototypes increased, common code elements became apparent. All the prototypes, for example, contained functions for accessing the localstorage structure. Those functions could be reused if stored in a single place. The natural soultion was to put shared code in a dedicated snippet. But then that snippet would need to be re-run whenever the page was reloaded. And as the number of snippets grew, the amount of right-click-runs became excessive. The time was right for a new solution.
 
 The solution took some effort. It was more complicated than expected. Several technical details became stumbling blocks. I thought to myself, _why am I going to all this trouble_? Surely there was something more worthwhile. My book still needed a lot of attention. And then suddenly the local server sprang to life and served without error. A thrill. And, as a bonus, it could be used to load third party libraries such as [tinycolor](https://bgrins.github.io/TinyColor/) and [smooth.js](https://github.com/osuushi/Smooth.js/).
 
@@ -255,7 +255,7 @@ Techno|Rain
 :--------------:|:--------------:
 ![technocrab][technocrab]|![set rain to try][rainflag]
 
-The message around the crab logo spells TECHNO. The rain flag could be set to true using the code below, then submitting the application.
+The message around the crab logo spells TECHNO. The rain flag could be set to true by using the code below and then submitting the application.
 
 ```javascript
 var boardState = JSON.parse(
