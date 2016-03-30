@@ -272,7 +272,7 @@ But setting the rain flag to true did not appear to have any effect. I did not e
 
 ---
 
-The upward trend of profile views stopped. The tweets did not attract comment or significant engagement. Perhaps I had overstayed my welcome. Motivation waned. It was a downturn. Then the urge to write returned. Writing usually provided insight. I begin recording this story.
+The upward trend of profile views stopped. The tweets did not attract comment or significant engagement. Perhaps I had overstayed my welcome. Motivation waned. It was a downturn. Then the urge to write returned. Writing usually provided insight. I began recording this story.
 
 ![frozen blossoms][frozen]
 
