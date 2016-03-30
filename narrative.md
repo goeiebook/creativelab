@@ -320,7 +320,7 @@ The code for viewing submitted applications seemed to be worth sharing. I packag
 
 ![reverse post][reverse.jpg]
 
-The analytics indicated no signs of interest. That was strange. And despite containing the #creativelab5 hashtag, it did not appear in the live stream. Was the post in poor taste? Maybe someone flagged the tweet. Was it illegal in some way? Maybe the mention of `eval()` tripped an algorithmic warning. Maybe it was nothing at all. An unpleasant aspect of socialization. The thread of a shadow ban.
+The analytics indicated no signs of interest. That was strange. And despite containing the #creativelab5 hashtag, it did not appear in the live stream. Was the post in poor taste? Maybe someone flagged the tweet. Was it illegal in some way? Maybe the mention of `eval()` tripped an algorithmic warning. Maybe it was nothing at all. An unpleasant aspect of socialization. The threat of a shadow ban.
 
 Relax, Abrie. There is no control. Reason need not be in everything.
 
