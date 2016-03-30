@@ -308,7 +308,7 @@ The temperature began to climb, then broke zero. Spring was gaining strenth. The
 
 ---
 
-I missed the white ball. That was the final discovery --- spending many hours with a thing results in attachment. Whenever I passed the place it was last seen, I would peer into the water and look along the banks. But there was no hope of recovery. Then, one morning, a few blocks away, I found a different ball. It was day-glo orange, fashioned like a miniature tennis ball. It could be irony or poetry. It was wet and disgusting, but I picked it up anyway. It did not bounce well. It was sad.
+I missed the company of the white ball. That was the final discovery --- that spending many hours with a thing results in attachment. Or maybe less a discovery than a reminder of things already learned. Whenever I passed the place it was last seen, I would peer into the water and look along the banks. But there was no hope of recovery. Then, one morning, a few blocks away, I found a different ball. It was day-glo orange, fashioned like a miniature tennis ball. It could be irony or poetry. It was wet and disgusting, but I picked it up anyway. It did not bounce well. It was sad.
 
 I took it with me to a mall and washed it with liquid soap in a bathroom sink. I patted it with paper towel, then dried it with a Dyson Airblade. Over the course of the day I sometimes took it from my pocket and looked at it. Silly thing. Just a damn coincidence.
 
@@ -316,13 +316,13 @@ I took it with me to a mall and washed it with liquid soap in a bathroom sink. I
 
 ---
 
-The code for viewing submitted applications seemed to be worth sharing. I packaged it into [a single snippet](reverse) and [posted it](https://twitter.com/goeiebook/status/714516981030866944). 
+The code for viewing submitted applications seemed to be worth sharing. I packaged it into [a single snippet](reverse.js) and [posted it](https://twitter.com/goeiebook/status/714516981030866944). 
 
 ![reverse post][reverse.jpg]
 
-I watched the analytics for signs of interest. But there was none. That was strange. And despite containing the #creativelab5 hashtag, it did not appear in the live stream. Was the post in poor taste? Maybe someone flagged the tweet. Was it illegal in some way? Maybe it tripped an algorithmic warning because it linked to a javascript containing `eval()`. Maybe it was nothing at all. An unpleasant aspect of socialization. Reason may not be in everything.
+The analytics indicated no signs of interest. That was strange. And despite containing the #creativelab5 hashtag, it did not appear in the live stream. Was the post in poor taste? Maybe someone flagged the tweet. Was it illegal in some way? Maybe the mention of `eval()` tripped an algorithmic warning. Maybe it was nothing at all. An unpleasant aspect of socialization. The thread of a shadow ban.
 
-Relax, Abrie. There is no control.
+Relax, Abrie. There is no control. Reason need not be in everything.
 
 ---
  
