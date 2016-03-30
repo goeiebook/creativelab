@@ -310,25 +310,13 @@ The temperature began to climb, then broke zero. Spring was gaining strenth. The
 
 I missed the company of the white ball. That was the final discovery --- that spending many hours with a thing results in attachment. Or maybe less a discovery than a reminder of things already learned. Whenever I passed the place it was last seen, I would peer into the water and look along the banks. But there was no hope of recovery. Then, one morning, a few blocks away, I found a different ball. It was day-glo orange, fashioned like a miniature tennis ball. It could be irony or poetry. It was wet and disgusting, but I picked it up anyway. It did not bounce well. It was sad.
 
-I took it with me to a mall and washed it with liquid soap in a bathroom sink. I patted it with paper towel, then dried it with a Dyson Airblade. Over the course of the day I sometimes took it from my pocket and looked at it. Silly thing. Just a damn coincidence.
+I took it with me to a mall and washed it with liquid soap in a bathroom sink. I patted it with paper towel, then dried it with a Dyson Airblade.
+
+I carried it with me for a day. Sometimes I would take it from my pocket and look at it. I never played with it. Silly thing. Just a damn coincidence.
 
 ![orangeball][orangeball]
 
 ---
-
-The code for viewing submitted applications seemed to be worth sharing. I packaged it into [a snippet][reverse.js] and [posted it](https://twitter.com/goeiebook/status/714516981030866944). 
-
-![reverse post][reverse.jpg]
-
-The analytics indicated no signs of interest. That was strange. And despite containing the #creativelab5 hashtag, it did not appear in the live stream. Was the post in poor taste? Maybe someone flagged the tweet. Was it illegal in some way? Maybe the mention of `eval()` tripped an algorithmic warning. Maybe it was nothing at all. An unpleasant aspect of socialization. The threat of a shadow ban.
-
-Relax, Abrie. There is no control. Reason need not be in everything.
-
----
- 
-
-notes for future development:
-- Recollection of being mugged in Windhoek.
 
 [default]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/default.jpg
 [bansky]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/bansky.jpg
