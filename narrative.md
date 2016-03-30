@@ -190,7 +190,7 @@ Then I found the basketball. It was hidden in undergrowth. I smiled and picked i
 
 ---
 
-The workflow stopped working. Changes to the localstorage structure no longer persisted across reloads. Did the Creative Lab close a hole? Was there a hole? When this type of thing happens the thing to do is look at the source code. Sometimes that's a complicated endeavour. But in this case the code wasn't obfuscated. Clearly it wasn't a secret. But it was big and noisy. Chrome dev console slowed to a crawl trying to to display the thing.
+The workflow stopped working. Changes to the localstorage structure no longer persisted across reloads. Did the Creative Lab close a hole? Was there a hole? When this type of thing happens the thing to do is look at the source code. Sometimes that's a complicated endeavour. But in this case the code wasn't obfuscated. Clearly it wasn't a secret.
 
 Text search for 'boardStates', and find:
 
