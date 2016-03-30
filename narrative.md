@@ -287,9 +287,9 @@ New submissions continued to flow onto twitter. Sometimes a remarkable one came 
 
 ![escher][escher]
 
-Creations like that are intriguing. How were they made? I wanted to see what was inside them. View Source of a published application to see a `<script>` tag with javascript assigning a dictionary to a variable named `shareData`. This data cannot be extracted as JSON because it contains javascript. That fact took a few tries to understand. The way to read it is to use [javascript eval](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval). Generally speaking, that's a dangerous thing to do. But in this case it was probably ok. Once the shareData variable is populated into a javascript context, it is becomes a simple matter to copy it into the boardStates structure. Refreshing the stage then shows the animation, where it can be studied.
+Creations like that are intriguing. How were they made? I wanted to see what was inside them. View Source of a published application to see a `<script>` tag with javascript assigning a dictionary to a variable named `shareData`. This data cannot be extracted as JSON because it contains javascript. That fact took a few tries to understand. The way to read it is to use [javascript eval](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval). Generally speaking, that's a dangerous thing to do. But in this case it was probably ok. Once the `shareData` variable is available to the javascript context, it becomes a simple matter to copy it into the boardStates structure. Refreshing the stage then shows the animation, where it can be studied.
 
-I use this technique to study the animations of [@zachboth](https://twitter.com/zachboth) and [@clapinton](https://twitter.com/clapinton). They are clever. I'm not sure why that makes me sad. Likely due to jealousy.
+I used this technique to study the animations of [@zachboth](https://twitter.com/zachboth) and [@clapinton](https://twitter.com/clapinton). They are clever. I'm not sure why that makes me sad. Likely jealousy.
 
 [@zachboth](https://twitter.com/zachboth)|[@clapinton](https://twitter.com/clapinton)
 :--------------------|:---------------------:
