@@ -276,7 +276,7 @@ The upward trend of profile views stopped. The tweets did not attract comment or
 
 ![frozen blossoms][frozen]
 
-Freezing rain fell onto the city. Everything became coated with ice. It was because I had set the rain flag to `true`. I say that because a characteristic of humans is to discern connection and analogy. It was spurious, but the observation lingered. What is to say that there was no connection? Maybe there was an analogy with recent discoveries about the [relationship between computational complexity and event horizons](http://www.nature.com/news/theoretical-physics-complexity-on-the-horizon-1.15285). The mathematics of [anti-de sitter space](https://en.wikipedia.org/wiki/Anti-de_Sitter_space) are beyond me, but the thoughts played while I bounced the white ball on bubbles of air under ice.
+Freezing rain fell onto the city. Everything became coated with ice. It was because I had set the rain flag to `true`. I say that because a characteristic of humans is to discern connection and analogy. It was spurious, but the observation lingered. What is to say that there was no connection? Maybe there was an analogy to discoveries about the [relationship between computational complexity and event horizons](http://www.nature.com/news/theoretical-physics-complexity-on-the-horizon-1.15285). The mathematics of [anti-de sitter space](https://en.wikipedia.org/wiki/Anti-de_Sitter_space) are beyond me, but the thoughts played while I bounced the white ball on bubbles of air under ice.
 
 ![bubbleball framecap][bubbleball]
 [youtube](https://youtu.be/lo1q3oU93UM)
