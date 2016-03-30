@@ -26,7 +26,7 @@ The 1000% percent increase in views wasn't impressive considering it came from z
     
 ![the both submission][both]
     
-Excellent presentation, casual phrasing, and three images demonstrating aspects of design. And somehow it included new shapes. I darkened. How could this have been made without a pen?
+Excellent presentation, casual phrasing, and three images demonstrating aspects of design. And somehow it included new shapes. I darkened. How could this have been made if the pen tool did not work?
     
 Stay cool, Abrie. You could learn a lot from experts like this.
     
