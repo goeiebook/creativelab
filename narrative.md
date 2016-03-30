@@ -306,7 +306,7 @@ One morning I went to the culvert to experiment with the bounce-back phenomenon.
 
 ---
 
-The temperature began to climb, then broke zero. Spring gained strength. The trees shed their coats of ice. Cracking sounds filled the forest. Fragments and sheets came crashing down. It was dangerous. I walked into a stand of trees and stood there, listening to the noise of it all. It's not often one can watch while a world crumbles. A small piece fell from high up and struck my finger. It broke the skin and drew blood. I photographed my bloody finger, then deleted the photo.
+The temperature began to climb, then broke zero. Spring gained strength. Trees shed their coats of ice. Cracking sounds filled the forest. Fragments and sheets came crashing down. It was dangerous. I walked into a stand of trees and stood there, listening to the noise of it all. It's not often one can watch while a world crumbles. A small piece fell from high up and struck my finger. It broke the skin and drew blood. I photographed my bloody finger, then deleted the photo.
 
 ---
 
