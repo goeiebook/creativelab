@@ -255,7 +255,7 @@ Techno|Rain
 :--------------:|:--------------:
 ![technocrab][technocrab]|![set rain to try][rainflag]
 
-The message around the crab logo spells TECHNO. The rain flag could be set to true by using the code below and then submitting the application.
+The message around the crab logo spells TECHNO. The rain flag could be set to true by using the following code before submitting.
 
 ```javascript
 var boardState = JSON.parse(
@@ -268,7 +268,7 @@ window.localStorage.setItem('boardStates',
     JSON.stringify(boardState));
 ```
 
-But setting the rain flag to true did not appear to have any effect. I did not examine the issue any further.
+But setting the rain flag to true did not appear to have any effect. I did not examine the subject further.
 
 ---
 
