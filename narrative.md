@@ -320,7 +320,7 @@ The code for viewing submitted applications seemed to be worth sharing. I packag
 
 ![reverse post][reverse.jpg]
 
-I watched the analytics for signs of interest. But there was none. That was strange. And despite containing the #creativelab5 hashtag, it did not appear in the live stream. Was the post in poor taste? Maybe someone flagged the tweet. Was it illegal in some way? Maybe it tripped an algorithmic warning because it linked to a javascript containing `eval()`. Maybe it was nothing at all. An unpleasant aspect of socialization. The paranoid interest.
+I watched the analytics for signs of interest. But there was none. That was strange. And despite containing the #creativelab5 hashtag, it did not appear in the live stream. Was the post in poor taste? Maybe someone flagged the tweet. Was it illegal in some way? Maybe it tripped an algorithmic warning because it linked to a javascript containing `eval()`. Maybe it was nothing at all. An unpleasant aspect of socialization. Reason may not be in everything.
 
 Relax, Abrie. There is no control.
 
