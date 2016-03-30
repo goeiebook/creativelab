@@ -16,9 +16,9 @@ Does the academy accept short films? I'm not socially adept. Maybe I wasn't clea
     
 ---
     
-Winter was finally coming to a close. The snow melted. When snow goes away it leaves a distinctive aftermath. Piles of gravel, salt, and soggy cigarette butts. Like glacial till with snowplow scars and single wet mittens.
+Winter was finally coming to a close. The snow melted. When snow goes away it leaves a distinctive aftermath. Piles of gravel, salt, and soggy cigarette butts. Glacial till with snowplow scars and single wet mittens.
     
-In a pile of detritus was a white ball. I picked it up. Solid rubber, with a grey splotch. A lot of bounce. Probably a dog toy. I put it in my pocket. I thought to [tweet about it](https://twitter.com/goeiebook/status/709378927219728384), and formed a plan to carry the ball with me at all times. Because by doing so you increase the chance of discovering something new.
+In a pile of detritus was a white ball. I picked it up. Solid rubber with a grey splotch. A lot of bounce. Probably a dog toy. I put it in my pocket. I thought [_I should tweet about this_](https://twitter.com/goeiebook/status/709378927219728384), and formed a plan to carry the ball with me at all times. Because by doing so you increase the chance of discovering something new.
     
 ---
 
