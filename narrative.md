@@ -1,6 +1,6 @@
 ## Discovery Requires Circumstance
     
-Stories begin somewhere. Nobody was looking at my work. I created a Twitter account because marketing seemed necessary. As a consequence I saw [a retweet](https://twitter.com/PRHDigital/status/707503572733313024) via @editionsatplay. A mention about a program looking for new applicants.
+Stories begin somewhere. Nobody was looking at my work. I created a Twitter account because marketing seemed necessary. As a consequence I read [a retweet](https://twitter.com/PRHDigital/status/707503572733313024) via @editionsatplay. A mention about a program looking for new applicants.
     
 ![the application site][default]
     
@@ -8,31 +8,31 @@ A one year paid experience, [the application](https://creativelab5.com) is a web
     
 Idempotent. So clever. A shoo-in for sure.
     
-A day elapsed. Then another. Then I revisited my application and discovered it was [broken](https://www.creativelab5.com/s/puukkz). The animation didn't play correctly and the console showed an error. How did that happen? It looked terrible. I needed to explain myself. Maybe I felt embarassed. I addressed a tweet [to message](https://twitter.com/Andrew_Herzog/status/708081805103144960) one of the designers. A response arrived. 
+A day elapsed. Then another. Then I revisited my application and discovered it was [broken](https://www.creativelab5.com/s/puukkz). The animation didn't play correctly and the console showed an error. How did that happen? It looked terrible. I needed to explain myself. Maybe I felt embarassed. I addressed a tweet to one of the designers asking, "Does this count as breaking it?" A response arrived. 
     
 ![the response][tweet]
     
-Does the academy accept short films? I'm not socially adept. Maybe I wasn't clear. Confusion. But then something unanticipated happens: attention. Profile views and tweet impressions. Twitter analytics measures an increase of 1000%.
+Does the academy accept short films? I'm not socially adept. Maybe I wasn't clear. Confusion. But then something unanticipated happens: attention. Profile views and tweet impressions. Twitter analytics measured an increase of 1000%.
     
 ---
     
-Winter was finally coming to a close. The snow melted. When snow goes away it leaves a distinctive aftermath. Piles of gravel, salt, and soggy cigarette butts. Glacial till with snowplow scars and single wet mittens.
+Winter was finally coming to a close. The snow melted. When snow goes away it leaves a distinctive aftermath. Piles of gravel, salt, and soggy cigarette butts. It's like glacial till, but with snowplow scars and single mittens.
     
-In a pile of detritus was a white ball. I picked it up. Solid rubber with a grey splotch. A lot of bounce. Probably a dog toy. I put it in my pocket. I thought [_I should tweet about this_](https://twitter.com/goeiebook/status/709378927219728384), and formed a plan to carry the ball with me at all times. Because by doing so I'd increase the chances of discovering something new.
+In a pile of detritus was a white ball. I picked it up. Solid rubber with a grey splotch. A lot of bounce. Probably a dog toy. I put it in my pocket. I thought [_I should tweet about this_](https://twitter.com/goeiebook/status/709378927219728384), and formed a plan to carry the ball with me at all times. Because doing so increases the chances of discovering something new.
     
 ---
 
-The 1000% percent increase in views wasn't very impressive considering it came from zero. But checking analytics became engrossing. There was more signal than noise. [The alternative is no fun.][bansky]. For a while I was king of the #creativelab5 hashtag. I'd watch for new submissions and compare them to mine. They were bland, like mine; but none were broken, like mine. And none had the Techno Crab stamp. Then [this masterpiece](https://www.creativelab5.com/s/pnMGi5) arrived.
+The 1000% percent increase in views wasn't impressive considering it came from zero. Bit it was a new thing to me. Checking analytics became fun because there was more signal than noise. [The alternative is no fun.][bansky]. I followed new submissions with a competitive eye. Most were bland, like mine; but none were broken, like mine. And none had the Techno Crab stamp. I felt like king of the creativelab5 hashtag. Then [this](https://www.creativelab5.com/s/pnMGi5) was published.
     
 ![the both submission][both]
     
-Excellent presentation, casual phrasing, and three images demonstrating aspects of design. And somehow it included new shapes. He had figured out how to use the pen. I darkened.
+Excellent presentation, casual phrasing, and three images demonstrating aspects of design. And somehow it included new shapes. I darkened. How could this have been made without a pen?
     
-Stay cool, Abrie. You could learn a lot from guys like this.
+Stay cool, Abrie. You could learn a lot from experts like this.
     
-Immediately I opened the site and look deeper. How could that application have been made without a pen? There's a tool called anchor, but I wasn't able to get that to work either. The tiny vertex manipulators were aggravating. The play bar disappeared at inconvienent times and reappeared when least expected. Heavy CPU usage caused my Macbook's fan to whine. Apparently none of these problems had held Both back.
+Immediately I opened the site and looked deeper. There's a tool called anchor, but I wasn't able to get that to work either. The tiny vertex manipulators were aggravating. The play bar disappeared at inconvienent times and reappeared when least expected. Heavy CPU usage caused made the computer's fan to whine. But apparently there had to be a way to work around these problems.
     
-For insight into sites, the dev console is the window to use. I entered commands, searching for new things. The [Chrome Dev Console](https://developer.chrome.com/devtools/docs/console) remembers everything entered, including mistakes and typos. At first this is helpful, but soon becomes pollution. Annoyed, I clicked through the menus looking for a remedy. And, as it turns out, the remedy is non-trivial. But the search took me to the [Resources Panel](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/), which has an entry named [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage), and within that was an interesting string.
+For insight into sites, the dev console is the window to use. I began trying commands, searching for new things. The [Chrome Dev Console](https://developer.chrome.com/devtools/docs/console) remembers everything entered, including mistakes and typos. At first this is helpful, but soon becomes pollution. Annoyed, I clicked through the menus looking for a remedy. And, as it turns out, the remedy is non-trivial. But the search took me to the [Resources Panel](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/), which has an entry named [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage), and within that was an interesting string.
     
 ![local storage editor][localstorage]
     
