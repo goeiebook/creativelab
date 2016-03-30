@@ -297,7 +297,7 @@ I use this technique to study the animations of [@zachboth](https://twitter.com/
 
 ---
 
-One morning I went to the culvert to experiment with the bounce-back phenomenon. On the first throw the angle was too shallow. The ball did not reach the ceiling, and continued. It bounced a few times, then plopped into the rushing stream. Gone. Anyone watching would have thought it was intentional. If it was or was not, it could not change a thing. It was clumsy. All I could think to do was to film where the ball was last seen. As the film rolled the ball was underwater. Somewhere out of the view it was being rolled by the current.
+One morning I went to the culvert to experiment with the bounce-back phenomenon. On the first throw the angle was too shallow. The ball did not reach the ceiling. It bounced forward, out of the tunnel, and plopped into the rushing stream. Gone. Anyone watching would have thought it was intentional. If it was or was not, it could not change a thing. It was clumsy. All I could think to do was to film where the ball was last seen. As the film rolled the ball was underwater. Somewhere out of the view it was being rolled by the current.
 
 ![tunnel where the white ball was lost][tunnel]
 [youtube](https://youtu.be/kkN8np7-m-k).
