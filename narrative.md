@@ -243,7 +243,7 @@ Using it required: [simple-https-server.py](https://raw.githubusercontent.com/go
 
 ---
 
-After nearly a week with the ball I'd discovered several ways to throw and catch it. One method was to bounce it forward from behind; then catch it in a downturned palm of the throwing arm. In order for that to work the ball needed to be thrown with force. During one attempt it struck a pebble and ricocheted off the path. It landed in the middle of a jeweled bracelet. I would not have found the braclet if it weren't for the ball. The bracelet was worthless, but my camera's sensor turned the copper and cubic zirconia into gold and diamonds.
+After nearly a week with the ball I'd discovered several ways to throw and catch it. One method was to bounce it forward from behind; then catch it in a downturned palm of the throwing arm. In order for that to work the ball needed to be thrown with force. During one attempt it struck a pebble and ricocheted off the path. It landed where a jeweled bracelet lay hidden in the grass. A material discovery. The bracelet was worthless, but my camera's sensor turned the copper and cubic zirconia into gold and diamonds.
 
 ![treasure][jewels]
 
