@@ -276,20 +276,20 @@ The upward trend of profile views stopped. The tweets did not attract comment or
 
 ![frozen blossoms][frozen]
 
-Freezing rain fell onto the city. Everything became coated with ice. Spring ground to a halt. All of it was happening because I had set the rain flag to `true`. I say that because a characteristic of humans is to discern connection and analogy. It was spurious, but the observation lingered. What was to say that there was no connection? Maybe there was an analogy to discoveries about the [relationship between computational complexity and event horizons](http://www.nature.com/news/theoretical-physics-complexity-on-the-horizon-1.15285). The mathematics of [anti-de sitter space](https://en.wikipedia.org/wiki/Anti-de_Sitter_space) are beyond me. But the thoughts played while I bounced the white ball on bubbles of air under ice.
+Freezing rain fell onto the city. Everything became coated with ice. Spring ground to a halt. All of it was happening because I had set the rain flag to `true`. I say that because a characteristic of humans is to discern connection and analogy. It was spurious, but the observation lingered. I bounced the ball over a wooden bridge. What was to say that there was no connection? Maybe there was an analogy with discoveries about [scrambling](http://arxiv.org/abs/1111.6580) or [relationship between computational complexity and event horizons](http://www.nature.com/news/theoretical-physics-complexity-on-the-horizon-1.15285). The mathematics of [anti-de sitter space](https://en.wikipedia.org/wiki/Anti-de_Sitter_space) seem impenetrable. But the thoughts played while I bounced the white ball on bubbles of air under ice.
 
 ![bubbleball framecap][bubbleball]
 [youtube](https://youtu.be/lo1q3oU93UM)
 
 ---
 
-New submissions continued on the twitter stream. But sometimes a remarkable one came through. Like [this one](https://creativelab5.com/s/uJclLz) by [@clapinton](https://twitter.com/clapinton)
+New submissions continued to flow onto twitter. Sometimes a remarkable one came through. Like [this one](https://creativelab5.com/s/uJclLz) by [@clapinton](https://twitter.com/clapinton)
 
 ![escher][escher]
 
 Creations like that are intriguing. How were they made? I wanted to see what was inside them. View Source of a published application to see a `<script>` tag with javascript assigning a dictionary to a variable named `shareData`. This data cannot be extracted as JSON because it contains javascript. That fact took a few tries to understand. The way to read it is to use [javascript eval](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval). Generally speaking, that's a dangerous thing to do. But in this case it was probably ok. Once the shareData variable is populated into a javascript context, it is becomes a simple matter to copy it into the boardStates structure. Refreshing the stage then shows the animation, where it can be studied.
 
-I use this technique to study the animations of [@zachboth](https://twitter.com/zachboth) and [@clapinton](https://twitter.com/clapinton). They are clever. I'm not sure why that makes me sad. It's likely jealousy.
+I use this technique to study the animations of [@zachboth](https://twitter.com/zachboth) and [@clapinton](https://twitter.com/clapinton). They are clever. I'm not sure why that makes me sad. Likely due to jealousy.
 
 [@zachboth](https://twitter.com/zachboth)|[@clapinton](https://twitter.com/clapinton)
 :--------------------|:---------------------:
