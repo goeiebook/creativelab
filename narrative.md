@@ -200,7 +200,7 @@ Text search for 'boardStates', and find:
 
 The function greatly increased productivity. Updates were instantenous and did not require reloads. They could even be applied while the animation was running.
 
-Instant feedback encouraged experimentation. I wondered what the handleIn/handleOut parameters did. The source code contained references to [PaperJS](http://paperjs.org/). A search for "paperjs handlein" provided a link to [documentation about the parameter](http://paperjs.org/reference/segment/#segment). So --- the handles defined points on tangent curves. That didn't mean much to me. An experiment was necessary. Write code to arrange tangent points in a circle. The result looked like flowers and leaves. That spawned a series of prototypes. 
+Instant feedback encouraged experimentation. I wondered what the handleIn/handleOut parameters did. The source code contained references to [PaperJS](http://paperjs.org/). A search for "paperjs handlein" provided a link to [documentation about the parameter](http://paperjs.org/reference/segment/#segment). So --- the handles defined points on tangent curves. But the application of that wasn't clear. An experiment was necessary. Write code to arrange tangent points in a circle. The results looked like flowers and leaves. That spawned a series of prototypes. 
 
 [live](hyjJZBH.web) [code](yjJZBH.js)|[live](Diu8WJ.web) [code](Diu8WJ.js)|[live](rnqNpZ.web) [code](rnqNpZ.js)
 :--------------:|:--------------:|:--------------:
