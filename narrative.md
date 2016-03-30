@@ -12,13 +12,13 @@ A day elapsed. Then another. Then I revisited my application and discovered it w
     
 ![the response][tweet]
     
-This confused me. But then something unanticipated happens: attention. Profile views and tweet impressions. Twitter analytics measured an increase of 1000%.
+This confused me. But then something unanticipated happened: attention. Profile views and tweet impressions. Twitter analytics measured an increase of 1000%.
     
 ---
     
 Winter was finally coming to a close. The snow melted. When snow goes away it leaves a distinctive aftermath. Piles of gravel, salt, and soggy cigarette butts. Glacial till, but with snowplow scars and single mittens.
     
-In a pile of detritus was a white ball. I picked it up. Solid rubber with a grey splotch. A lot of bounce. Probably a dog toy. I put it in my pocket. I thought [_I should tweet about this_](https://twitter.com/goeiebook/status/709378927219728384), and formed a plan to carry the ball with me at all times. Because doing so increases the chances of discovering something new.
+In a pile of detritus was a white ball. I picked it up. Solid rubber with a grey splotch. A lot of bounce. Probably a dog toy. I put it in my pocket. I thought [_tweet about this_](https://twitter.com/goeiebook/status/709378927219728384), and formed a plan to carry the ball with me at all times. Because doing so increases the chances of discovering something new.
     
 ---
 
