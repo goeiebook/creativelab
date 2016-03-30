@@ -283,7 +283,7 @@ Freezing rain fell onto the city. Everything became coated with ice. Spring grou
 
 ---
 
-New submissions occasionally arrived on the twitter stream. But sometimes a remarkable one came through. Like [this one](https://creativelab5.com/s/uJclLz) by [@clapinton](https://twitter.com/clapinton)
+New submissions continued on the twitter stream. But sometimes a remarkable one came through. Like [this one](https://creativelab5.com/s/uJclLz) by [@clapinton](https://twitter.com/clapinton)
 
 ![escher][escher]
 
