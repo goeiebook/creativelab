@@ -91,7 +91,7 @@ I'd been in the coffee shop for an hour, and decorum suggested it was time to le
     
 ---
     
-Since the animation data was editable, a whole new set of possibilities were possible. Animations could be made without using the UI. But editing the structure by manual copy-pasting was tiring and error-prone. A more programmatic workflow was needed. The dev console's command prompt could help. A series of commands like this, for example, create a function for erasing all the shapes:
+Since the animation data was editable, a whole new set of possibilities were possible. The UI was not necessary. But editing the structure by manual copy-pasting was tiring and error-prone. A more programmatic workflow was needed. The dev console's command prompt could help. A series of commands like this, for example, create a function for erasing all the shapes:
     
 ```javascript
 function clearShapes() {
