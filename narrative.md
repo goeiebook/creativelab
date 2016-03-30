@@ -12,7 +12,7 @@ A day elapsed. Then another. Then I revisited my application and discovered it w
     
 ![the response][tweet]
     
-Sarcasm? I don't know. Does the academy accept short films? I'm not socially adept. Maybe I wasn't clear. Confusion. But then something unanticipated happens: attention. Profile views and tweet impressions. Twitter analytics measures an increase of 1000%.
+Does the academy accept short films? I'm not socially adept. Maybe I wasn't clear. Confusion. But then something unanticipated happens: attention. Profile views and tweet impressions. Twitter analytics measures an increase of 1000%.
     
 ---
     
