@@ -22,7 +22,7 @@ In a pile of detritus was a white ball. I picked it up. Solid rubber with a grey
     
 ---
 
-The 1000% percent increase in views wasn't impressive considering it came from zero. But was new to me. Checking analytics became fun because there was more signal than noise. [The alternative is no fun.][bansky]. I followed new submissions with a competitive eye. Most were bland, like mine; but none were broken, like mine. And none had the Techno Crab stamp. I felt like king of the creativelab5 hashtag. Then [this](https://www.creativelab5.com/s/pnMGi5) was published.
+The 1000% percent increase in views wasn't impressive considering it came from zero. But it was new to me. Checking analytics became fun because there was more signal than noise. [The alternative is no fun.][bansky]. I followed new submissions with a competitive eye. Most were bland, like mine; but none were broken, like mine. And none had the Techno Crab stamp. I felt like king of the creativelab5 hashtag. Then [this](https://www.creativelab5.com/s/pnMGi5) was published.
     
 ![the both submission][both]
     
