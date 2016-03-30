@@ -16,13 +16,13 @@ Does the academy accept short films? I'm not socially adept. Maybe I wasn't clea
     
 ---
     
-Winter was finally coming to a close. The snow melted. When snow goes away it leaves a distinctive aftermath. Piles of gravel, salt, and soggy cigarette butts. It's like glacial till, but with snowplow scars and single mittens.
+Winter was finally coming to a close. The snow melted. When snow goes away it leaves a distinctive aftermath. Piles of gravel, salt, and soggy cigarette butts. Glacial till, but with snowplow scars and single mittens.
     
 In a pile of detritus was a white ball. I picked it up. Solid rubber with a grey splotch. A lot of bounce. Probably a dog toy. I put it in my pocket. I thought [_I should tweet about this_](https://twitter.com/goeiebook/status/709378927219728384), and formed a plan to carry the ball with me at all times. Because doing so increases the chances of discovering something new.
     
 ---
 
-The 1000% percent increase in views wasn't impressive considering it came from zero. Bit it was a new thing to me. Checking analytics became fun because there was more signal than noise. [The alternative is no fun.][bansky]. I followed new submissions with a competitive eye. Most were bland, like mine; but none were broken, like mine. And none had the Techno Crab stamp. I felt like king of the creativelab5 hashtag. Then [this](https://www.creativelab5.com/s/pnMGi5) was published.
+The 1000% percent increase in views wasn't impressive considering it came from zero. But it was a new thing to me. Checking analytics became fun because there was more signal than noise. [The alternative is no fun.][bansky]. I followed new submissions with a competitive eye. Most were bland, like mine; but none were broken, like mine. And none had the Techno Crab stamp. I felt like king of the creativelab5 hashtag. Then [this](https://www.creativelab5.com/s/pnMGi5) was published.
     
 ![the both submission][both]
     
