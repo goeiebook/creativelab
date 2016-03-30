@@ -295,7 +295,7 @@ I use this technique to study the animations of [@zachboth](https://twitter.com/
 :--------------------|:---------------------:
 ![wireboth][wireboth]|![wirepinto][wirepinto]
 
-[code to reverse][reverse.js]
+[reverse engineer](https://github.com/goeiebook/creativelab/blob/master/snippets/reverse.js)
 
 ---
 
@@ -357,4 +357,3 @@ I carried it with me for a day. Sometimes I would take it from my pocket and loo
 [escher]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/escher.jpg
 [tunnel]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/tunnel.jpg
 [frozen]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/frozen.jpg
-[reverse.js]: https://github.com/goeiebook/creativelab/blob/master/snippets/reverse.js
