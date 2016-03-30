@@ -133,7 +133,7 @@ I laughed aloud. Amused by automatic stories. This one had fractal similarity. I
     
 ---
     
-The post about the 500 Error did not generate buzz. No replies, no tweet impressions, no link clicks. Maybe it wasn't anything unexpected. That is to say, the error was returned because the submission was unacceptable. And that would be expected.
+The post about the 500 Error did not generate buzz. No replies, no tweet impressions, no link clicks. Maybe it wasn't anything unexpected. That is to say: the error was returned because the submission was unacceptable. And that would be expected.
 
 Edit the snippet. Reduce complexity and resubmit. Repeat until the submission goes through. Eventually it does. That proves it. The problem was invalid timeline values and too many shapes. A constraint on animation complexity. Reasonable, in retrospect. Embarassing too.
     
@@ -176,7 +176,7 @@ He seemed surprised, "Are you good it?"
 
 ---
 
-Equipped with javascript snippets, and [TinyColor](https://bgrins.github.io/TinyColor/), I produce several animations and use them to spam the #creativelab5 hashtag. Profile views accumulate. A 2335% increase since last month. A ridiculous number, but I eat it up. Heady days. This serotonin rush is normal. It's what feeds the world.
+Equipped with javascript snippets, and [TinyColor](https://bgrins.github.io/TinyColor/), I produced several prototypes and used them to spam the #creativelab5 hashtag. Profile views accumulated. A 2335% increase since last month. A ridiculous number, but I eat it up. Heady days. This serotonin rush is normal. It's what feeds the world.
 
 [live](https://www.creativelab5.com/s/cWcMsq).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/cWcMsq.js).|[live](https://www.creativelab5.com/s/aIZcsx).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/aIZcsx.js).|[live](https://www.creativelab5.com/s/shv7V4).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/shv7V4.js).
 :-----------------:|:-----------------:|:-----------------:
