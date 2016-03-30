@@ -111,7 +111,7 @@ function clearShapes() {
 
 That specific functionality was already present in the application, as `all.deleteAll()`. But when code can be stored in a function it's a step toward proceedural generation.
     
-The page must be reloaded in order to view changes. Reloading a page destroys the javascript context. Therefore the functions needed to be re-entered on every reload. So it was just another copy-paste routine, but in a slightly different domain. Looking for a solution turned up: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
+The page had to be reloaded to show changes. Reloading the page destroyed the javascript context. Therefore the functions needed to be re-entered on every reload. So it had become another copy-paste routine, but in a slightly different domain. Looking for a solution turned up: [Snippets](https://developers.google.com/web/tools/chrome-devtools/debug/snippets/?hl=en)!
     
 ![the snippets panel][snippets]
     
