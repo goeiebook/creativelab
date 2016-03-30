@@ -176,7 +176,7 @@ He seemed surprised, "Are you good it?"
 
 ---
 
-Equipped with javascript snippets, and [TinyColor](https://bgrins.github.io/TinyColor/), I produced several prototypes and used them to spam the #creativelab5 hashtag. Profile views accumulated. A 2335% increase since last month. A ridiculous number, but I eat it up. Heady days. This serotonin rush is normal. It's what feeds the world.
+Equipped with javascript snippets, and [TinyColor](https://bgrins.github.io/TinyColor/), I produced several prototypes and used them to spam the #creativelab5 hashtag. Profile views accumulated. A 2335% increase since last month. A ridiculous number, but I ate it up. Heady days. Rushes of serotonin are normal. They feed the world.
 
 [live](https://www.creativelab5.com/s/cWcMsq).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/cWcMsq.js).|[live](https://www.creativelab5.com/s/aIZcsx).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/aIZcsx.js).|[live](https://www.creativelab5.com/s/shv7V4).[code](https://github.com/goeiebook/creativelab/blob/master/snippets/shv7V4.js).
 :-----------------:|:-----------------:|:-----------------:
