@@ -1,6 +1,6 @@
 ## Discovery Requires Circumstance
     
-Stories begin somewhere. Nobody was looking at my work. I created a Twitter account because marketing seemed necessary. As a consequence I read [a retweet](https://twitter.com/PRHDigital/status/707503572733313024) via @editionsatplay. A mention about a program looking for new applicants.
+Stories begin somewhere. Nobody was looking at my work. I created a Twitter account because marketing seemed necessary. As a consequence I read [a retweet](https://twitter.com/PRHDigital/status/707503572733313024) via @editionsatplay. It mentioned a program looking for new applicants.
     
 ![the application site][default]
     
