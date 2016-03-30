@@ -4,7 +4,7 @@ Stories begin somewhere. Nobody was looking at my work. I created a Twitter acco
     
 ![the application site][default]
     
-A one year paid experience, [the application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" The form contains a checkbox for wildcards. I'm a wildcard. View Source reveals a secret puzzle. [Solving the puzzle](https://github.com/mhipley/creativelab5/wiki/The-Google-Creative-Lab-5-Cheat-Sheet) yields a "Techno Crab" badge. The badge supposedly activated a pen tool but I couldn't get it to work. The UI seemed buggy. Maybe that was part of the challenge. I made an animation titled "Idempotent", and sent it off.
+A one year paid experience, [the application](https://creativelab5.com) is a web application, "*Write it, design it, code it, move it, break it.*" The form contains a checkbox for wildcards. View Source reveals a secret puzzle. [Solving the puzzle](https://github.com/mhipley/creativelab5/wiki/The-Google-Creative-Lab-5-Cheat-Sheet) yields a "Techno Crab" badge. The badge supposedly activated a pen tool but I couldn't get it to work. The UI seemed buggy. Maybe that was part of the challenge. I made an animation titled "Idempotent", and sent it off.
     
 Idempotent. So clever. A shoo-in for sure.
     
