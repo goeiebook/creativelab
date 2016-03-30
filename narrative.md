@@ -295,6 +295,8 @@ I use this technique to study the animations of [@zachboth](https://twitter.com/
 :--------------------|:---------------------:
 ![wireboth][wireboth]|![wirepinto][wirepinto]
 
+[code to reverse][reverse.js]
+
 ---
 
 One morning I went to the culvert to experiment with the bounce-back phenomenon. On the first throw the angle was too shallow. The ball did not reach the ceiling. It bounced forward, out of the tunnel, and plopped into the rushing stream. Gone. Anyone watching would have thought it was intentional. If it was or was not, it could not change a thing. It was clumsy. All I could think to do was to film where the ball was last seen. As the film rolled the ball was underwater. Somewhere out of the view it was being rolled by the current.
@@ -356,4 +358,3 @@ I carried it with me for a day. Sometimes I would take it from my pocket and loo
 [tunnel]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/tunnel.jpg
 [frozen]: https://raw.githubusercontent.com/goeiebook/creativelab/master/images/frozen.jpg
 [reverse.js]: https://github.com/goeiebook/creativelab/blob/master/snippets/reverse.js
-[reverse.jpg]: https://github.com/goeiebook/creativelab/blob/master/images/reverse.jpg
