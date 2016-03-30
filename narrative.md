@@ -8,7 +8,7 @@ A one year paid experience, [the application](https://creativelab5.com) is a web
     
 Idempotent. So clever. A shoo-in for sure.
     
-A day elapsed. Then another. I revisited my application, and discovered it was [broken](https://www.creativelab5.com/s/puukkz). The animation didn't play correctly and the console showed an error. It looked terrible. I felt need to explain myself. Maybe I felt embarassed. I addressed a tweet [to message](https://twitter.com/Andrew_Herzog/status/708081805103144960) one of the designers. A response arrived. 
+A day elapsed. Then another. Then I revisited my application and discovered it was [broken](https://www.creativelab5.com/s/puukkz). The animation didn't play correctly and the console showed an error. How did that happen? It looked terrible. I needed to explain myself. Maybe I felt embarassed. I addressed a tweet [to message](https://twitter.com/Andrew_Herzog/status/708081805103144960) one of the designers. A response arrived. 
     
 ![the response][tweet]
     
