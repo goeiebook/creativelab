@@ -8,11 +8,11 @@ A one year paid experience, [the application](https://creativelab5.com) is a web
     
 Idempotent. So clever. A shoo-in for sure.
     
-A day elapsed. Then another. Then I discovered my animation was [broken](https://www.creativelab5.com/s/puukkz). The console showed an error. I didn't mean to do that. It looked terrible. I addressed a tweet to one of the designers asking, "Does this count as breaking it?" A response arrived. 
+A day elapsed. Then another. I discovered my animation was [broken](https://www.creativelab5.com/s/puukkz). It didn't play correctly and the console showed an error. I didn't mean to do that. It looked terrible. I addressed a tweet to one of the designers asking, "Does this count as breaking it?" A response arrived. 
     
 ![the response][tweet]
     
-That was confusing. But then something unanticipated happened: attention. Profile views and tweet impressions. Twitter analytics measured an increase of 1000%.
+That was confusing. Maybe I hadn't used the correct terminology. But then something unanticipated happened: attention. Profile views and tweet impressions. Twitter analytics measured an increase of 1000%.
     
 ---
     
