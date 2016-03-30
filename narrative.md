@@ -119,7 +119,7 @@ Now we're talking. Right-click &rarr; Run. That's fun. I went wild, like a bull 
     
 ![what a mess][mess]
     
-I was proud of it. It seemed worthy of submission. I clicked the button, signed the "Cover Letter", and waited for the request to complete. The request took a long time, then returned an empty error response. Tried again. Failure again. [500 Server Error](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_Server_Error). So the animation worked locally, but was trapped there. Unshareable. I must have discovered another "Break It" feature! I tweet to the #creativelab5 people; expecting another 1000% increase in profile views.
+I was proud of it. It seemed worthy of submission. I clicked the button, signed the "Cover Letter", and waited for the request to complete. The request took a long time, then returned an empty error response. Tried again. Failure again. [500 Server Error](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_Server_Error). So the animation worked locally, but was trapped there. Unshareable. I must have discovered another "Break It" feature! I tweeted to the #creativelab5 people, expecting another 1000% increase in profile views.
     
 ![what a mess][500error]
     
