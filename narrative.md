@@ -144,7 +144,7 @@ Begin again with a clean snippet. Generate a random set of coordinates. Add some
     
 ---
     
-Discoveries involving the ball began after three days. Aside from becoming better at manipulating it, I began to note character details. Such as the sound made when bounced in different environments. It went _splat_ when it landed in a puddle (which also substantially reduced the return energy). It produced beautiful long reverberations when bounced on a culvert sidewalk.
+Discoveries involving the ball began three days after I found it. Aside from becoming better at manipulating it, I also became familiar with particular details. Such as the sound made when bounced in different environments. It went _splat_ when it landed in a puddle (which also substantially reduced the return energy). It produced beautiful long reverberations when bounced on a culvert sidewalk.
     
 ![spectrogram of a tunnel bounce][tunnelbounce]
 [youtube](https://youtu.be/8KXGaB3PApY).
