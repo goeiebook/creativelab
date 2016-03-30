@@ -129,7 +129,7 @@ The following morning I passed the tree that caught the boomerang. The boomerang
     
 ![boomerang replacement][basketball]
     
-I laughed aloud. Amused by automatic stories. This one had fractal similarity. I mean, this is like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). Those were my thoughts while I bounced the white ball. I wondered what would happen the next day. There could be another good turn in the story.
+I laughed aloud. Amused by automatic stories. This one had fractal similarity. I mean, this scene is like the Peanuts' [kite-eating tree](http://peanuts.wikia.com/wiki/Kite-Eating_Tree). Those were my thoughts while I bounced the white ball. I wondered what would happen the next day. There could be another good turn in the story.
     
 ---
     
@@ -144,7 +144,7 @@ Begin again with a clean snippet. Generate a random set of coordinates. Add some
     
 ---
     
-Discoveries involving the ball began after three days of carrying. Aside from becoming better at manipulating it, I began to note character details. Such as the sound made when bounced in different environments. _Splat_ when it landed in a puddle (which also substantially reduced the return energy). Long beautiful reverberations when bounced on a culvert sidewalk.
+Discoveries involving the ball began after three days. Aside from becoming better at manipulating it, I began to note character details. Such as the sound made when bounced in different environments. It went _splat_ when it landed in a puddle (which also substantially reduced the return energy). It produced beautiful long reverberations when bounced on a culvert sidewalk.
     
 ![spectrogram of a tunnel bounce][tunnelbounce]
 [youtube](https://youtu.be/8KXGaB3PApY).
