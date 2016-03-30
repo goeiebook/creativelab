@@ -164,7 +164,7 @@ The basketball was no longer in the tree. It was nowhere to be seen. Sometimes s
 
 The white ball accompanied me everywhere. Sometimes it revealed surprising things. For instance, strangers would smile and greet. "Hello", "Nice day", and so on. I do not pretend to understand why that was happening. But maybe the reason is that it's disarming to see someone play. Neurochemical psychological sociology. It could be used as a confidence trick, if one were so inclined.
 
-Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Shalom, shalom. About ten minutes later he had $200 of my dollars in his pocket. His baby daughter needed money for medication. He said I could stay in his house in Tel Aviv. He gave me a number I immediately recognized as fake, but I continued to play into his hands. We rode the subway together, in silence. Both of us knew what the other knew. It was awkard.
+Once, while waiting in a subway station, I was approached by a man. It started out simply enough: Shalom. Shalom. About ten minutes later he had $200 of my dollars in his pocket. His baby daughter needed money for medication. He said I could stay in his house in Tel Aviv. He gave me a number I immediately recognized as fake, but I continued to play into his hands. We rode the subway together, in silence. Both of us knew what the other knew. It was awkard.
 
 "What do you do for a living?" He asked me.
 
