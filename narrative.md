@@ -208,7 +208,7 @@ Instant feedback encouraged experimentation. I wondered what the handleIn/handle
 
 ---
 
-Bouncing the ball through a culvert tunnel was one of my favorite things to do. One morning I threw the ball forward and downward at a sharp angle. It bounced up, struck the ceiling, and bounced back toward me. The reversal of direction was counterintuitive. Surprises of such caliber are rare. It was wonderful. Experimentation implied the phenomenon involved spin imparted during the throw, but more study was necessary.
+Bouncing the ball through a culvert tunnel was one of my favorite things. One morning I threw the ball forward and downward at a sharp angle. It bounced up, struck the ceiling, and bounced back toward me. The reversal of direction was counterintuitive. Surprises of such caliber are rare. It was wonderful. Experimentation implied the phenomenon involved spin imparted during the throw, but more study was necessary.
 
 ---
 
