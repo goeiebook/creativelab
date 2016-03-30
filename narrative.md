@@ -30,7 +30,7 @@ Excellent presentation, casual phrasing, and three images demonstrating aspects 
     
 Stay cool, Abrie. You could learn a lot from experts like this.
     
-Immediately I opened the site and looked deeper. There was a tool called anchor, but I wasn't able to get that to work either. The tiny vertex manipulators were aggravating. The play bar disappeared at inconvienent times and reappeared when least expected. Heavy CPU usage made the computer whine. But there had to be a way to work around these problems. Or other people had found a way, anyway.
+Immediately I opened the site and looked deeper. There was a tool called anchor, but I wasn't able to get that to work either. The tiny vertex manipulators were aggravating. The play bar disappeared at inconvienent times and reappeared when least expected. Heavy CPU usage made the computer whine. But there had to be a way to work around the problems. Or other people had found a way, anyway.
     
 For insight into sites, the dev console is the window to use. I began trying commands, searching for new things. The [Chrome Dev Console](https://developer.chrome.com/devtools/docs/console) remembers everything entered, including mistakes and typos. At first this is helpful, but soon becomes pollution. Annoyed, I clicked through the menus looking for a remedy. And, as it turns out, the remedy is non-trivial. But the search took me to the [Resources Panel](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/), which has an entry named [Local Storage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage), and within that was an interesting string.
     
