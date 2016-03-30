@@ -316,7 +316,7 @@ I took it with me to a mall and washed it with liquid soap in a bathroom sink. I
 
 ---
 
-The code for viewing submitted applications seemed to be worth sharing. I packaged it into ![a single snippet](reverse.js) and [posted it](https://twitter.com/goeiebook/status/714516981030866944). 
+The code for viewing submitted applications seemed to be worth sharing. I packaged it into [a single snippet][reverse.js] and [posted it](https://twitter.com/goeiebook/status/714516981030866944). 
 
 ![reverse post][reverse.jpg]
 
