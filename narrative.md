@@ -153,7 +153,7 @@ Discoveries involving the ball began after three days. Aside from becoming bette
     
 Dividing two-dimensional coordinates by a third number is called foreshortening. I learned that term while reading about [perspective projection](https://en.wikipedia.org/wiki/3D_projection#Weak_perspective_projection). It's not something one needs to know. Toolkits like [ThreeJS](http://threejs.org/) take care of it for you. But maybe applying it in a disciplined manner could tease 3D things from Creative Lab 5 application. Maybe a few more profile views could be collected.
 
-Ah hell, I was becoming addicted. So it goes, into the small hours of the morning. Setting handle values to 0's will make sharp angles. Wikipedia described the role of a focal length multiplier. Be aware that if the z coorindate is zero, you'll be dividing by zero. If your z-coordinate is less than zero things are going to turn upside down. And then, suddenly, [something works](https://www.creativelab5.com/s/uNwej3). 
+Ah hell, I was becoming addicted. So it goes, into the small hours of the morning. Setting handle values to 0's will make sharp angles. Wikipedia described the role of a focal length multiplier. Be aware that if the z coorindate is zero, you'll be dividing by zero. If your z-coordinate is less than zero things are going to turn upside down. And then, suddenly, something worked. 
     
 ![boxillusion][uNwej3]
 [live](https://www.creativelab5.com/s/uNwej3). [code](https://github.com/goeiebook/creativelab/blob/master/snippets/uNwej3.js).
@@ -162,7 +162,7 @@ Ah hell, I was becoming addicted. So it goes, into the small hours of the mornin
 
 The basketball was no longer in the tree. It was nowhere to be seen. Sometimes stories just end. Maybe the story could be continued as fiction. A bird took the basketball.
 
-The white ball continued with me everywhere I went. Some the discoveries were surprising. For instance, strangers would smile and greet. "Hello", "Nice day", and so on. I do not pretend to understand why that was happening. But maybe the reason is that it's disarming to see someone play. Neurochemical psychological sociology. It could be used as a confidence trick, if one were so inclined.
+The white ball accompanied me everywhere. Sometimes it revealed surprising things. For instance, strangers would smile and greet. "Hello", "Nice day", and so on. I do not pretend to understand why that was happening. But maybe the reason is that it's disarming to see someone play. Neurochemical psychological sociology. It could be used as a confidence trick, if one were so inclined.
 
 Once, while waiting in a subway station, I was approached by a man. It started out simply enough. Shalom, shalom. About ten minutes later he had $200 of my dollars in his pocket. His baby daughter needed money for medication. He said I could stay in his house in Tel Aviv. He gave me a number I immediately recognized as fake, but I continued to play into his hands. We rode the subway together, in silence. Both of us knew what the other knew. It was awkard.
 
